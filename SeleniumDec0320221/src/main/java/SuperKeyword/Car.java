@@ -2,22 +2,16 @@ package SuperKeyword;
 
 public class Car {
 
-	int speed = 100;
+	String name;
+	int price;
 
 	public Car() {
-		System.out.println("car -- const...");
+		System.out.println("CAR -- default const...");
 	}
 
-	public Car(int a) {
-		System.out.println("car -- const..." + a);
-	}
-
-	public void start() {
-		System.out.println("car -- start");
-	}
-	
-	public static void refuel() {
-		System.out.println("car -- refuel");
+	public Car(String name, int price) {
+		this.name = name;
+		this.price = price;
 	}
 
 }

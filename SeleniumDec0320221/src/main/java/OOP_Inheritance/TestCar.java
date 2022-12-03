@@ -3,62 +3,42 @@ package OOP_Inheritance;
 public class TestCar {
 
 	public static void main(String[] args) {
+		
+		 final int days = 10;//constant var
+		System.out.println(days * 100);
+		
 
 		BMW b = new BMW();
-		b.start();// overridden
-		b.stop();// inherited
-		b.refuel();// inherited
-		b.autoParking();// individual
+		//Runtime PolyMorphism or Dynamic
+		b.start();//overriden from child
+		b.stop();//parent
+		b.refuel();//parent
+		b.autoParking();//child
 		b.engine();
-		System.out.println(b.speed);
-		BMW.run();
-		b.aeroDynamic();
-
-		System.out.println("-----");
-
+		
+		
 		Car c = new Car();
 		c.start();
 		c.stop();
 		c.refuel();
 		c.engine();
-		Car.run();
-		c.aeroDynamic();
-
-		System.out.println("-----");
-		Audi a = new Audi();
-		a.theftSafety();
-		a.start();
-		a.stop();
-		a.refuel();
-		a.engine();
-
-		System.out.println("----------");
-		Automobile au = new Automobile();
-		au.aeroDynamic();
-
-		System.out.println("-----");
-		Truck t = new Truck();
-		t.heavyLoading();
-
-		System.out.println("-----");
-
-		// Top casting
-		Car c1 = new BMW();// child class object can be referred by parent class ref variable
+		
+		//child class object can be referred by parent class ref variable
+		//Top Casting
+		Car c1 = new BMW();
 		c1.start();
 		c1.stop();
 		c1.refuel();
-		c1.engine();
-
-		Vehicle c2 = new BMW();// child class object can be referred by Grand parent class ref variable
-		Automobile c3 = new BMW();
 		
-		c2.aeroDynamic();
-		c2.engine();
-
-		// down casting: at RunTime -- it will throw ClassCastException
-		 //BMW b1 = (BMW) new Car();
-		// BMW b2 = (BMW) new Vehicle();
-
+		//bmw object can be referred by vechile clas ref varibale:
+		Vehicle v1 = new BMW();
+		
+		//down casting: parent class object can be referred by child class ref variable
+		BMW b1 = (BMW)new Car();//ClassCastException
+		BMW b2 = (BMW)new Vehicle();
+		
+		
+		
 	}
 
 }

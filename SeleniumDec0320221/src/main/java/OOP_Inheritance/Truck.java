@@ -1,9 +1,11 @@
 package OOP_Inheritance;
 
-public class Truck{
+public class Truck {
 	
-	public void heavyLoading() {
-		System.out.println("Truck -- heavy loading");
+	public void heavyLoad() {
+		System.out.println("Truck -- HL");
 	}
+	
+	
 
 }

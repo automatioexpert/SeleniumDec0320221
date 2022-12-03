@@ -2,51 +2,57 @@ package ExceptionHandling;
 
 public class FinallyBlock {
 
-	public static int getMarks(String stName) {
-
-		System.out.println("student name is : " + stName);
-
-		if (stName.equals("Vijay")) {
-			try {
-				int i = 9 / 3;
-				System.exit(1);//shut down the JVM
-				return 90;
-			} catch (ArithmeticException e) {
-				System.out.println("AE is coming...");
-				return 20;
-			} finally {
-				System.out.println("inside finally block....");
-				return 10;
-			}
-
-		} else if (stName.equals("Aman")) {
-			return 95;
-		} else if (stName.equals("Priyanka")) {
-			return 100;
-		} else {
-			System.out.println("student is not found..." + stName);
-			return -1;
-		}
-
-	}
-
 	public static void main(String[] args) {
 
-		System.out.println(getMarks("Vijay"));
+		System.out.println("A");
 
-//		System.out.println("A");
-//		System.out.println("A");
-//		System.out.println("A");
-//
-//		try {
-//			int i = 9 / 3;
-//		} 
-//		
-//		finally {
-//			System.out.println("inside the finally block");
-//		}
-//
-//		System.out.println("bye");
+		try {
+			int i = 9 / 0;
+		} catch (ArithmeticException e) {
+			System.out.println("Exception is here....");
+		}
+
+		finally {
+			System.out.println("Bye.....");
+		}
+
+		// make connection with DB --
+		// db is down -- exception
+		// un/pwd -- wrong -- exception
+		// connectivity issue -- exception
+
+		// 2. connection is done...
+
+		// get the data using SQL -- exception
+		// use that data
+		// close the connection -- finally block
+
+		System.out.println(getMarks("Naveen"));
+	}
+
+	public static int getMarks(String name) {
+		if (name.equals("Sonam")) {
+			return 90;
+		}
+
+		else if (name.equals("Tom")) {
+			try {
+				int i = 9 / 0;
+				return 45;
+			} catch (Exception e) {
+				return 50;
+			}
+			finally {
+				System.out.println("inside finally block");
+				return 10;
+			}
+		}
+
+		else if (name.equals("Sujan")) {
+			return 95;
+		}
+		
+		return -1;
 
 	}
 

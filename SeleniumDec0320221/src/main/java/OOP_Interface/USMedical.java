@@ -1,43 +1,49 @@
 package OOP_Interface;
 
-public interface USMedical extends WHO, UNHG{
-		
+public interface USMedical extends WHO, UNHO{
 	
 	int min_fee = 10;
-	//vars are static and final by default
+	//interface vars are static and final by default
+
+	// No Method Body
+	// Only method declaration
+	// only method prototype
+	//Abstract Methods : does not have method body
+	//can not create the object of interface
+
+	public void pediaServices();
+
+	public void cardicServices();
+
+	public void pyhsioServices();
 	
-	// can not have any method body
-	// no method body --> Abstract method
-	// only method prototype --only method declaration
-	// can not have method buss logic
-	// can not create the object of interface in java
-
-	public void cardioServices();
+	public void doctors(int count);
 	
-	public void cardioServices(int a);
-
-	public void neuroServices();
-
-	public void physioServices();
-
-	public void emergencyServices();
+	public String getHospInfo();
 	
 	@Override
-	public void covid19Vaccination();
-
-
-	// after jdk 1.8: two major changes:
-
-	// 1. can have static method with method body:
-	public static void billing() {
+	public void healthFund();
+	
+	//After JDK 1.8:
+	//1. can have the method body with static methods:
+	public static void bloodTest() {
+		System.out.println("US Medical -- Blood Test");
+	}
+	
+	//2. can have one default method
+	public default void billing() {
 		System.out.println("US Medical -- billing");
 	}
 	
-	//2. can have default method with method body:
-	default void medicalDevelopment() {
-		System.out.println("US -- medicalDevelopment");
+	public default void billing1() {
+		System.out.println("US Medical -- billing");
+	}
+	
+
+	public default void billing2() {
+		System.out.println("US Medical -- billing");
 	}
 	
 	
-
+	
 }

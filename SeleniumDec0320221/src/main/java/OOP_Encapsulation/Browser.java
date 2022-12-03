@@ -1,30 +1,46 @@
 package OOP_Encapsulation;
 
 public class Browser {
+	
+	private int version;
+	
+	//getter and setter:
+	public void setVersion(int version) {
+		this.version = version;
+	}
+	
+	public int getVersion() {
+		return version;
+	}
+	
+	
 
-	public void launchChromeBrowser() {
-		System.out.println("launch chrome");
-		checkOSCompatible();
-		checkRAMSIZE();
-		checkChromeVersion();
-		checkChromeServices();
-		System.out.println("chrome browser is launched");
+	public void launchBrowser() {
+		System.out.println("getting browser launched");
+		checkBrowserVersion();
+		checkRAM();
+		OSCompatible();
+		checkBrowserUpdate();
+
+		System.out.println("browser is launched");
 	}
 
-	private void checkOSCompatible() {
-		System.out.println("checkOSCompatible");
+	private void checkBrowserVersion() {
+		System.out.println("checkBrowserVersion");
 	}
 
-	private void checkRAMSIZE() {
-		System.out.println("checkRAMSIZE");
+	private void checkRAM() {
+		System.out.println("checkRAM");
+
 	}
 
-	private void checkChromeVersion() {
-		System.out.println("checkChromeVersion");
+	private void OSCompatible() {
+		System.out.println("OSCompatible");
 	}
 
-	private void checkChromeServices() {
-		System.out.println("checkChromeServices");
+	private void checkBrowserUpdate() {
+		System.out.println("checkBrowserUpdate");
+
 	}
 
 }

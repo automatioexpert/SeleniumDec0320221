@@ -1,49 +1,31 @@
 package OOP_Inheritance;
 
-public class Car extends Vehicle {
-	
-	int speed = 100;
-	String name;
-	int price;
-	
-	public Car() {
-		
-		System.out.println(speed);
-	}
-	
-	public Car(String name, int price) {
-		this.name = name;
-		this.price = price;
-	}
-	
-	//final:
-	//1. to provide the constant variables
-	//2. to prevent inheritance
-	//3. to prevent method overriding
+public class Car extends Vehicle{
 
 	public void start() {
-		System.out.println("Car -- start");
+		System.out.println("car --- start");
 	}
-
+	
 	public void stop() {
-		System.out.println("Car -- stop");
+		System.out.println("car -- stop");
 	}
 
 	public void refuel() {
-		System.out.println("Car -- refuel");
-	}
-
-	public static void run() {
-		System.out.println("Car -- run");
+		System.out.println("car -- refuel");
 	}
 	
-	private void billing() {
-		System.out.println("car - billing");
+	public int test(int i, String p) {
+		System.out.println("value: " + i);
+		return 300;
 	}
 	
-	@Override
-	public void aeroDynamic() {
-		System.out.println("Car -- aeroDynamic");
+	private void testing() {
+		System.out.println("CAr -- testing");
 	}
+	
+	public static void launch() {
+		System.out.println("car -- launch");
+	}
+	
 
 }
