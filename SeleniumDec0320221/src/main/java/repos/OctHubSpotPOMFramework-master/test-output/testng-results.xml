@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Hub Spot Test Automation Suite" duration-ms="18012" started-at="2018-11-09T03:22:51Z" finished-at="2018-11-09T03:23:09Z">
+    <groups>
+    </groups>
+    <test name="Hub Spot Regression Test Cases on chrome" duration-ms="18012" started-at="2018-11-09T03:22:51Z" finished-at="2018-11-09T03:23:09Z">
+      <class name="com.qa.hubspot.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.hubspot.testcases.HomePageTest@57fffcd7]" name="setUp" is-config="true" duration-ms="6417" started-at="2018-11-09T03:22:58Z" finished-at="2018-11-09T03:23:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.hubspot.testcases.HomePageTest@57fffcd7]" name="verifyHomePageTitleTest" duration-ms="4824" started-at="2018-11-09T03:23:05Z" finished-at="2018-11-09T03:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.testcases.HomePageTest@57fffcd7]" name="tearDown" is-config="true" duration-ms="106" started-at="2018-11-09T03:23:09Z" finished-at="2018-11-09T03:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hubspot.testcases.HomePageTest -->
+      <class name="com.qa.hubspot.testcases.LoginTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.hubspot.testcases.LoginTest@3abbfa04]" name="setUp" is-config="true" duration-ms="6396" started-at="2018-11-09T03:22:51Z" finished-at="2018-11-09T03:22:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.hubspot.testcases.LoginTest@3abbfa04]" name="verifyLoginPageTitleTest" duration-ms="50" started-at="2018-11-09T03:22:58Z" finished-at="2018-11-09T03:22:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.testcases.LoginTest@3abbfa04]" name="tearDown" is-config="true" duration-ms="172" started-at="2018-11-09T03:22:58Z" finished-at="2018-11-09T03:22:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hubspot.testcases.LoginTest -->
+    </test> <!-- Hub Spot Regression Test Cases on chrome -->
+  </suite> <!-- Hub Spot Test Automation Suite -->
+</testng-results>
