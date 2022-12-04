@@ -1,0 +1,24 @@
+{
+  "name": "examples",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "concurrently": "^3.6.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open",
+    "examples": "concurrently \"npm run start\" \"npm run cypress:run -- --reporter cypress-image-snapshot/reporter\""
+  },
+  "devDependencies": {
+    "cypress": "^3.1.4",
+    "cypress-image-snapshot": "^3.0.0"
+  }
+}
