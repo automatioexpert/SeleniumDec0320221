@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Hubspot App Sanity Test Suite" duration-ms="24413" started-at="2020-04-10T06:41:06Z" finished-at="2020-04-10T06:41:30Z">
+    <groups>
+    </groups>
+    <test name="Regression Functional Sanity Test" duration-ms="24413" started-at="2020-04-10T06:41:06Z" finished-at="2020-04-10T06:41:30Z">
+      <class name="com.qa.hubspot.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@a8c1f44]" name="setUp" is-config="true" duration-ms="3559" started-at="2020-04-10T06:41:21Z" finished-at="2020-04-10T06:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@a8c1f44]" name="verifyLoginPageTitleTest" duration-ms="5357" started-at="2020-04-10T06:41:25Z" finished-at="2020-04-10T06:41:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@a8c1f44]" name="tearDown" is-config="true" duration-ms="195" started-at="2020-04-10T06:41:30Z" finished-at="2020-04-10T06:41:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hubspot.tests.LoginPageTest -->
+    </test> <!-- Regression Functional Sanity Test -->
+  </suite> <!-- Hubspot App Sanity Test Suite -->
+</testng-results>
