@@ -1,0 +1,15 @@
+{
+  "name": "cypressapitraining",
+  "version": "1.0.0",
+  "description": "this is cypress api practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress test"
+  },
+  "author": "Naveen AutomationLabs",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.7.0",
+    "exceljs": "^4.2.1"
+  }
+}
