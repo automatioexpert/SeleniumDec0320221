@@ -1,0 +1,25 @@
+<testsuite failures="0" name="src/test/java/features/getapi.feature" skipped="0" tests="2" time="1.07682">
+  <testcase classname="src.test.java.features.getapi" name="get user details - query" time="0.909444">
+    <system-out>* def query = {name:'ABC', id: 1688, email:'XYZ@gmail.com'} ............... passed
+Given url baseUrl+'/public/v1/users' ...................................... passed
+And params query .......................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.getapi" name="get user details - query1" time="0.167377">
+    <system-out>* def query = {name:'ABC', id: 1688, email:'XYZ@gmail.com'} ............... passed
+Given url baseUrl+'/public/v1/users' ...................................... passed
+And params query .......................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* def query = {status:'active'} ........................................... passed
+Given url baseUrl+'/public/v1/users' ...................................... passed
+And params query .......................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* def jsonResponse = response ............................................. passed
+* print jsonResponse ...................................................... passed
+* def userCount = jsonResponse.data.length ................................ passed
+* print userCount ......................................................... passed</system-out>
+  </testcase>
+</testsuite>
