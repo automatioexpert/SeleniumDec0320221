@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Open Cart Test Suite" verbose="4" thread-count="4"
+	parallel="tests">
+
+	<test name="Open Cart Login Page Test - chrome">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url"
+			value="https://demo.opencart.com/index.php?route=account/login" />
+		<classes>
+			<class name="testngsessions.LoginPageTest" />
+		</classes>
+	</test>
+
+
+	<test name="Open Cart Home Page Test - chrome">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url"
+			value="https://demo.opencart.com/index.php?route=account/login" />
+
+		<classes>
+			<class name="testngsessions.HomePageTest" />
+		</classes>
+	</test>
+
+
+</suite>

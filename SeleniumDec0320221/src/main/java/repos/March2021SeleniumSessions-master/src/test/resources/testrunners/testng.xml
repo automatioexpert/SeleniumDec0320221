@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Sessions Suite" thread-count="2"
+	parallel="tests" verbose="4">
+
+	<test name="Amazon Test">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="https://www.amazon.in" />
+	
+		<classes>
+			<class name="testngsessions.AmazonTest" />
+		</classes>
+	</test>
+
+	<test name="OrnageHRM Test">
+		<parameter name="browser" value="firefox" />
+		<parameter name="url" value="https://www.orangehrm.com/orangehrm-30-day-trial/" />
+
+		<classes>
+			<class name="testngsessions.OrangeHRMTest" />
+		</classes>
+	</test>
+	
+	<test name="OpenCart Login Test">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="https://demo.opencart.com/index.php?route=account/login" />
+		<classes>
+			<class name="testngsessions.CartLoginTest" />
+		</classes>
+	</test>
+</suite>

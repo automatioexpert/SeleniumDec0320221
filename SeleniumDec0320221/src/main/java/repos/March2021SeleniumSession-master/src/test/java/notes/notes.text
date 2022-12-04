@@ -1,0 +1,77 @@
+
+
+
+TestNG: unit testing fw
+For Java
+Junit - unit testing FW
+
+UT/SIT - devs
+UI - selenium
+API - rest assured
+APP - appium
+
+
+Maintain test cases
+Annotations
+Assertion libs
+Priority
+Html report
+Depends on methods
+Expected exception
+Invocation count
+
+Test runner - xml
+Threading - parallel execution
+--cross browser testing
+
+Testing + selenium + FW ==> Hybrid FW
+
+1. Run as TestNG --> testNg plunge on eclipse
+	https://testng.org/testng-eclipse-update-site/6.14.3/
+
+2. TestNG Dependency in pom.xml file: so that we can use testing methods/features
+
+	<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.14.3</version>
+		</dependency>
+
+
+
+
+BS
+BT
+BC
+	BM -- login
+		T1
+	AM -- logout
+
+	BM
+		T2
+	AM
+
+	BM
+		T3
+	AM
+
+AC
+AT
+AS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
