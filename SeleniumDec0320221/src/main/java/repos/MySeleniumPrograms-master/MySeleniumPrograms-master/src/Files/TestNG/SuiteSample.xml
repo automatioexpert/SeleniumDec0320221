@@ -1,0 +1,46 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parameter Checks">
+
+	<test name="Test Sample">
+
+		<!-- The below Parameter is used for ITestContext -->
+		<parameter name="browser" value="Chrome"></parameter>
+
+		<parameter name="UserName" value="Trainer"></parameter>
+		<parameter name="password" value="pass123"></parameter>
+
+		<groups>
+
+			<run>
+
+
+			<!-- 	<include name="Sanity"></include> 
+
+				exclude name="Regression"></exclude> -->
+
+
+			</run>
+			
+			 
+			 
+
+
+		</groups>
+
+
+		<classes>
+
+		    	<class name="Files.TestNG.CheckParameters"></class>
+			    <class name="Files.TestNG.CheckGroups">
+			  
+
+			<!--  	 methods> <include name="testCreateAdmin"></include> <exclude name="testEditAdmin"></exclude> 
+					</methods> -->
+
+			</class>  
+
+		</classes>
+
+	</test>
+
+</suite>

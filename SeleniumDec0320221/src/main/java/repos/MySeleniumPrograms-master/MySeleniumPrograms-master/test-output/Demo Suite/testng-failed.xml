@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demo Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Sample Execution(failed)">
+    <classes>
+      <class name="Files.TestNG.TestAnnotations">
+        <methods>
+          <include name="beforetest"/>
+          <include name="TestBeforeMethod"/>
+          <include name="TestAfterMethod"/>
+          <include name="aftertest"/>
+          <include name="verifyTest_1"/>
+        </methods>
+      </class> <!-- Files.TestNG.TestAnnotations -->
+    </classes>
+  </test> <!-- Sample Execution(failed) -->
+</suite> <!-- Failed suite [Demo Suite] -->

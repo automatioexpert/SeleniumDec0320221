@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Wego_FlightSearch_Automation Test Suite">
+    <listeners>
+        <listener class-name="org.wego.reporter.Listener"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="Wego_FlightSearch_Automation_Test">
+        <classes>
+            <class name="org.wego.testcases.FlightSearchTest"/>
+        </classes>
+    </test>
+</suite>

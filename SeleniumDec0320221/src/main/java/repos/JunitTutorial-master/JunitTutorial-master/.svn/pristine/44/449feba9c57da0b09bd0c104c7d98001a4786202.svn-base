@@ -1,0 +1,26 @@
+package com.testcases;
+
+import org.junit.Test;
+
+public class TestJunit {
+	
+	@Test
+	public void testCaseTwo() {
+		System.out.println("Test Case Two");
+	}
+	
+	@Test
+	public void testCaseOne() {
+		System.out.println("Test Case One");
+	}
+	
+	@Test
+	public void testCaseThree() {
+		System.out.println("Test Case Three");
+	}
+	
+/*	public static void main(String[] args) {
+		JUnitCore.runClasses(TestJunit.class);
+	}*/
+
+}

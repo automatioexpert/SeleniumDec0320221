@@ -1,0 +1,15 @@
+package interfaces;
+
+public interface IElementLocator {
+
+	String locateText();
+
+	String locateLink();
+
+	String locateRadioButton();
+
+	String locateIcon();
+
+	String locateCheckbox();
+
+}

@@ -1,0 +1,50 @@
+//package com.testcases;
+
+
+import junit.framework.TestCase;
+
+import org.junit.Ignore;
+import org.junit.Test;
+
+import com.mapper.CodeProperties;
+import com.mapper.CodePropertiesLookup;
+
+//@Ignore
+public class TestError extends TestCase {
+	
+	@Test(expected=NullPointerException.class)
+	public void testInvalidCode() {
+		CodeProperties p = CodePropertiesLookup.getCodeProperties("ABC");
+		
+	}
+	
+	@Ignore
+	@Test
+	public void testInvalidNumCode() {
+		CodeProperties p = CodePropertiesLookup.getCodeProperties("124");
+		
+	}
+
+	@Ignore
+	@Test
+	public void testNullCode() {
+		CodeProperties p = CodePropertiesLookup.getCodeProperties("");
+		
+	}
+	
+	@Test(expected=IllegalArgumentException.class)
+	public void testAlfaNumerciCode() {
+		CodeProperties p = CodePropertiesLookup.getCodeProperties("A1S2D3");
+		
+	}
+	
+	@Test(timeout=100)
+	public void timeTest() {
+		try {
+			Thread.sleep(150);
+		} catch (InterruptedException e) {
+		}
+		
+	}
+
+}

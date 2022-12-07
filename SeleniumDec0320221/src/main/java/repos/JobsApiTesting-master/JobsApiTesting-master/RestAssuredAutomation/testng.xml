@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Jobs API">
+    <test name="JobApi">
+         <classes>
+             <class name="api_jobs.Jobs_GET"/>
+             <class name="api_jobs.Jobs_POST"/>
+             <class name="api_jobs.Jobs_PUT"/>
+			 <class name="api_jobs.Jobs_DELETE"/>
+          </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,10 @@
+2022-03-16T13:16:18,997 [TestNG-test=Test-1] INFO  (Module01.java:27) - TestData_Module01.xlsx:Module01& Test Case Id : TC_001
+2022-03-16T13:16:27,365 [TestNG-test=Test-1] INFO  (Module01.java:38) - Test case 1 completed
+2022-03-16T13:26:13,720 [main] INFO  (ITestListenerImpl.java:19) - *** Test Suite Test started ***
+2022-03-16T13:26:13,746 [TestNG-test=Test-1] INFO  (ITestListenerImpl.java:29) - *** Running test method Test1...
+2022-03-16T13:26:14,692 [TestNG-test=Test-1] INFO  (Module01.java:26) - TestData_Module01.xlsx:Module01& Test Case Id : TC_001
+2022-03-16T13:26:17,272 [TestNG-test=Test-1] INFO  (TestFactory.java:47) - Lunched chrome browser 
+2022-03-16T13:26:22,451 [TestNG-test=Test-1] INFO  (TestFactory.java:116) - Updated test case status for TC_001
+2022-03-16T13:26:22,473 [TestNG-test=Test-1] INFO  (Module01.java:37) - Test case 1 completed
+2022-03-16T13:26:22,478 [TestNG-test=Test-1] INFO  (ITestListenerImpl.java:34) - *** Executed Test1 test successfully...
+2022-03-16T13:26:22,521 [main] INFO  (ITestListenerImpl.java:23) - *** Test Suite Test ending ***

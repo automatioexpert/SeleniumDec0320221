@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="75622" started-at="2018-08-14T14:13:47Z" finished-at="2018-08-14T14:15:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="75622" started-at="2018-08-14T14:13:47Z" finished-at="2018-08-14T14:15:03Z">
+      <class name="cricbuzz.Main">
+        <test-method status="PASS" signature="navigate()[pri:0, instance:cricbuzz.Main@1efbd816]" name="navigate" is-config="true" duration-ms="19615" started-at="2018-08-15T00:13:47Z" finished-at="2018-08-15T00:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:cricbuzz.Main@1efbd816]" name="test1" duration-ms="24762" started-at="2018-08-15T00:14:07Z" finished-at="2018-08-15T00:14:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:cricbuzz.Main@1efbd816]" name="test2" duration-ms="27988" started-at="2018-08-15T00:14:31Z" finished-at="2018-08-15T00:14:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:cricbuzz.Main@1efbd816]" name="close" is-config="true" duration-ms="3173" started-at="2018-08-15T00:14:59Z" finished-at="2018-08-15T00:15:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- cricbuzz.Main -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

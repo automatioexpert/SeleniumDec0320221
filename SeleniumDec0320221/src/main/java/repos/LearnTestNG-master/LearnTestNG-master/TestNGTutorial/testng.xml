@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="6"> <!-- Test will run parallel here. That is this is TEST Level -->
+<!-- parallel test should be run, how many is mentioned in thread count -->
+<!-- In one suite we can have multiple projects or test shell base on our requirement -->
+	<listeners>
+		<listener class-name="test.Listners" /> <!-- We are informing the XML where the Listner class is present -->
+	</listeners>
+  <test name="Test" parallel="classes" thread-count="2"> <!-- Here classes will run parallel -->
+  <parameter name="URL" value ="testlevelpersonalloan.com"/> <!-- Test level parameterization -->
+  <parameter name="APIKey" value ="APIKey"/>
+  <!--  One test shell is like in loan department- car, home will be different test
+  So, in one test shell we can have multiple class, where each class can be the .java file
+  we have to pass package.filename as parameter
+  -->
+    <classes>
+      <class name="test.Basics"/>
+       <class name="test.Day2"/>
+       <class name="test.Day4">
+       	<methods>
+       		<include name ="API.*  "/>
+       		<!-- This will only include the above case -->
+       		</methods>
+       </class>
+       <class name="test.Day5"/>
+    </classes>
+  </test>
+  <test name="CarLoan">
+  <parameter name="URL" value ="testlevelcarloan.com"/>
+  	<classes>
+  		<class name="test.Day3">
+  		<methods>
+  		<exclude name="before.*"/>
+  		<exclude name="after.*"/>
+  		</methods>
+  		</class>
+  	</classes>
+  </test><!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<project name="Junit Test" default="run" basedir=".">
+	
+	<target name="cleanup">
+		<delete dir="bin" />
+		<delete dir="lib" />
+		<delete dir="src" />
+		<delete dir="reports" />
+	</target>
+	
+	<target name="create" depends="cleanup">
+		<mkdir dir="bin" />
+		<mkdir dir="lib" />
+		<mkdir dir="src" />
+		<mkdir dir="reports" />
+	</target>
+	
+	<target name="copy" depends="create">
+		<copy overwrite="true" todir="lib">
+			<fileset dir="C:\Junit" includes="*.jar"></fileset>
+		</copy>
+		<copy overwrite="true" todir="src">
+			<fileset dir="D:\Test-SVN\Junit\src\com\testcases" includes="*.java"></fileset>
+		</copy>
+	</target>
+	
+	<path id="classpath">
+		<path location="lib/CodeMapper.jar"></path>
+		<path location="lib/javacsv-2.0.jar"></path>
+		<path location="lib/junit-4.10.jar"></path>
+		<path location="lib/sqljdbc4.jar"></path>
+		<path location="bin"></path>
+	</path>
+	
+	<target name="compile" depends="copy">
+		<javac classpathref="classpath" includeantruntime="false" srcdir="src" destdir="bin" description="Compile Java files" includes="*.java">
+		</javac>
+	</target>
+	
+	<target name="run" depends="compile">
+		<!--<java classpathref="classpath" classname="TestRunner" fork="true" ></java>-->
+		<junit haltonfailure="false" printsummary="true">
+			<classpath refid="classpath"></classpath>
+			<batchtest haltonfailure="false" fork="true" todir="reports">
+				<fileset dir="bin">
+					<exclude name="TestRunner.*"/>
+					<exclude name="CustomeListener*.*"/>
+				</fileset>
+			</batchtest>
+			<!--<test name="TestBeforeAfter" todir="reports"></test>
+			<test name="TestCsv" todir="reports"></test>
+			<test name="TestDataBase" todir="reports"></test>
+			<test name="TestError" todir="reports"></test>
+			<test name="TestJunit" todir="reports"></test> -->
+			<formatter type="xml"/>
+		</junit>
+	</target>
+
+</project>

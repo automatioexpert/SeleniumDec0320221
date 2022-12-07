@@ -1,0 +1,14 @@
+package com.testcases;
+
+import junit.framework.TestResult;
+import junit.framework.TestSuite;
+
+public class TestSuiteClass {
+	public static void main(String[] args) {
+		TestSuite suite = new TestSuite();
+		TestResult r = new TestResult();
+		suite.addTestSuite(TestError.class);
+		suite.run(r);
+	}
+
+}

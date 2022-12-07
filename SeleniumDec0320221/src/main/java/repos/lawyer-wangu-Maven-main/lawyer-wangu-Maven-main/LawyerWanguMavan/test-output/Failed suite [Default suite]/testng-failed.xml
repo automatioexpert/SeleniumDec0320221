@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Default suite]]">
+  <test thread-count="5" name="Default test(failed)(failed)">
+    <classes>
+      <class name="com.LW.test.lwFullCheckList">
+        <methods>
+          <include name="Cheklist8_InternalUser_TillPreviewPage"/>
+          <include name="TestMyAccount"/>
+          <include name="openBrowser"/>
+          <include name="login"/>
+          <include name="Checklist5_BackEndBasicFunctionality"/>
+          <include name="Cheklist7_IndividualUser_TillPreviewPage"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+          <include name="LWUtility"/>
+        </methods>
+      </class> <!-- com.LW.test.lwFullCheckList -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->

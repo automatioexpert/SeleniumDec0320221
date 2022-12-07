@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DropBox Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Dropbox Functionality(failed)">
+    <parameter name="Printmsg" value="Login is Successful"/>
+    <parameter name="password" value="QAZwsx@678"/>
+    <parameter name="UserName" value="jaykishore96@ymail.com"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="expected" value="Login - Dropbox"/>
+    <parameter name="expectedTitle" value="Sign in - Google Accounts"/>
+    <parameter name="url" value="https://www.dropbox.com/login?src=logout"/>
+    <parameter name="URL" value="https://www.dropbox.com/login"/>
+    <parameter name="username" value="Jaytestbox1@gmail.com"/>
+    <parameter name="Password" value="QAZwsx@678"/>
+    <classes>
+      <class name="Files.TestNG.Dropbox.CreateFolder">
+        <methods>
+          <include name="CreateAFolder" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Files.TestNG.Dropbox.CreateFolder -->
+    </classes>
+  </test> <!-- Dropbox Functionality(failed) -->
+</suite> <!-- Failed suite [DropBox Suite] -->

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>My Article</title>
+
+    <!--
+      Notice how we use type="module"
+    -->
+    <script type="module">
+
+      import MyArticle from './MyArticle.js';
+
+      // We are now defining the custom element
+      customElements.define('my-article', MyArticle);
+    </script>
+  </head>
+  <body>
+
+    <my-article>
+      <span slot="article-heading">A random article</span>
+      <span slot="author">Prateek Jadhwani</span>
+      <div slot="article">
+        <p>This is a demo paragraph</p>
+        <p>This is another demo paragraph</p>
+      </div>
+    </my-article>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Testing Jobs API</th></tr>
+<tr><td><a href="#t0">JobApi</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">7</td><td class="num">6,860</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Testing Jobs API</th></tr></tbody><tbody id="t0"><tr><th colspan="4">JobApi &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">api_jobs.Jobs_DELETE</td><td><a href="#m0">deleteJob</a></td><td rowspan="2">1648370830227</td><td rowspan="2">187</td></tr><tr class="failedeven"><td><a href="#m1">deleteJob</a></td></tr><tr class="failedodd"><td rowspan="1">api_jobs.Jobs_GET</td><td><a href="#m2">getAllJobs</a></td><td rowspan="1">1648370823873</td><td rowspan="1">3075</td></tr><tr class="failedeven"><td rowspan="3">api_jobs.Jobs_POST</td><td><a href="#m3">createJob</a></td><td rowspan="3">1648370829130</td><td rowspan="3">200</td></tr><tr class="failedeven"><td><a href="#m4">createJob</a></td></tr><tr class="failedeven"><td><a href="#m5">createJob</a></td></tr><tr class="failedodd"><td rowspan="1">api_jobs.Jobs_PUT</td><td><a href="#m6">updateJob</a></td><td rowspan="1">1648370829821</td><td rowspan="1">250</td></tr></tbody>
+</table>
+<h2>JobApi</h2><h3 id="m0">api_jobs.Jobs_DELETE#deleteJob</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1014</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [200] but found [503]
+	at api_jobs.Jobs_DELETE.deleteJob(Jobs_DELETE.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">api_jobs.Jobs_DELETE#deleteJob</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1015</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [200] but found [503]
+	at api_jobs.Jobs_DELETE.deleteJob(Jobs_DELETE.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">api_jobs.Jobs_GET#getAllJobs</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [200] but found [503]
+	at api_jobs.Jobs_GET.getAllJobs(Jobs_GET.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">api_jobs.Jobs_POST#createJob</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>1594</td><td>SDET65</td><td>Paris</td><td>Amazon</td><td>Permanent</td><td>150minutes</td><td>ygjgkuhkihiklkjkljkijli</td></tr><tr><th colspan="7">Exception</th></tr><tr><td colspan="7"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at api_jobs.Jobs_POST.createJob(Jobs_POST.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">api_jobs.Jobs_POST#createJob</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>9193</td><td>SDET34</td><td>New York</td><td>Google</td><td>Permanent</td><td>15minutes</td><td>jkjljljkmkmlkjoij</td></tr><tr><th colspan="7">Exception</th></tr><tr><td colspan="7"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at api_jobs.Jobs_POST.createJob(Jobs_POST.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">api_jobs.Jobs_POST#createJob</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>19345</td><td>SDET62</td><td>California</td><td>Shakhti7</td><td>Permanent</td><td>15minutes</td><td>hduasidjlksjflkdsjfckmdss</td></tr><tr><th colspan="7">Exception</th></tr><tr><td colspan="7"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at api_jobs.Jobs_POST.createJob(Jobs_POST.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">api_jobs.Jobs_PUT#updateJob</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>1014</td><td>SDET33</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at api_jobs.Jobs_PUT.updateJob(Jobs_PUT.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

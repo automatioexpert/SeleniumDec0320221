@@ -1,0 +1,15 @@
+url https://staging.lawyerwangu.com
+
+adminUrl https://staging.lawyerwangu.com/lw/admin/login
+
+DocumentUrl https://staging.lawyerwangu.com/lw/auto
+
+username lwtesterindi@gmail.com
+password tester@123
+browser chrome
+
+inusername testerlw2
+inpassword tester@123
+
+AdminUserName admin
+AdminPassword LHR*68gaGLEhMWV-QmJ

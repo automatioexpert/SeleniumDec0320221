@@ -1,0 +1,30 @@
+package com.testcases;
+
+import org.junit.Test;
+
+import com.mapper.CodeProperties;
+import com.mapper.CodePropertiesLookup;
+
+public class TestError {
+	
+	@Test
+	public void testInvalidCode() {
+		CodeProperties p = CodePropertiesLookup.getCodeProperties("ABC");
+		
+	}
+	
+	@Test
+	public void testInvalidNumCode() {
+		CodeProperties p = CodePropertiesLookup.getCodeProperties("124");
+		
+	}
+
+	
+	@Test
+	public void testNullCode() {
+		CodeProperties p = CodePropertiesLookup.getCodeProperties("");
+		
+	}
+
+
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Smoke(failed)">
+    <classes>
+      <class name="com.LW.test.lwFullCheckList">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+          <include name="openBrowser"/>
+          <include name="Checklist5_BackEndBasicFunctionality"/>
+          <include name="logout"/>
+          <include name="LWUtility"/>
+        </methods>
+      </class> <!-- com.LW.test.lwFullCheckList -->
+    </classes>
+  </test> <!-- Smoke(failed) -->
+</suite> <!-- Failed suite [Smoke] -->

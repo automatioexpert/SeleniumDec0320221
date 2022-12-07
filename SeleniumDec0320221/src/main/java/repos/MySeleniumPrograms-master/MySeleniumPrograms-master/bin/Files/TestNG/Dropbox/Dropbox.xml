@@ -1,0 +1,39 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DropBox Suite">
+
+	<test name="Dropbox Functionality">
+
+		<!-- Parameters for "Files.TestNG.Dropbox.SignUpWithGoogle" -->
+		<parameter name="browser" value="Chrome"></parameter>
+		<parameter name="username" value="Jaytestbox1@gmail.com"></parameter>
+		<parameter name="password" value="QAZwsx@678"></parameter>
+		<parameter name="expectedTitle"
+			value="Sign in - Google Accounts"></parameter>
+
+		<!-- Parameters for "Files.TestNG.Dropbox.Login" -->
+		<parameter name="UserName" value="jaykishore96@ymail.com"></parameter>
+		<parameter name="Password" value="QAZwsx@678"></parameter>
+		<parameter name="Printmsg" value="Login is Successful"></parameter>
+		<parameter name="expected" value="Login - Dropbox"></parameter>
+
+		<!-- Parameter for Files.TestNG.Dropbox.CreateFolder -->
+		<parameter name="url"
+			value="https://www.dropbox.com/login?src=logout"></parameter>
+
+		<!-- Parameter for Files.TestNG.Dropbox.DropboxBusiness -->
+		<parameter name="URL" value="https://www.dropbox.com/login"></parameter>
+
+		<classes>
+
+			<!--<class name="Files.TestNG.Dropbox.SignUpWithGoogle"></class> -->
+			<!--<class name="Files.TestNG.Dropbox.LoginandLogout"></class> -->
+			<!--<class name="Files.TestNG.Dropbox.FileUpload"></class> -->
+			<class name="Files.TestNG.Dropbox.CreateFolder"></class>
+			<!--<class name="Files.TestNG.Dropbox.DropboxBusiness"></class> -->
+
+		</classes>
+
+
+	</test>
+
+</suite>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [HelloFresh Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="Firefox Test(failed)">
+    <parameter name="existingUserEmail" value="hf_challenge_123456@hf12345.com"/>
+    <parameter name="fullName" value="Joe Black"/>
+    <parameter name="ordertext" value="Your order on My Store is complete."/>
+    <parameter name="url" value="http://automationpractice.com/index.php"/>
+    <parameter name="orderheading" value="ORDER CONFIRMATION"/>
+    <parameter name="orderurltext" value="controller=order-confirmation"/>
+    <parameter name="urltext" value="controller=my-account"/>
+    <parameter name="surname" value="Lastname"/>
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="existingUserPassword" value="12345678"/>
+    <parameter name="name" value="Firstname"/>
+    <parameter name="text" value="Welcome to your account."/>
+    <parameter name="account" value="MY ACCOUNT"/>
+    <classes>
+      <class name="com.HelloFresh.LogInTest">
+        <methods>
+          <include name="LogOut"/>
+          <include name="logInTest" invocation-numbers="0"/>
+          <include name="setUp" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.HelloFresh.LogInTest -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+  <test thread-count="3" parallel="tests" name="Chrome Test(failed)">
+    <parameter name="existingUserEmail" value="hf_challenge_123456@hf12345.com"/>
+    <parameter name="fullName" value="Joe Black"/>
+    <parameter name="ordertext" value="Your order on My Store is complete."/>
+    <parameter name="url" value="http://automationpractice.com/index.php"/>
+    <parameter name="orderheading" value="ORDER CONFIRMATION"/>
+    <parameter name="orderurltext" value="controller=order-confirmation"/>
+    <parameter name="urltext" value="controller=my-account"/>
+    <parameter name="surname" value="Lastname"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="existingUserPassword" value="12345678"/>
+    <parameter name="name" value="Firstname"/>
+    <parameter name="text" value="Welcome to your account."/>
+    <parameter name="account" value="MY ACCOUNT"/>
+    <classes>
+      <class name="com.HelloFresh.SignInTest">
+        <methods>
+          <include name="closeApplication"/>
+          <include name="signInTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.HelloFresh.SignInTest -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+  <test thread-count="3" parallel="tests" name="IE Test(failed)">
+    <parameter name="existingUserEmail" value="hf_challenge_123456@hf12345.com"/>
+    <parameter name="fullName" value="Joe Black"/>
+    <parameter name="ordertext" value="Your order on My Store is complete."/>
+    <parameter name="url" value="http://automationpractice.com/index.php"/>
+    <parameter name="orderheading" value="ORDER CONFIRMATION"/>
+    <parameter name="orderurltext" value="controller=order-confirmation"/>
+    <parameter name="urltext" value="controller=my-account"/>
+    <parameter name="surname" value="Lastname"/>
+    <parameter name="browser" value="IE"/>
+    <parameter name="existingUserPassword" value="12345678"/>
+    <parameter name="name" value="Firstname"/>
+    <parameter name="text" value="Welcome to your account."/>
+    <parameter name="account" value="MY ACCOUNT"/>
+    <classes>
+      <class name="com.HelloFresh.LogInTest">
+        <methods>
+          <include name="LogOut"/>
+          <include name="logInTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.HelloFresh.LogInTest -->
+    </classes>
+  </test> <!-- IE Test(failed) -->
+</suite> <!-- Failed suite [HelloFresh Suite] -->

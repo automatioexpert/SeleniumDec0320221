@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Demo Suite">
+
+	<test name="Sample Execution">
+
+		<classes>
+			<class name="Files.TestNG.TestAnnotations"></class>
+
+			<!-- class name="Files.TestNG.MyTestClass"></class> -->
+
+
+		</classes>
+
+
+
+	</test>
+
+
+
+
+
+
+
+
+
+
+</suite>

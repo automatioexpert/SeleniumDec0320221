@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="InetBankingV1">
+ <listeners>
+  <listener class-name="com.inetBanking.utilites.Reporting"></listener>
+  <listener class-name="com.inetBanking.utilites.ListnerImpl" />
+ </listeners>
+ 
+  <test name="e-BankingApp Test">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+           <class name="com.inetBanking.testCases.TC_LoginTest_001"/>
+<!--       <class name="com.inetBanking.testCases.TC_LoginDDT_002"/> -->
+<!--       <class name="com.inetBanking.testCases.TC_AddCustomerTest_003"></class> -->
+<!--       <class name="com.inetBanking.testCases.TC_AddCustomerDDT_004"></class> -->
+<!--       <class name="com.inetBanking.testCases.TC_EditCustomerTest_005"></class> -->
+<!--       <class name="com.inetBanking.testCases.TC_ChangePasswordTest_006"></class> -->
+<!--       <class name="com.inetBanking.testCases.TC_LogOutTest_007"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

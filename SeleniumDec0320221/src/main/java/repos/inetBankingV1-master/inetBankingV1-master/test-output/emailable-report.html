@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">InetBankingV1</th></tr>
+<tr><td><a href="#t0">e-BankingApp Test</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">53,645</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">InetBankingV1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">e-BankingApp Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.inetBanking.testCases.TC_LoginTest_001</td><td><a href="#m0">verifyHomepageTitle</a></td><td rowspan="1">1618854425071</td><td rowspan="1">25</td></tr><tr><th colspan="4">e-BankingApp Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="9">com.inetBanking.testCases.TC_LoginTest_001</td><td><a href="#m1">BankLogoValidation</a></td><td rowspan="1">1618854426768</td><td rowspan="1">126</td></tr><tr class="passedeven"><td><a href="#m2">loginButtonClickValidation</a></td><td rowspan="1">1618854432768</td><td rowspan="1">899</td></tr><tr class="passedeven"><td><a href="#m3">loginCorrectUsernameAndPasswordValidation</a></td><td rowspan="1">1618854417703</td><td rowspan="1">7341</td></tr><tr class="passedeven"><td><a href="#m4">loginNoPasswordValidation</a></td><td rowspan="1">1618854428835</td><td rowspan="1">2356</td></tr><tr class="passedeven"><td><a href="#m5">loginNoUseNameNoPasswordValidation</a></td><td rowspan="1">1618854431195</td><td rowspan="1">1569</td></tr><tr class="passedeven"><td><a href="#m6">loginNoUserIDValidation</a></td><td rowspan="1">1618854426900</td><td rowspan="1">1931</td></tr><tr class="passedeven"><td><a href="#m7">loginResetButtonClickValidation</a></td><td rowspan="1">1618854433671</td><td rowspan="1">960</td></tr><tr class="passedeven"><td><a href="#m8">verifyLinkActive</a></td><td rowspan="1">1618854435771</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m9">verifyLinks</a></td><td rowspan="1">1618854434634</td><td rowspan="1">1133</td></tr></tbody>
+</table>
+<h2>e-BankingApp Test</h2><h3 id="m0">com.inetBanking.testCases.TC_LoginTest_001#verifyHomepageTitle</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=89.0.4389.128): User or Password is not valid
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;HASSEN-HP&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\HASSEN\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62075}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 82ea77c46a0a56e785d017fbea746320
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy12.getTitle(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getTitle(EventFiringWebDriver.java:176)
+	at com.inetBanking.testCases.TC_LoginTest_001.verifyHomepageTitle(TC_LoginTest_001.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.inetBanking.testCases.TC_LoginTest_001#BankLogoValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.inetBanking.testCases.TC_LoginTest_001#loginButtonClickValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.inetBanking.testCases.TC_LoginTest_001#loginCorrectUsernameAndPasswordValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.inetBanking.testCases.TC_LoginTest_001#loginNoPasswordValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.inetBanking.testCases.TC_LoginTest_001#loginNoUseNameNoPasswordValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.inetBanking.testCases.TC_LoginTest_001#loginNoUserIDValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.inetBanking.testCases.TC_LoginTest_001#loginResetButtonClickValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.inetBanking.testCases.TC_LoginTest_001#verifyLinkActive</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.inetBanking.testCases.TC_LoginTest_001#verifyLinks</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
