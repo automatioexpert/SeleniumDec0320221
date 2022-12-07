@@ -1,0 +1,12 @@
+<!doctype html>
+<select id = "dropdown" multiple size = "10">
+<option value = "1"> Pizza </option>
+<option value = "2"> Pasta </option>
+<option value = "3"> Burger </option>
+<option value = "4"> Momoes </option>
+<option value = "5"> Noodles </option>
+<option value = "6"> Sandwiches </option>
+<option value = "7"> Spaghetti </option>
+<option value = "8"> Macrons </option>
+<option value = "9"> Chocolates </option>
+<option value = "10"> waffles </option>

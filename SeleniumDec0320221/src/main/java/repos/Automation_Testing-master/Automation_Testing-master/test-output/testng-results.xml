@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-30T10:24:56 IST" name="Default suite" finished-at="2022-09-30T10:25:34 IST" duration-ms="37718">
+    <groups>
+    </groups>
+    <test started-at="2022-09-30T10:24:56 IST" name="Default test" finished-at="2022-09-30T10:25:34 IST" duration-ms="37718">
+      <class name="com.selenium.testing.RelativesXpath">
+        <test-method signature="xpath()[pri:0, instance:com.selenium.testing.RelativesXpath@48e4374]" started-at="2022-09-30T10:24:56 IST" name="xpath" finished-at="2022-09-30T10:25:34 IST" duration-ms="37682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xpath -->
+      </class> <!-- com.selenium.testing.RelativesXpath -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

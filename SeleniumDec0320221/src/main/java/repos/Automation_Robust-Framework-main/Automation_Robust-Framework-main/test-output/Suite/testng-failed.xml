@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="selenium_framework_testComponents.Listeners_itest"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Analyzed_Test(failed)">
+    <classes>
+      <class name="selenium_framework_project.Error_verify_test">
+        <methods>
+          <include name="Login_error"/>
+          <include name="closingdriver"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- selenium_framework_project.Error_verify_test -->
+    </classes>
+  </test> <!-- Analyzed_Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

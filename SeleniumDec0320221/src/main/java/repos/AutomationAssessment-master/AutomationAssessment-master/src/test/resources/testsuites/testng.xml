@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Currency exchange calculator test Suite ">
+    <listeners>
+        <listener class-name="org.qa.sharif.reporter.Listener"/>
+    </listeners>
+    <test verbose="2" name="Sell filed empty by Buy filed value and vice-varse tes">
+        <classes>
+            <class name="org.qa.sharif.testcases.AutoEmptyFieldTest"/>
+        </classes>
+    </test>
+    <test verbose="2" name="Currency and currency rate is updating with country test">
+        <classes>
+            <class name="org.qa.sharif.testcases.CurrencyUpdateTest"/>
+        </classes>
+    </test>
+    <test verbose="2" name="Currency exchange loss text present">
+        <classes>
+            <class name="org.qa.sharif.testcases.CurrencyLossTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,17 @@
+{
+  "name": "automation-best-practices",
+  "version": "1.0.0",
+  "description": "This is an Automation Best Practices workshop designed to teach testing through cross-functional automation",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saucelabs-training/automation-best-practices.git"
+  },
+  "keywords": [],
+  "author": "Nikolay Advolodkin @nikolay_a00",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saucelabs-training/automation-best-practices/issues"
+  },
+  "homepage": "https://github.com/saucelabs-training/automation-best-practices#readme"
+}
