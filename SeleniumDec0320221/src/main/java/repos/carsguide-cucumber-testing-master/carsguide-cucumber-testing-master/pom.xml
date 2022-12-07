@@ -1,0 +1,108 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.automation.project.test</groupId>
+  <artifactId>carsguide-cucumber-testing</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Cars Guide Cucumber Testing</name>
+  <properties>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<!-- Dependency versions -->
+		<framework.version>1.0.0</framework.version>
+		<cucumber.version>6.8.0</cucumber.version>
+		<testng.version>7.3.0</testng.version>
+		<picocontainer.version>1.2</picocontainer.version>
+		<reporting.plugin.version>4.0.84</reporting.plugin.version>
+		<!-- Configurable variables -->
+		<browser>chrome</browser>
+		<threads>1</threads>
+		<remote>false</remote>
+		<seleniumGridURL></seleniumGridURL>
+		<platform></platform>
+		<browserVersion></browserVersion>
+		<proxyEnabled>false</proxyEnabled>
+		<proxyHost></proxyHost>
+		<proxyPort></proxyPort>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.automation.project</groupId>
+			<artifactId>advance-cucumber-framework</artifactId>
+			<version>${framework.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>${testng.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-testng</artifactId>
+			<version>${cucumber.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-picocontainer</artifactId>
+			<version>${cucumber.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/picocontainer/picocontainer -->
+		<dependency>
+			<groupId>picocontainer</groupId>
+			<artifactId>picocontainer</artifactId>
+			<version>${picocontainer.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/de.monochromata.cucumber/reporting-plugin -->
+		<dependency>
+			<groupId>de.monochromata.cucumber</groupId>
+			<artifactId>reporting-plugin</artifactId>
+			<version>${reporting.plugin.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<version>3.0.0-M4</version>
+				<configuration>
+					<includes>
+						<include>CucumberRunner.java</include>
+					</includes>
+					<properties>
+						<property>
+							<name>dataproviderthreadcount</name>
+							<value>${threads}</value>
+						</property>
+					</properties>
+					<systemProperties>
+						<browser>${browser}</browser>
+						<remoteDriver>${remote}</remoteDriver>
+						<gridURL>${seleniumGridURL}</gridURL>
+						<desiredPlatform>${platform}</desiredPlatform>
+						<desiredBrowserVersion>${browserVersion}</desiredBrowserVersion>
+						<proxyEnabled>${proxyEnabled}</proxyEnabled>
+						<proxyHost>${proxyHost}</proxyHost>
+						<proxyPort>${proxyPort}</proxyPort>
+					</systemProperties>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>integration-test</goal>
+							<goal>verify</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

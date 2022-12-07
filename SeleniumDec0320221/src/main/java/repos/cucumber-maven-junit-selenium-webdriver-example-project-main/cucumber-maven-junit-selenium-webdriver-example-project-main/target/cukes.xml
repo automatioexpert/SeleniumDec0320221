@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="61.356">
+<testcase classname="Place order functinality validation" name="Order one product" time="15.534">
+<system-out><![CDATA[Given Initialize the browser with specific sites home page..................passed
+When Place order with "Brocolli" product in cart............................passed
+Then Cart page populated with all information...............................passed
+And Order should be placed via order page...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Searching functionality with multiple data passing validation" name="Positive search with multiple value" time="6.944">
+<system-out><![CDATA[Given User is on home page..................................................passed
+When User search with valid Brocolli........................................passed
+Then Search page is populated with exact Brocolli...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Searching functionality with multiple data passing validation" name="Positive search with multiple value 2" time="6.903">
+<system-out><![CDATA[Given User is on home page..................................................passed
+When User search with valid Capsicum........................................passed
+Then Search page is populated with exact Capsicum...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Searching functionality with multiple data passing validation" name="Negative search with multiple value" time="7.771">
+<system-out><![CDATA[Given User is on home page..................................................passed
+When User search with invalid Fish..........................................passed
+Then Search page is populated with "no products matched" message............passed
+]]></system-out>
+</testcase>
+<testcase classname="Searching functionality with multiple data passing validation" name="Negative search with multiple value 2" time="7.83">
+<system-out><![CDATA[Given User is on home page..................................................passed
+When User search with invalid Chicken.......................................passed
+Then Search page is populated with "no products matched" message............passed
+]]></system-out>
+</testcase>
+<testcase classname="Searching functionality with multiple data passing validation" name="Home page UI validation" time="6.822">
+<system-out><![CDATA[Given User is on home page..................................................passed
+When User search with specific "ot" letters for multiple product............passed
+Then Search page is populated with multiple products which contains "ot" letters.passed
+]]></system-out>
+</testcase>
+<testcase classname="UI validation" name="Home page UI validation" time="4.316">
+<system-out><![CDATA[Given Initialize the browser with specific site.............................passed
+When Browse to home page....................................................passed
+Then Home page is populated with all of its elements........................passed
+]]></system-out>
+</testcase>
+<testcase classname="UI validation" name="Cart page UI validation" time="4.979">
+<system-out><![CDATA[Given Initialize the browser with specific site.............................passed
+When Navigate to cart page after adding one product.........................passed
+Then Cart page is populated with all of its elements........................passed
+And Selected product information should be the same as home page............passed
+]]></system-out>
+</testcase>
+</testsuite>

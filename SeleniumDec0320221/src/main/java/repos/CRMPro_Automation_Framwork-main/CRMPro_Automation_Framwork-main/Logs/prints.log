@@ -1,0 +1,49 @@
+19:53:59.486 [main] INFO  com.TestCases.SignUpPageTest - ****************************** Browser is launched *****************************************
+19:53:59.560 [main] DEBUG com.TestCases.SignUpPageTest - Browser got launched
+19:54:04.537 [main] DEBUG com.TestCases.SignUpPageTest - Navigated to application URL
+19:54:05.644 [main] INFO  com.TestCases.SignUpPageTest - ****************************** Starting Test Case verifyCRMLogo *****************************************
+19:54:09.629 [main] INFO  com.TestCases.SignUpPageTest - ****************************** Browser is Closed *****************************************
+19:56:24.028 [main] INFO  com.TestCases.SignUpPageTest - ****************************** Browser is launched *****************************************
+19:56:24.051 [main] DEBUG com.TestCases.SignUpPageTest - Browser got launched
+19:56:27.903 [main] DEBUG com.TestCases.SignUpPageTest - Navigated to application URL
+19:56:29.035 [main] INFO  com.TestCases.SignUpPageTest - ****************************** Starting Test Case verifyCRMLogo *****************************************
+19:57:03.934 [main] INFO  com.TestCases.SignUpPageTest - ****************************** Browser is Closed *****************************************
+19:58:01.256 [main] INFO  com.TestCases.SignUpPageTest - ****************************** Browser is launched *****************************************
+19:58:01.264 [main] DEBUG com.TestCases.SignUpPageTest - Browser got launched
+19:58:05.334 [main] DEBUG com.TestCases.SignUpPageTest - Navigated to application URL
+19:58:07.860 [main] INFO  com.TestCases.SignUpPageTest - ****************************** Browser is Closed *****************************************
+19:58:28.142 [main] INFO  com.TestCases.SignUpPageTest - ****************************** Browser is launched *****************************************
+19:58:28.146 [main] DEBUG com.TestCases.SignUpPageTest - Browser got launched
+19:58:32.079 [main] DEBUG com.TestCases.SignUpPageTest - Navigated to application URL
+19:58:33.210 [main] INFO  com.TestCases.SignUpPageTest - ****************************** Starting Test Case verifyCRMLogo *****************************************
+19:59:12.578 [main] INFO  com.TestCases.SignUpPageTest - ****************************** Browser is launched *****************************************
+19:59:12.583 [main] DEBUG com.TestCases.SignUpPageTest - Browser got launched
+19:59:18.369 [main] DEBUG com.TestCases.SignUpPageTest - Navigated to application URL
+19:59:19.719 [main] INFO  com.TestCases.SignUpPageTest - ****************************** Starting Test Case verifyCRMLogo *****************************************
+19:59:57.592 [main] INFO  com.TestCases.SignUpPageTest - ****************************** Browser is Closed *****************************************
+20:03:31.321 [main] INFO  com.TestCases.SignUpPageTest - ****************************** Browser is launched *****************************************
+20:03:31.330 [main] DEBUG com.TestCases.SignUpPageTest - Browser got launched
+20:03:34.664 [main] DEBUG com.TestCases.SignUpPageTest - Navigated to application URL
+20:03:35.822 [main] INFO  com.TestCases.SignUpPageTest - ****************************** Starting Test Case verifyCRMLogo *****************************************
+20:04:08.597 [main] INFO  com.TestCases.SignUpPageTest - ****************************** Browser is Closed *****************************************
+20:07:10.251 [main] INFO  com.TestCases.SignUpPageTest - ****************************** Browser is launched *****************************************
+20:07:10.258 [main] DEBUG com.TestCases.SignUpPageTest - Browser got launched
+20:07:13.190 [main] DEBUG com.TestCases.SignUpPageTest - Navigated to application URL
+20:07:14.477 [main] INFO  com.TestCases.SignUpPageTest - ****************************** Starting Test Case verifyCRMLogo *****************************************
+20:07:47.153 [main] INFO  com.TestCases.SignUpPageTest - ****************************** Browser is Closed *****************************************
+20:13:52.713 [main] INFO  com.TestCases.LandingPageTest - ****************************** Browser is launched *****************************************
+20:13:52.969 [main] DEBUG com.TestCases.LandingPageTest - Browser got launched
+20:14:06.450 [main] DEBUG com.TestCases.LandingPageTest - Navigated to application URL
+20:14:07.097 [main] INFO  com.TestCases.LandingPageTest - ****************************** Starting Test Case verifyTitle *****************************************
+20:14:07.182 [main] INFO  com.TestCases.LandingPageTest - ****************************** Ending Test Case verifyTitle *****************************************
+20:14:08.540 [main] INFO  com.TestCases.LandingPageTest - ****************************** Browser is Closed *****************************************
+20:14:15.420 [main] INFO  com.TestCases.LandingPageTest - ****************************** Browser is launched *****************************************
+20:14:15.421 [main] DEBUG com.TestCases.LandingPageTest - Browser got launched
+20:14:22.827 [main] DEBUG com.TestCases.LandingPageTest - Navigated to application URL
+20:14:22.829 [main] INFO  com.TestCases.LandingPageTest - ****************************** Starting Test Case verifyCRMLogo *****************************************
+20:14:23.871 [main] INFO  com.TestCases.LandingPageTest - ****************************** Ending Test Case verifyCRMLogo *****************************************
+20:14:24.761 [main] INFO  com.TestCases.LandingPageTest - ****************************** Browser is Closed *****************************************
+20:14:31.969 [main] INFO  com.TestCases.SignUpPageTest - ****************************** Browser is launched *****************************************
+20:14:31.969 [main] DEBUG com.TestCases.SignUpPageTest - Browser got launched
+20:14:37.596 [main] DEBUG com.TestCases.SignUpPageTest - Navigated to application URL
+20:14:39.881 [main] INFO  com.TestCases.SignUpPageTest - ****************************** Browser is Closed *****************************************

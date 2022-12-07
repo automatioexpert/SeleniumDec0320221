@@ -1,0 +1,80 @@
+15:35:40.550 [main] DEBUG com.TestCases.LandingPageTest - Browser got launched
+15:36:25.282 [main] DEBUG com.TestCases.LandingPageTest - Navigated to application URL
+15:36:25.284 [main] INFO  com.TestCases.LandingPageTest - ****************************** Starting Test Case verifyUserName *****************************************
+15:36:25.376 [main] INFO  com.TestCases.LandingPageTest - ****************************** Ending Test Case verifyUserName *****************************************
+15:36:27.222 [main] INFO  com.TestCases.LandingPageTest - ****************************** Browser is Closed *****************************************
+15:36:37.446 [main] INFO  com.TestCases.LandingPageTest - ****************************** Browser is launched *****************************************
+15:36:37.510 [main] DEBUG com.TestCases.LandingPageTest - Browser got launched
+15:36:48.461 [main] DEBUG com.TestCases.LandingPageTest - Navigated to application URL
+15:36:48.462 [main] INFO  com.TestCases.LandingPageTest - ****************************** Starting Test Case verifyUserPassword *****************************************
+15:36:48.559 [main] INFO  com.TestCases.LandingPageTest - ****************************** Ending Test Case verifyUserPassword *****************************************
+15:36:50.031 [main] INFO  com.TestCases.LandingPageTest - ****************************** Browser is Closed *****************************************
+16:01:01.614 [main] INFO  com.TestCases.FourTest - ****************************** Starting test cases execution *****************************************
+16:01:10.221 [main] INFO  com.TestCases.FourTest - ****************************** Browser is launched *****************************************
+16:01:10.222 [main] DEBUG com.TestCases.FourTest - Browser got launched
+16:01:22.900 [main] DEBUG com.TestCases.FourTest - Navigated to application URL
+16:01:22.916 [main] INFO  com.TestCases.FourTest - ****************************** starting test case testFourTest *****************************************
+16:01:24.964 [main] INFO  com.TestCases.FourTest - ****************************** Browser is closed *****************************************
+16:01:24.967 [main] INFO  com.TestCases.FourTest - ****************************** Starting test cases execution *****************************************
+16:01:32.192 [main] INFO  com.TestCases.FourTest - ****************************** Browser is launched *****************************************
+16:01:32.192 [main] DEBUG com.TestCases.FourTest - Browser got launched
+16:01:42.384 [main] DEBUG com.TestCases.FourTest - Navigated to application URL
+16:01:42.386 [main] INFO  com.TestCases.FourTest - ****************************** starting test case verifyBrokenlinks *****************************************
+16:01:47.777 [main] INFO  com.TestCases.FourTest - ****************************** ending test case verifyBrokenImages *****************************************
+16:01:48.594 [main] INFO  com.TestCases.FourTest - ****************************** Browser is closed *****************************************
+16:01:48.596 [main] INFO  com.TestCases.FourTest - ****************************** Starting test cases execution *****************************************
+16:01:53.354 [main] INFO  com.TestCases.FourTest - ****************************** Browser is launched *****************************************
+16:01:53.354 [main] DEBUG com.TestCases.FourTest - Browser got launched
+16:02:07.615 [main] DEBUG com.TestCases.FourTest - Navigated to application URL
+16:02:07.617 [main] INFO  com.TestCases.FourTest - ****************************** starting test case verifyBrokenlinks *****************************************
+16:02:24.596 [main] INFO  com.TestCases.FourTest - ****************************** ending test case verifyBrokenlinks *****************************************
+16:02:25.888 [main] INFO  com.TestCases.FourTest - ****************************** Browser is closed *****************************************
+16:04:10.350 [main] INFO  com.TestCases.FourTest - ****************************** Starting test cases execution *****************************************
+16:04:16.690 [main] INFO  com.TestCases.FourTest - ****************************** Browser is launched *****************************************
+16:04:16.691 [main] DEBUG com.TestCases.FourTest - Browser got launched
+16:04:28.008 [main] DEBUG com.TestCases.FourTest - Navigated to application URL
+16:04:28.046 [main] INFO  com.TestCases.FourTest - ****************************** starting test case testFourTest *****************************************
+16:04:28.073 [main] DEBUG com.TestCases.FourTest - Browser got launched
+16:04:28.073 [main] DEBUG com.TestCases.FourTest - Navigated to application URL
+16:04:32.912 [main] INFO  com.TestCases.FourTest - ****************************** Browser is closed *****************************************
+16:04:32.956 [main] INFO  com.TestCases.FourTest - ****************************** Starting test cases execution *****************************************
+16:04:38.819 [main] INFO  com.TestCases.FourTest - ****************************** Browser is launched *****************************************
+16:04:38.820 [main] DEBUG com.TestCases.FourTest - Browser got launched
+16:04:51.839 [main] DEBUG com.TestCases.FourTest - Navigated to application URL
+16:04:51.842 [main] INFO  com.TestCases.FourTest - ****************************** starting test case verifyBrokenlinks *****************************************
+16:04:59.516 [main] INFO  com.TestCases.FourTest - ****************************** ending test case verifyBrokenImages *****************************************
+16:05:00.899 [main] INFO  com.TestCases.FourTest - ****************************** Browser is closed *****************************************
+16:05:00.900 [main] INFO  com.TestCases.FourTest - ****************************** Starting test cases execution *****************************************
+16:05:05.994 [main] INFO  com.TestCases.FourTest - ****************************** Browser is launched *****************************************
+16:05:05.994 [main] DEBUG com.TestCases.FourTest - Browser got launched
+16:05:16.046 [main] DEBUG com.TestCases.FourTest - Navigated to application URL
+16:05:16.049 [main] INFO  com.TestCases.FourTest - ****************************** starting test case verifyBrokenlinks *****************************************
+16:05:27.105 [main] INFO  com.TestCases.FourTest - ****************************** ending test case verifyBrokenlinks *****************************************
+16:05:28.351 [main] INFO  com.TestCases.FourTest - ****************************** Browser is closed *****************************************
+16:07:07.019 [main] INFO  com.TestCases.FourTest - ****************************** Starting test cases execution *****************************************
+16:07:13.284 [main] INFO  com.TestCases.FourTest - ****************************** Browser is launched *****************************************
+16:07:13.284 [main] DEBUG com.TestCases.FourTest - Browser got launched
+16:07:24.218 [main] DEBUG com.TestCases.FourTest - Navigated to application URL
+16:07:24.238 [main] INFO  com.TestCases.FourTest - ****************************** starting test case testFourTest *****************************************
+16:07:24.253 [main] DEBUG com.TestCases.FourTest - Browser got launched
+16:07:24.253 [main] DEBUG com.TestCases.FourTest - Navigated to application URL
+16:07:27.981 [main] INFO  com.TestCases.FourTest - ****************************** Browser is closed *****************************************
+16:07:27.986 [main] INFO  com.TestCases.FourTest - ****************************** Starting test cases execution *****************************************
+16:07:33.057 [main] INFO  com.TestCases.FourTest - ****************************** Browser is launched *****************************************
+16:07:33.057 [main] DEBUG com.TestCases.FourTest - Browser got launched
+16:07:46.605 [main] DEBUG com.TestCases.FourTest - Navigated to application URL
+16:07:46.608 [main] INFO  com.TestCases.FourTest - ****************************** starting test case verifyBrokenlinks *****************************************
+16:07:55.681 [main] INFO  com.TestCases.FourTest - ****************************** ending test case verifyBrokenImages *****************************************
+16:07:56.856 [main] INFO  com.TestCases.FourTest - ****************************** Browser is closed *****************************************
+16:07:56.859 [main] INFO  com.TestCases.FourTest - ****************************** Starting test cases execution *****************************************
+16:08:03.271 [main] INFO  com.TestCases.FourTest - ****************************** Browser is launched *****************************************
+16:08:03.272 [main] DEBUG com.TestCases.FourTest - Browser got launched
+16:08:19.761 [main] DEBUG com.TestCases.FourTest - Navigated to application URL
+16:08:19.762 [main] INFO  com.TestCases.FourTest - ****************************** starting test case verifyBrokenlinks *****************************************
+16:08:29.558 [main] INFO  com.TestCases.FourTest - ****************************** ending test case verifyBrokenlinks *****************************************
+16:08:30.711 [main] INFO  com.TestCases.FourTest - ****************************** Browser is closed *****************************************
+16:11:53.569 [main] INFO  com.TestCases.FourTest - ****************************** Starting test cases execution *****************************************
+16:12:00.067 [main] INFO  com.TestCases.FourTest - ****************************** Browser is launched *****************************************
+16:12:00.067 [main] DEBUG com.TestCases.FourTest - Browser got launched
+16:12:12.322 [main] DEBUG com.TestCases.FourTest - Navigated to application URL
+16:12:12.343 [main] INFO  com.TestCases.FourTest - ****************************** starting test case testFourTest *****************************************
