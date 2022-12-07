@@ -1,0 +1,13 @@
+<suite thread-count="1" verbose="1" name="REST API automation">
+
+    <test name="Dmoney API automation with Rest-Assured">
+        <classes>
+            <class name="testRunner.TestRunner"/>
+        </classes>
+    </test>
+
+</suite>
+
+<!--Cmd for Allure-->
+<!--allure generate allure-results &#45;&#45;clean -o allure-report-->
+<!--allure serve allure-results-->

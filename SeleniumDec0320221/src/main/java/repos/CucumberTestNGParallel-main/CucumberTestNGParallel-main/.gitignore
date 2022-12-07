@@ -1,0 +1,6 @@
+/.metadata/
+/.idea/
+/target/
+/Reports/
+/allure-results/
+/test-output

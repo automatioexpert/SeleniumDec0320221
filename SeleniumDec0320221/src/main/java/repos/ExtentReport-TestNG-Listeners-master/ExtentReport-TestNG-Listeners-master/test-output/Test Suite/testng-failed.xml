@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="appURL" value="https://google.com"/>
+  <parameter name="browserType" value="chrome"/>
+  <listeners>
+    <listener class-name="com.google.base.TestListener"/>
+  </listeners>
+  <test thread-count="2" parallel="methods" name="Facebook Login(failed)">
+    <classes>
+      <class name="com.tests.CreateAccountTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyCreateAnAccountPage"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.CreateAccountTest -->
+      <class name="com.tests.SignInPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="verifySignInFunction"/>
+        </methods>
+      </class> <!-- com.tests.SignInPageTest -->
+    </classes>
+  </test> <!-- Facebook Login(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

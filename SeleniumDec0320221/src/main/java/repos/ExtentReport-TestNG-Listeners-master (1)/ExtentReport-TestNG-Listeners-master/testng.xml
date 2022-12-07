@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" parallel="methods" thread-count="2" verbose="1">
+    <listeners>
+        <listener class-name="com.google.base.TestListener"></listener>
+    </listeners>
+    <parameter name="browserType" value="chrome" />
+    <parameter name="appURL" value="https://google.com" />
+
+    <test name="Facebook Login">
+        <classes>
+         <class name="com.tests.BasePageTest"/>
+         <class name="com.tests.SignInPageTest"></class>
+         <class name="com.tests.CreateAccountTest"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="9" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-09T22:48:11 EDT" name="Test Suite" finished-at="2021-04-09T22:48:34 EDT" duration-ms="23359">
+    <groups>
+    </groups>
+    <test started-at="2021-04-09T22:48:11 EDT" name="Facebook Login" finished-at="2021-04-09T22:48:34 EDT" duration-ms="23359">
+      <class name="com.tests.CreateAccountTest">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.tests.CreateAccountTest@b9b00e0]" started-at="2021-04-09T22:48:21 EDT" name="initializeTestBaseSetup" finished-at="2021-04-09T22:48:27 EDT" duration-ms="6005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.CreateAccountTest@b9b00e0]" started-at="2021-04-09T22:48:27 EDT" name="setUp" finished-at="2021-04-09T22:48:27 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createAccountExample1()[pri:0, instance:com.tests.CreateAccountTest@b9b00e0]" started-at="2021-04-09T22:48:27 EDT" name="createAccountExample1" finished-at="2021-04-09T22:48:27 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountExample1 -->
+        <test-method signature="createAccountExample2()[pri:0, instance:com.tests.CreateAccountTest@b9b00e0]" started-at="2021-04-09T22:48:27 EDT" name="createAccountExample2" finished-at="2021-04-09T22:48:27 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountExample2 -->
+        <test-method signature="verifyCreateAnAccountPage()[pri:0, instance:com.tests.CreateAccountTest@b9b00e0]" started-at="2021-04-09T22:48:27 EDT" name="verifyCreateAnAccountPage" finished-at="2021-04-09T22:48:32 EDT" duration-ms="4975" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#link\-signup"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'HASSEN-HP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\HASSEN\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57328}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f0e1ff209a3ef512533f5fd08144a6f7
+*** Element info: {Using=id, value=link-signup}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#link\-signup"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'HASSEN-HP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\HASSEN\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57328}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f0e1ff209a3ef512533f5fd08144a6f7
+*** Element info: {Using=id, value=link-signup}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at com.google.pages.SignInPage.clickonCreateAnAccount(SignInPage.java:38)
+at com.tests.CreateAccountTest.verifyCreateAnAccountPage(CreateAccountTest.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateAnAccountPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.CreateAccountTest@b9b00e0]" started-at="2021-04-09T22:48:33 EDT" name="tearDown" finished-at="2021-04-09T22:48:34 EDT" duration-ms="1228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.CreateAccountTest -->
+      <class name="com.tests.SignInPageTest">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.tests.SignInPageTest@13fd2ccd]" started-at="2021-04-09T22:48:16 EDT" name="initializeTestBaseSetup" finished-at="2021-04-09T22:48:21 EDT" duration-ms="5178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.SignInPageTest@13fd2ccd]" started-at="2021-04-09T22:48:21 EDT" name="setUp" finished-at="2021-04-09T22:48:21 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SignInPageTestOne()[pri:0, instance:com.tests.SignInPageTest@13fd2ccd]" started-at="2021-04-09T22:48:21 EDT" name="SignInPageTestOne" finished-at="2021-04-09T22:48:21 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInPageTestOne -->
+        <test-method signature="SignInPageTestThree()[pri:0, instance:com.tests.SignInPageTest@13fd2ccd]" started-at="2021-04-09T22:48:21 EDT" name="SignInPageTestThree" finished-at="2021-04-09T22:48:21 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInPageTestThree -->
+        <test-method signature="SignInPageTestTwo()[pri:0, instance:com.tests.SignInPageTest@13fd2ccd]" started-at="2021-04-09T22:48:21 EDT" name="SignInPageTestTwo" finished-at="2021-04-09T22:48:21 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInPageTestTwo -->
+        <test-method signature="verifySignInFunction()[pri:0, instance:com.tests.SignInPageTest@13fd2ccd]" started-at="2021-04-09T22:48:21 EDT" name="verifySignInFunction" finished-at="2021-04-09T22:48:27 EDT" duration-ms="5832" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".hidden-small"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'HASSEN-HP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\HASSEN\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57299}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 53e3dc4193f69f116aff7e4acb2f10cc
+*** Element info: {Using=css selector, value=.hidden-small}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".hidden-small"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'HASSEN-HP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\HASSEN\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57299}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 53e3dc4193f69f116aff7e4acb2f10cc
+*** Element info: {Using=css selector, value=.hidden-small}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:416)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at com.google.pages.SignInPage.verifySignInPageText(SignInPage.java:31)
+at com.tests.SignInPageTest.verifySignInFunction(SignInPageTest.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInFunction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.SignInPageTest@13fd2ccd]" started-at="2021-04-09T22:48:27 EDT" name="tearDown" finished-at="2021-04-09T22:48:29 EDT" duration-ms="1149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.SignInPageTest -->
+      <class name="com.tests.BasePageTest">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.tests.BasePageTest@48aca48b]" started-at="2021-04-09T22:48:11 EDT" name="initializeTestBaseSetup" finished-at="2021-04-09T22:48:16 EDT" duration-ms="5161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.BasePageTest@48aca48b]" started-at="2021-04-09T22:48:16 EDT" name="setUp" finished-at="2021-04-09T22:48:16 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="baseTest1()[pri:0, instance:com.tests.BasePageTest@48aca48b]" started-at="2021-04-09T22:48:16 EDT" name="baseTest1" finished-at="2021-04-09T22:48:16 EDT" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTest1 -->
+        <test-method signature="baseTest2()[pri:0, instance:com.tests.BasePageTest@48aca48b]" started-at="2021-04-09T22:48:16 EDT" name="baseTest2" finished-at="2021-04-09T22:48:19 EDT" duration-ms="3187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTest2 -->
+        <test-method signature="baseTest3()[pri:0, instance:com.tests.BasePageTest@48aca48b]" started-at="2021-04-09T22:48:16 EDT" name="baseTest3" finished-at="2021-04-09T22:48:16 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTest3 -->
+        <test-method signature="verifyHomePage()[pri:0, instance:com.tests.BasePageTest@48aca48b]" started-at="2021-04-09T22:48:16 EDT" name="verifyHomePage" finished-at="2021-04-09T22:48:16 EDT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.BasePageTest@48aca48b]" started-at="2021-04-09T22:48:19 EDT" name="tearDown" finished-at="2021-04-09T22:48:20 EDT" duration-ms="921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.BasePageTest -->
+    </test> <!-- Facebook Login -->
+  </suite> <!-- Test Suite -->
+</testng-results>
