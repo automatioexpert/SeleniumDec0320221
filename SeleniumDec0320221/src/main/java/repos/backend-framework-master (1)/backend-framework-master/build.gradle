@@ -1,0 +1,62 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.testng', name: 'testng', version: '6.8.8'
+    compile group: 'io.rest-assured', name: 'rest-assured', version: '4.3.1'
+    compile group: 'io.rest-assured', name: 'json-schema-validator', version: '3.0.6'
+    compile group: 'org.projectlombok', name: 'lombok', version: '1.18.24'
+    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.24'
+    testCompileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.24'
+    annotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.24'
+    testAnnotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.24'
+    compile group: 'commons-lang', name: 'commons-lang', version: '2.6'
+    compile group: 'org.slf4j', name:'slf4j-api', version: '1.7.2'
+    compile group: 'ch.qos.logback', name:'logback-classic', version: '1.0.9'
+    compile group: 'ch.qos.logback', name:'logback-core', version: '1.0.9'
+    compile group: 'com.github.javafaker', name: 'javafaker', version: '0.15'
+}
+
+task runTest(type: Test) {
+    useTestNG() {
+        parallel = "classes"
+        testLogging.exceptionFormat = 'full'
+        threadCount = Integer.parseInt(System.getProperty('parallel', '1'))
+        useDefaultListeners = true
+        includeGroups System.getProperty('tag', 'USERS')
+        //suites 'testng.xml'
+        useDefaultListeners true
+        outputDirectory file("$projectDir/reports/testNGReport")
+    }
+
+    testLogging.showStandardStreams = true
+    testLogging {
+        events "PASSED", "FAILED", "SKIPPED"
+    }
+    reports.html.setDestination(file("$projectDir/reports/gradleReport"))
+}
+
+task createPom {
+    pom {
+        project {
+            groupId 'org.example'
+            artifactId 'test'
+            version '1.0-SNAPSHOT'
+            licenses {
+                license {
+                    name 'example'
+                    url 'example.com'
+                    distribution 'repo'
+                }
+            }
+        }
+    }.writeTo("pom.xml")
+}
