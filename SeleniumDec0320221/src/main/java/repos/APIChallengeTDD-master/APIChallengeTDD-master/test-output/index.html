@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-API_Challenge">
+              <span class="suite-name border-failed">API Challenge</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-API_Challenge">
+                    <span>D:\Selemuinn\APIChallengeTDD\src\test\java\com\qa\resources\testrunner.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-API_Challenge">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-API_Challenge">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-API_Challenge">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-API_Challenge">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-API_Challenge">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-API_Challenge">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 3 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-API_Challenge" class="hide-methods failed suite-API_Challenge"> (hide)</a> <!-- hide-methods failed suite-API_Challenge -->
+                      <a href="#" panel-name="suite-API_Challenge" class="show-methods failed suite-API_Challenge"> (show)</a> <!-- show-methods failed suite-API_Challenge -->
+                    </span>
+                    <div class="method-list-content failed suite-API_Challenge">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Challenge" title="com.api.get.GetNumberOfRaces" hash-for-method="numberOfCircuitsYearTest(1950, 8)">numberOfCircuitsYearTest(1950, 8)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Challenge" title="com.api.get.GetNumberOfRaces" hash-for-method="numberOfCircuitsYearWithJSONTest(1950, 8)">numberOfCircuitsYearWithJSONTest(1950, 8)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Challenge" title="com.api.get.GetNumberOfRaces" hash-for-method="numberOfCircuitsYearWithXMLTest(1950, 8)">numberOfCircuitsYearWithXMLTest(1950, 8)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-API_Challenge -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-API_Challenge" class="hide-methods passed suite-API_Challenge"> (hide)</a> <!-- hide-methods passed suite-API_Challenge -->
+                      <a href="#" panel-name="suite-API_Challenge" class="show-methods passed suite-API_Challenge"> (show)</a> <!-- show-methods passed suite-API_Challenge -->
+                    </span>
+                    <div class="method-list-content passed suite-API_Challenge">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Challenge" title="com.api.get.GetNumberOfRaces" hash-for-method="numberOfCircuitsYearTest(2017, 20)">numberOfCircuitsYearTest(2017, 20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Challenge" title="com.api.get.GetNumberOfRaces" hash-for-method="numberOfCircuitsYearTest(1966, 9)">numberOfCircuitsYearTest(1966, 9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Challenge" title="com.api.get.GetNumberOfRaces" hash-for-method="numberOfCircuitsYearTest(2016, 21)">numberOfCircuitsYearTest(2016, 21)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Challenge" title="com.api.get.GetNumberOfRaces" hash-for-method="numberOfCircuitsYearWithJSONTest(1966, 9)">numberOfCircuitsYearWithJSONTest(1966, 9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Challenge" title="com.api.get.GetNumberOfRaces" hash-for-method="numberOfCircuitsYearWithJSONTest(2017, 20)">numberOfCircuitsYearWithJSONTest(2017, 20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Challenge" title="com.api.get.GetNumberOfRaces" hash-for-method="numberOfCircuitsYearWithJSONTest(2016, 21)">numberOfCircuitsYearWithJSONTest(2016, 21)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Challenge" title="com.api.get.GetNumberOfRaces" hash-for-method="numberOfCircuitsYearWithXMLTest(2017, 20)">numberOfCircuitsYearWithXMLTest(2017, 20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Challenge" title="com.api.get.GetNumberOfRaces" hash-for-method="numberOfCircuitsYearWithXMLTest(1966, 9)">numberOfCircuitsYearWithXMLTest(1966, 9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Challenge" title="com.api.get.GetNumberOfRaces" hash-for-method="numberOfCircuitsYearWithXMLTest(2016, 21)">numberOfCircuitsYearWithXMLTest(2016, 21)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-API_Challenge -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-API_Challenge" class="panel API_Challenge">
+          <div class="suite-API_Challenge-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.api.get.GetNumberOfRaces</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="numberOfCircuitsYearTest(1950, 8)">
+                  </a> <!-- numberOfCircuitsYearTest(1950, 8) -->
+                  <span class="method-name">numberOfCircuitsYearTest</span>
+                  <span class="parameters">(1950, 8)</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+JSON path MRData.CircuitTable.Circuits.circuitId doesn&apos;t match.
+Expected: a collection with size &lt;8&gt;
+  Actual: [bremgarten, indianapolis, monaco, monza, reims, silverstone, spa]
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+	at io.restassured.specification.ResponseSpecification$body$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at com.api.get.GetNumberOfRaces.numberOfCircuitsYearTest(GetNumberOfRaces.java:47)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="numberOfCircuitsYearWithJSONTest(1950, 8)">
+                  </a> <!-- numberOfCircuitsYearWithJSONTest(1950, 8) -->
+                  <span class="method-name">numberOfCircuitsYearWithJSONTest</span>
+                  <span class="parameters">(1950, 8)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [8] but found [7]
+	at com.api.get.GetNumberOfRaces.numberOfCircuitsYearWithJSONTest(GetNumberOfRaces.java:67)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="numberOfCircuitsYearWithXMLTest(1950, 8)">
+                  </a> <!-- numberOfCircuitsYearWithXMLTest(1950, 8) -->
+                  <span class="method-name">numberOfCircuitsYearWithXMLTest</span>
+                  <span class="parameters">(1950, 8)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [8] but found [7]
+	at com.api.get.GetNumberOfRaces.numberOfCircuitsYearWithXMLTest(GetNumberOfRaces.java:79)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Challenge-class-failed -->
+          <div class="suite-API_Challenge-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.get.GetNumberOfRaces</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="numberOfCircuitsYearTest(2017, 20)">
+                  </a> <!-- numberOfCircuitsYearTest(2017, 20) -->
+                  <span class="method-name">numberOfCircuitsYearTest</span>
+                  <span class="parameters">(2017, 20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="numberOfCircuitsYearTest(1966, 9)">
+                  </a> <!-- numberOfCircuitsYearTest(1966, 9) -->
+                  <span class="method-name">numberOfCircuitsYearTest</span>
+                  <span class="parameters">(1966, 9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="numberOfCircuitsYearTest(2016, 21)">
+                  </a> <!-- numberOfCircuitsYearTest(2016, 21) -->
+                  <span class="method-name">numberOfCircuitsYearTest</span>
+                  <span class="parameters">(2016, 21)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="numberOfCircuitsYearWithJSONTest(1966, 9)">
+                  </a> <!-- numberOfCircuitsYearWithJSONTest(1966, 9) -->
+                  <span class="method-name">numberOfCircuitsYearWithJSONTest</span>
+                  <span class="parameters">(1966, 9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="numberOfCircuitsYearWithJSONTest(2017, 20)">
+                  </a> <!-- numberOfCircuitsYearWithJSONTest(2017, 20) -->
+                  <span class="method-name">numberOfCircuitsYearWithJSONTest</span>
+                  <span class="parameters">(2017, 20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="numberOfCircuitsYearWithJSONTest(2016, 21)">
+                  </a> <!-- numberOfCircuitsYearWithJSONTest(2016, 21) -->
+                  <span class="method-name">numberOfCircuitsYearWithJSONTest</span>
+                  <span class="parameters">(2016, 21)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="numberOfCircuitsYearWithXMLTest(2017, 20)">
+                  </a> <!-- numberOfCircuitsYearWithXMLTest(2017, 20) -->
+                  <span class="method-name">numberOfCircuitsYearWithXMLTest</span>
+                  <span class="parameters">(2017, 20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="numberOfCircuitsYearWithXMLTest(1966, 9)">
+                  </a> <!-- numberOfCircuitsYearWithXMLTest(1966, 9) -->
+                  <span class="method-name">numberOfCircuitsYearWithXMLTest</span>
+                  <span class="parameters">(1966, 9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="numberOfCircuitsYearWithXMLTest(2016, 21)">
+                  </a> <!-- numberOfCircuitsYearWithXMLTest(2016, 21) -->
+                  <span class="method-name">numberOfCircuitsYearWithXMLTest</span>
+                  <span class="parameters">(2016, 21)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Challenge-class-passed -->
+        </div> <!-- panel API_Challenge -->
+        <div panel-name="test-xml-API_Challenge" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Selemuinn\APIChallengeTDD\src\test\java\com\qa\resources\testrunner.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;API Challenge&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;CircuitsAPI test&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.api.get.GetNumberOfRaces&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CircuitsAPI test --&gt;
+&lt;/suite&gt; &lt;!-- API Challenge --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-API_Challenge" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for API Challenge</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">CircuitsAPI test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-API_Challenge" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for API Challenge</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-API_Challenge" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for API Challenge</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_API_Challenge');
+function tableData_API_Challenge() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'numberOfCircuitsYearTest')
+data.setCell(0, 2, 'com.api.get.GetNumberOfRaces')
+data.setCell(0, 3, 14977);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'numberOfCircuitsYearWithXMLTest')
+data.setCell(1, 2, 'com.api.get.GetNumberOfRaces')
+data.setCell(1, 3, 1934);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'numberOfCircuitsYearWithXMLTest')
+data.setCell(2, 2, 'com.api.get.GetNumberOfRaces')
+data.setCell(2, 3, 1533);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'numberOfCircuitsYearWithJSONTest')
+data.setCell(3, 2, 'com.api.get.GetNumberOfRaces')
+data.setCell(3, 3, 981);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'numberOfCircuitsYearTest')
+data.setCell(4, 2, 'com.api.get.GetNumberOfRaces')
+data.setCell(4, 3, 940);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'numberOfCircuitsYearTest')
+data.setCell(5, 2, 'com.api.get.GetNumberOfRaces')
+data.setCell(5, 3, 931);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'numberOfCircuitsYearWithXMLTest')
+data.setCell(6, 2, 'com.api.get.GetNumberOfRaces')
+data.setCell(6, 3, 922);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'numberOfCircuitsYearTest')
+data.setCell(7, 2, 'com.api.get.GetNumberOfRaces')
+data.setCell(7, 3, 870);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'numberOfCircuitsYearWithJSONTest')
+data.setCell(8, 2, 'com.api.get.GetNumberOfRaces')
+data.setCell(8, 3, 868);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'numberOfCircuitsYearWithXMLTest')
+data.setCell(9, 2, 'com.api.get.GetNumberOfRaces')
+data.setCell(9, 3, 827);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'numberOfCircuitsYearWithJSONTest')
+data.setCell(10, 2, 'com.api.get.GetNumberOfRaces')
+data.setCell(10, 3, 806);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'numberOfCircuitsYearWithJSONTest')
+data.setCell(11, 2, 'com.api.get.GetNumberOfRaces')
+data.setCell(11, 3, 783);
+window.suiteTableData['API_Challenge']= { tableData: data, tableDiv: 'times-div-API_Challenge'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <div id="times-div-API_Challenge">
+              </div> <!-- times-div-API_Challenge -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-API_Challenge" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for API Challenge</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-API_Challenge" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-API_Challenge" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.get.GetNumberOfRaces</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">numberOfCircuitsYearTest(2017, 20)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">numberOfCircuitsYearTest(2016, 21)</span>
+                <span class="method-start">14991 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">numberOfCircuitsYearTest(1966, 9)</span>
+                <span class="method-start">15924 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">numberOfCircuitsYearTest(1950, 8)</span>
+                <span class="method-start">16800 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">numberOfCircuitsYearWithJSONTest(2017, 20)</span>
+                <span class="method-start">20115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">numberOfCircuitsYearWithJSONTest(2016, 21)</span>
+                <span class="method-start">21099 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">numberOfCircuitsYearWithJSONTest(1966, 9)</span>
+                <span class="method-start">21914 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">numberOfCircuitsYearWithJSONTest(1950, 8)</span>
+                <span class="method-start">22811 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">numberOfCircuitsYearWithXMLTest(2017, 20)</span>
+                <span class="method-start">23693 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">numberOfCircuitsYearWithXMLTest(2016, 21)</span>
+                <span class="method-start">25638 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">numberOfCircuitsYearWithXMLTest(1966, 9)</span>
+                <span class="method-start">26468 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">numberOfCircuitsYearWithXMLTest(1950, 8)</span>
+                <span class="method-start">27394 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

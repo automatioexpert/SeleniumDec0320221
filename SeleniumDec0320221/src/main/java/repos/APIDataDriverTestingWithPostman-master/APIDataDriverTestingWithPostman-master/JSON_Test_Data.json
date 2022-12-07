@@ -1,0 +1,12 @@
+[
+{
+	"endpoint" : "https://reqres.in/api/register",
+	"email" :"abc@gmail.com",
+	"password" : "123"
+},
+{
+	"endpoint" : "https://reqres.in/api/register",
+	"email" :"eve.holt@reqres.in",
+	"password" : "pistol"
+}
+]

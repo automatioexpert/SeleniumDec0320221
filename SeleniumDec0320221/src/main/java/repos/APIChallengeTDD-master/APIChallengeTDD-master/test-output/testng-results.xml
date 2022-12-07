@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="12" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="API Challenge" duration-ms="29010" started-at="2020-06-29T05:09:49Z" finished-at="2020-06-29T05:10:18Z">
+    <groups>
+    </groups>
+    <test name="CircuitsAPI test" duration-ms="29010" started-at="2020-06-29T05:09:49Z" finished-at="2020-06-29T05:10:18Z">
+      <class name="com.api.get.GetNumberOfRaces">
+        <test-method status="PASS" signature="numberOfCircuitsYearTest(int, int)[pri:0, instance:com.api.get.GetNumberOfRaces@523884b2]" name="numberOfCircuitsYearTest" duration-ms="14977" started-at="2020-06-29T05:09:49Z" data-provider="getCircuitYearData" finished-at="2020-06-29T05:10:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2017]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numberOfCircuitsYearTest -->
+        <test-method status="PASS" signature="numberOfCircuitsYearTest(int, int)[pri:0, instance:com.api.get.GetNumberOfRaces@523884b2]" name="numberOfCircuitsYearTest" duration-ms="931" started-at="2020-06-29T05:10:04Z" data-provider="getCircuitYearData" finished-at="2020-06-29T05:10:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2016]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numberOfCircuitsYearTest -->
+        <test-method status="PASS" signature="numberOfCircuitsYearTest(int, int)[pri:0, instance:com.api.get.GetNumberOfRaces@523884b2]" name="numberOfCircuitsYearTest" duration-ms="870" started-at="2020-06-29T05:10:05Z" data-provider="getCircuitYearData" finished-at="2020-06-29T05:10:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1966]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numberOfCircuitsYearTest -->
+        <test-method status="FAIL" signature="numberOfCircuitsYearTest(int, int)[pri:0, instance:com.api.get.GetNumberOfRaces@523884b2]" name="numberOfCircuitsYearTest" duration-ms="940" started-at="2020-06-29T05:10:06Z" data-provider="getCircuitYearData" finished-at="2020-06-29T05:10:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1950]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+JSON path MRData.CircuitTable.Circuits.circuitId doesn't match.
+Expected: a collection with size <8>
+  Actual: [bremgarten, indianapolis, monaco, monza, reims, silverstone, spa]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+JSON path MRData.CircuitTable.Circuits.circuitId doesn't match.
+Expected: a collection with size <8>
+  Actual: [bremgarten, indianapolis, monaco, monza, reims, silverstone, spa]
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+at io.restassured.specification.ResponseSpecification$body$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+at com.api.get.GetNumberOfRaces.numberOfCircuitsYearTest(GetNumberOfRaces.java:47)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numberOfCircuitsYearTest -->
+        <test-method status="PASS" signature="numberOfCircuitsYearWithJSONTest(java.lang.Object, java.lang.Object)[pri:0, instance:com.api.get.GetNumberOfRaces@523884b2]" name="numberOfCircuitsYearWithJSONTest" duration-ms="981" started-at="2020-06-29T05:10:09Z" data-provider="getCircuitYearDataExcel" finished-at="2020-06-29T05:10:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2017]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numberOfCircuitsYearWithJSONTest -->
+        <test-method status="PASS" signature="numberOfCircuitsYearWithJSONTest(java.lang.Object, java.lang.Object)[pri:0, instance:com.api.get.GetNumberOfRaces@523884b2]" name="numberOfCircuitsYearWithJSONTest" duration-ms="806" started-at="2020-06-29T05:10:10Z" data-provider="getCircuitYearDataExcel" finished-at="2020-06-29T05:10:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2016]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numberOfCircuitsYearWithJSONTest -->
+        <test-method status="PASS" signature="numberOfCircuitsYearWithJSONTest(java.lang.Object, java.lang.Object)[pri:0, instance:com.api.get.GetNumberOfRaces@523884b2]" name="numberOfCircuitsYearWithJSONTest" duration-ms="868" started-at="2020-06-29T05:10:11Z" data-provider="getCircuitYearDataExcel" finished-at="2020-06-29T05:10:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1966]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numberOfCircuitsYearWithJSONTest -->
+        <test-method status="FAIL" signature="numberOfCircuitsYearWithJSONTest(java.lang.Object, java.lang.Object)[pri:0, instance:com.api.get.GetNumberOfRaces@523884b2]" name="numberOfCircuitsYearWithJSONTest" duration-ms="783" started-at="2020-06-29T05:10:12Z" data-provider="getCircuitYearDataExcel" finished-at="2020-06-29T05:10:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1950]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [8] but found [7]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [8] but found [7]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:442)
+at com.api.get.GetNumberOfRaces.numberOfCircuitsYearWithJSONTest(GetNumberOfRaces.java:67)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numberOfCircuitsYearWithJSONTest -->
+        <test-method status="PASS" signature="numberOfCircuitsYearWithXMLTest(java.lang.Object, java.lang.Object)[pri:0, instance:com.api.get.GetNumberOfRaces@523884b2]" name="numberOfCircuitsYearWithXMLTest" duration-ms="1934" started-at="2020-06-29T05:10:13Z" data-provider="getCircuitYearDataExcel" finished-at="2020-06-29T05:10:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2017]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numberOfCircuitsYearWithXMLTest -->
+        <test-method status="PASS" signature="numberOfCircuitsYearWithXMLTest(java.lang.Object, java.lang.Object)[pri:0, instance:com.api.get.GetNumberOfRaces@523884b2]" name="numberOfCircuitsYearWithXMLTest" duration-ms="827" started-at="2020-06-29T05:10:15Z" data-provider="getCircuitYearDataExcel" finished-at="2020-06-29T05:10:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2016]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numberOfCircuitsYearWithXMLTest -->
+        <test-method status="PASS" signature="numberOfCircuitsYearWithXMLTest(java.lang.Object, java.lang.Object)[pri:0, instance:com.api.get.GetNumberOfRaces@523884b2]" name="numberOfCircuitsYearWithXMLTest" duration-ms="922" started-at="2020-06-29T05:10:15Z" data-provider="getCircuitYearDataExcel" finished-at="2020-06-29T05:10:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1966]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numberOfCircuitsYearWithXMLTest -->
+        <test-method status="FAIL" signature="numberOfCircuitsYearWithXMLTest(java.lang.Object, java.lang.Object)[pri:0, instance:com.api.get.GetNumberOfRaces@523884b2]" name="numberOfCircuitsYearWithXMLTest" duration-ms="1533" started-at="2020-06-29T05:10:16Z" data-provider="getCircuitYearDataExcel" finished-at="2020-06-29T05:10:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1950]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [8] but found [7]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [8] but found [7]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:442)
+at com.api.get.GetNumberOfRaces.numberOfCircuitsYearWithXMLTest(GetNumberOfRaces.java:79)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numberOfCircuitsYearWithXMLTest -->
+      </class> <!-- com.api.get.GetNumberOfRaces -->
+    </test> <!-- CircuitsAPI test -->
+  </suite> <!-- API Challenge -->
+</testng-results>

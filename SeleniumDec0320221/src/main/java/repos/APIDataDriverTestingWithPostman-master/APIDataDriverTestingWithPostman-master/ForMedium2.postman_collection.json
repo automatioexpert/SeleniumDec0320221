@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "1eb11dc6-7d34-446e-b9b1-d72c8cf7707f",
+		"name": "ForMedium2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "RegisterUser",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\":\"{{email}}\",\n\t\"password\":\"{{password}}\"\n}"
+				},
+				"url": {
+					"raw": "{{endpoint}}",
+					"host": [
+						"{{endpoint}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "59bbeaf1-2f6e-4dfd-be61-6b04221bbf51",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "57daba65-5de0-42ab-8fc8-525720b0370f",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "ca227f25-6855-4634-87cb-82e7bcfc3e4b",
+			"key": "endpoint",
+			"value": "https://reqres.in/api/register",
+			"type": "string"
+		},
+		{
+			"id": "398b50a0-bd79-4979-bcca-9971ea774c09",
+			"key": "email",
+			"value": "eve.holt@reqres.in",
+			"type": "string"
+		},
+		{
+			"id": "01987580-a6c2-4c5a-9773-d13b4d4a5d3d",
+			"key": "password",
+			"value": "pistol",
+			"type": "string"
+		}
+	]
+}
