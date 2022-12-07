@@ -1,0 +1,5 @@
+version: 2.332.1
+command: |
+ java -jar jenkins.war -httpPort=8080
+           
+Go to: http://localhost:8080/login

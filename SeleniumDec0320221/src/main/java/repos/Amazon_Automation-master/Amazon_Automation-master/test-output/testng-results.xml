@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43891" started-at="2018-11-25T02:03:34Z" finished-at="2018-11-25T02:04:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43891" started-at="2018-11-25T02:03:34Z" finished-at="2018-11-25T02:04:18Z">
+      <class name="com.qa.tests.RegisterAccountTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.tests.RegisterAccountTest@d8355a8]" name="setup" is-config="true" duration-ms="15981" started-at="2018-11-25T13:03:36Z" finished-at="2018-11-25T13:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCreateNewAccountTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.RegisterAccountTest@d8355a8]" name="verifyCreateNewAccountTest" duration-ms="5154" started-at="2018-11-25T13:03:52Z" data-provider="getCreateAccountData" finished-at="2018-11-25T13:03:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anandtest1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[anandtest1@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[anandtest1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[anandtest1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewAccountTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.tests.RegisterAccountTest@d8355a8]" name="teardown" is-config="true" duration-ms="2185" started-at="2018-11-25T13:03:57Z" finished-at="2018-11-25T13:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.tests.RegisterAccountTest@d8355a8]" name="setup" is-config="true" duration-ms="13051" started-at="2018-11-25T13:03:59Z" finished-at="2018-11-25T13:04:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCreateNewAccountTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.RegisterAccountTest@d8355a8]" name="verifyCreateNewAccountTest" duration-ms="5838" started-at="2018-11-25T13:04:12Z" data-provider="getCreateAccountData" finished-at="2018-11-25T13:04:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anandtest2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[anandtest2@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[anandtest2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[anandtest2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewAccountTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.tests.RegisterAccountTest@d8355a8]" name="teardown" is-config="true" duration-ms="359" started-at="2018-11-25T13:04:18Z" finished-at="2018-11-25T13:04:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.tests.RegisterAccountTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

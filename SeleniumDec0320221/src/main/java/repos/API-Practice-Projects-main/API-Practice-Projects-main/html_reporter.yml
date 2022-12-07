@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - 'v16.14.2'
+
+install:
+  - npm install -g newman
+  - npm install -g newman-reporter-htmlextra
+  
+script:
+  - To enable reporter --> newman run Simple_Book_API_Collection.json -r htmlextra 
+  - To enable reporter keeping CLI reporter --> newman run Simple_Book_API_Collection.json --reporters cli,htmlextra
+  - To display requests for failed tests --> newman run Simple_Book_API_Collection.json -r htmlextra --reporter-htmlextra-showOnlyFails
+  - To change browser title --> newman run Simple_Book_API_Collection.json -r htmlextra --reporter-browserTitle "My Newman Report"
+  - To change report title on page --> newman run Simple_Book_API_Collection.json -r htmlextra --reporter-title "My Newman Report"
+  - To show console log statements in the collection --> newman run Simple_Book_API_Collection.json -r htmlextra --reporter-htmlextra-logs
+  - To set timestamp in final report's timestamp --> >newman run Simple_Book_API_Collection.json -r htmlextra --reporter-htmlextra-timezone "America/Toronto"

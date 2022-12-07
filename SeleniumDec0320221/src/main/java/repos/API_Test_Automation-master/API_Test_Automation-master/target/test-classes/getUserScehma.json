@@ -1,0 +1,503 @@
+{
+
+  "$schema": "http://json-schema.org/draft-04/schema#",
+
+  "type": "object",
+
+  "properties": {
+
+    "_meta": {
+
+      "type": "object",
+
+      "properties": {
+
+        "success": {
+
+          "type": "boolean"
+
+        },
+
+        "code": {
+
+          "type": "integer"
+
+        },
+
+        "message": {
+
+          "type": "string"
+
+        },
+
+        "totalCount": {
+
+          "type": "integer"
+
+        },
+
+        "pageCount": {
+
+          "type": "integer"
+
+        },
+
+        "currentPage": {
+
+          "type": "integer"
+
+        },
+
+        "perPage": {
+
+          "type": "integer"
+
+        },
+
+        "rateLimit": {
+
+          "type": "object",
+
+          "properties": {
+
+            "limit": {
+
+              "type": "integer"
+
+            },
+
+            "remaining": {
+
+              "type": "integer"
+
+            },
+
+            "reset": {
+
+              "type": "integer"
+
+            }
+
+          },
+
+          "required": [
+
+            "limit",
+
+            "remaining",
+
+            "reset"
+
+          ]
+
+        }
+
+      },
+
+      "required": [
+
+        "success",
+
+        "code",
+
+        "message",
+
+        "totalCount",
+
+        "pageCount",
+
+        "currentPage",
+
+        "perPage",
+
+        "rateLimit"
+
+      ]
+
+    },
+
+    "result": {
+
+      "type": "array",
+
+      "items": [
+
+        {
+
+          "type": "object",
+
+          "properties": {
+
+            "id": {
+
+              "type": "string"
+
+            },
+
+            "first_name": {
+
+              "type": "string"
+
+            },
+
+            "last_name": {
+
+              "type": "string"
+
+            },
+
+            "gender": {
+
+              "type": "string"
+
+            },
+
+            "dob": {
+
+              "type": "string"
+
+            },
+
+            "email": {
+
+              "type": "string"
+
+            },
+
+            "phone": {
+
+              "type": "string"
+
+            },
+
+            "website": {
+
+              "type": "string"
+
+            },
+
+            "address": {
+
+              "type": "string"
+
+            },
+
+            "status": {
+
+              "type": "string"
+
+            },
+
+            "_links": {
+
+              "type": "object",
+
+              "properties": {
+
+                "self": {
+
+                  "type": "object",
+
+                  "properties": {
+
+                    "href": {
+
+                      "type": "string"
+
+                    }
+
+                  },
+
+                  "required": [
+
+                    "href"
+
+                  ]
+
+                },
+
+                "edit": {
+
+                  "type": "object",
+
+                  "properties": {
+
+                    "href": {
+
+                      "type": "string"
+
+                    }
+
+                  },
+
+                  "required": [
+
+                    "href"
+
+                  ]
+
+                },
+
+                "avatar": {
+
+                  "type": "object",
+
+                  "properties": {
+
+                    "href": {
+
+                      "type": "string"
+
+                    }
+
+                  },
+
+                  "required": [
+
+                    "href"
+
+                  ]
+
+                }
+
+              },
+
+              "required": [
+
+                "self",
+
+                "edit",
+
+                "avatar"
+
+              ]
+
+            }
+
+          },
+
+          "required": [
+
+            "id",
+
+            "first_name",
+
+            "last_name",
+
+            "gender",
+
+            "dob",
+
+            "email",
+
+            "phone",
+
+            "website",
+
+            "address",
+
+            "status",
+
+            "_links"
+
+          ]
+
+        },
+
+        {
+
+          "type": "object",
+
+          "properties": {
+
+            "id": {
+
+              "type": "string"
+
+            },
+
+            "first_name": {
+
+              "type": "string"
+
+            },
+
+            "last_name": {
+
+              "type": "string"
+
+            },
+
+            "gender": {
+
+              "type": "string"
+
+            },
+
+            "dob": {
+
+              "type": "string"
+
+            },
+
+            "email": {
+
+              "type": "string"
+
+            },
+
+            "phone": {
+
+              "type": "string"
+
+            },
+
+            "website": {
+
+              "type": "string"
+
+            },
+
+            "address": {
+
+              "type": "string"
+
+            },
+
+            "status": {
+
+              "type": "string"
+
+            },
+
+            "_links": {
+
+              "type": "object",
+
+              "properties": {
+
+                "self": {
+
+                  "type": "object",
+
+                  "properties": {
+
+                    "href": {
+
+                      "type": "string"
+
+                    }
+
+                  },
+
+                  "required": [
+
+                    "href"
+
+                  ]
+
+                },
+
+                "edit": {
+
+                  "type": "object",
+
+                  "properties": {
+
+                    "href": {
+
+                      "type": "string"
+
+                    }
+
+                  },
+
+                  "required": [
+
+                    "href"
+
+                  ]
+
+                },
+
+                "avatar": {
+
+                  "type": "object",
+
+                  "properties": {
+
+                    "href": {
+
+                      "type": "string"
+
+                    }
+
+                  },
+
+                  "required": [
+
+                    "href"
+
+                  ]
+
+                }
+
+              },
+
+              "required": [
+
+                "self",
+
+                "edit",
+
+                "avatar"
+
+              ]
+
+            }
+
+          },
+
+          "required": [
+
+            "id",
+
+            "first_name",
+
+            "last_name",
+
+            "gender",
+
+            "dob",
+
+            "email",
+
+            "phone",
+
+            "website",
+
+            "address",
+
+            "status",
+
+            "_links"
+
+          ]
+
+        }
+
+      ]
+
+    }
+
+  },
+
+  "required": [
+
+    "_meta",
+
+    "result"
+
+  ]
+
+}

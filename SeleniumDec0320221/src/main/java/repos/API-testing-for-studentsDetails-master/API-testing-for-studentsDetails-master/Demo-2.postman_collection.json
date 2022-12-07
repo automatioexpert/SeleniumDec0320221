@@ -1,0 +1,134 @@
+{
+	"info": {
+		"_postman_id": "f3362bc5-516c-4007-b331-96ef5deccee6",
+		"name": "Demo-2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData= pm.response.json()\r",
+							"pm.environment.set(\"studentID\", jsonData.id)\r",
+							"\r",
+							"pm.test(\"Status code is 201\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"First Name Validation\", function () {\r",
+							"    pm.expect(jsonData.first_name).to.eql(\"MD\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Middle Name Validation\", function () {\r",
+							"    pm.expect(jsonData.middle_name).to.eql(\"Saimum\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Last Name Validation\", function () {\r",
+							"    pm.expect(jsonData.last_name).to.eql(\"Islam\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Birthday Validation\", function () {\r",
+							"    pm.expect(jsonData.date_of_birth).to.eql(\"28-08-1997\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n  \"first_name\": \"MD\",\r\n  \"middle_name\": \"Saimum\",\r\n  \"last_name\": \"Islam\",\r\n  \"date_of_birth\": \"28-08-1997\"\r\n}\r\n\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/studentsDetails",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"studentsDetails"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/studentsDetails/{{studentID}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"studentsDetails",
+						"{{studentID}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":{{studentID}},\r\n  \"first_name\": \"MD\",\r\n  \"middle_name\": \"Saharia\",\r\n  \"last_name\": \"Kabir\",\r\n  \"date_of_birth\": \"18-10-2003\"\r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/studentsDetails/{{studentID}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"studentsDetails",
+						"{{studentID}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/studentsDetails/{{studentID}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"studentsDetails",
+						"{{studentID}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

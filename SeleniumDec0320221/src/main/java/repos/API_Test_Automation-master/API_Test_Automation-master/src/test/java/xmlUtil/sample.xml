@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<orders> xmlns="http://www.infonova.com/product/model" page="1" pageSize="50" totalNumberOfPages="1" totalNumberOfEntries="7">
+    <order>
+        <id>189565</id>
+        <partition>201940</partition>
+        <customerId>1182990745</customerId>
+        <priority>4</priority>
+        <orderTypeKey>NEW</orderTypeKey>
+        <creationDate>2019-09-30T16:42:03+10:00</creationDate>
+        <orderStatusKey>COMPLETED</orderStatusKey>
+        <description>Create a new customer&lt;br/&gt;Create bundle offer
+        NBN50 FTTP Unlimited PAYG</description>
+    </order>
+    <order>
+        <id>206562</id>
+        <partition>201947</partition>
+        <customerId>1182990745</customerId>
+        <priority>4</priority>
+        <orderTypeKey>UPGRADE</orderTypeKey>
+        <creationDate>2019-10-30T10:28:33+11:00</creationDate>
+        <orderStatusKey>COMPLETED</orderStatusKey>
+        <description>Change bundle offer to
+        NBN12 FTTP 500GB PAYG</description>
+    </order>
+    <order>
+        <id>215248</id>
+        <partition>201947</partition>
+        <customerId>1182990745</customerId>
+        <priority>4</priority>
+        <orderTypeKey>REPLACEHD</orderTypeKey>
+        <creationDate>2019-11-19T15:40:47+11:00</creationDate>
+        <orderStatusKey>CANCELLED</orderStatusKey>
+        <description>replace hardware</description>
+    </order>
+    <order>
+        <id>215276</id>
+        <partition>201947</partition>
+        <customerId>1182990745</customerId>
+        <priority>4</priority>
+        <orderTypeKey>NEW</orderTypeKey>
+        <creationDate>2019-11-19T16:50:36+11:00</creationDate>
+        <orderStatusKey>COMPLETED</orderStatusKey>
+        <description>Create base offer
+        iiNet Mailbox</description>
+    </order>
+    <order>
+        <id>228615</id>
+        <partition>201951</partition>
+        <customerId>1182990745</customerId>
+        <priority>4</priority>
+        <orderTypeKey>NEW</orderTypeKey>
+        <creationDate>2019-12-16T16:23:44+11:00</creationDate>
+        <orderStatusKey>COMPLETED</orderStatusKey>
+        <description>Create base offer
+        iiNet Mailbox</description>
+    </order>
+    <order>
+        <id>230774</id>
+        <partition>201951</partition>
+        <customerId>1182990745</customerId>
+        <priority>4</priority>
+        <orderTypeKey>NEW</orderTypeKey>
+        <creationDate>2019-12-19T16:09:59+11:00</creationDate>
+        <orderStatusKey>COMPLETED</orderStatusKey>
+        <description>Create base offer
+        iiNet Mailbox</description>
+    </order>
+    <order>
+        <id>231437</id>
+        <partition>201951</partition>
+        <customerId>1182990745</customerId>
+        <priority>4</priority>
+        <orderTypeKey>NEW</orderTypeKey>
+        <creationDate>2019-12-20T13:38:11+11:00</creationDate>
+        <orderStatusKey>COMPLETED</orderStatusKey>
+        <description>Create base offer
+        iiNet Mailbox</description>
+    </order>
+</orders>
