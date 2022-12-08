@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tech Challenge" preserve-order="true" parallel="tests">
+  <listeners>
+	<listener class-name="com.listener.ExtentReportListener"></listener>
+	<listener class-name="com.listener.TestNGReporter"></listener>
+	<listener class-name="com.listener.RetryListener"></listener>
+  </listeners>
+  <test name="Flight booking using Chrome browser">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.tests.UserAcceptanceTest"/>
+    </classes>
+  </test> 
+  <test name="Flight booking using Firefox browser">
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="com.tests.UserAcceptanceTest"/>
+    </classes>
+  </test> 
+</suite>

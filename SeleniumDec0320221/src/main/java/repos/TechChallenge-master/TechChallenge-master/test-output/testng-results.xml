@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+    <line>
+      <![CDATA[Test case passed is : sydney_Brisbane_Bags_1to5]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed is : sydney_Brisbane_Bags_1to5]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed is : verify_domestic_flights_bags]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed is : verify_domestic_flights_bags]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed is : verify_domestic_flights_bags]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed is : verify_domestic_flights_bags]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed is : verify_domestic_flights_bags]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed is : verify_domestic_flights_bags]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed is : verify_domestic_flights_bags]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed is : verify_domestic_flights_bags]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed is : verify_domestic_flights_bags]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed is : verify_domestic_flights_bags]]>
+    </line>
+  </reporter-output>
+  <suite name="Tech Challenge" duration-ms="780839" started-at="2019-07-18T15:08:24Z" finished-at="2019-07-18T15:21:25Z">
+    <groups>
+    </groups>
+    <test name="Flight booking using Chrome browser" duration-ms="750982" started-at="2019-07-18T15:08:24Z" finished-at="2019-07-18T15:20:55Z">
+      <class name="com.tests.UserAcceptanceTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tests.UserAcceptanceTest@543e710e]" name="setup" is-config="true" duration-ms="95765" started-at="2019-07-18T15:08:24Z" finished-at="2019-07-18T15:10:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="sydney_Brisbane_Bags_1to5()[pri:0, instance:com.tests.UserAcceptanceTest@543e710e]" name="sydney_Brisbane_Bags_1to5" duration-ms="187633" started-at="2019-07-18T15:10:00Z" finished-at="2019-07-18T15:13:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case passed is : sydney_Brisbane_Bags_1to5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sydney_Brisbane_Bags_1to5 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.UserAcceptanceTest@543e710e]" name="tearDown" is-config="true" duration-ms="1444" started-at="2019-07-18T15:13:08Z" finished-at="2019-07-18T15:13:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tests.UserAcceptanceTest@543e710e]" name="setup" is-config="true" duration-ms="31746" started-at="2019-07-18T15:13:09Z" finished-at="2019-07-18T15:13:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_domestic_flights_bags(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tests.UserAcceptanceTest@543e710e]" name="verify_domestic_flights_bags" duration-ms="57901" started-at="2019-07-18T15:13:41Z" data-provider="getFlightInfo" finished-at="2019-07-18T15:14:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Brisbane]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Passed]]>
+            </line>
+            <line>
+              <![CDATA[Test case passed is : verify_domestic_flights_bags]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_domestic_flights_bags -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.UserAcceptanceTest@543e710e]" name="tearDown" is-config="true" duration-ms="1597" started-at="2019-07-18T15:14:39Z" finished-at="2019-07-18T15:14:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tests.UserAcceptanceTest@543e710e]" name="setup" is-config="true" duration-ms="23451" started-at="2019-07-18T15:14:40Z" finished-at="2019-07-18T15:15:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_domestic_flights_bags(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tests.UserAcceptanceTest@543e710e]" name="verify_domestic_flights_bags" duration-ms="58578" started-at="2019-07-18T15:15:04Z" data-provider="getFlightInfo" finished-at="2019-07-18T15:16:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Perth]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Melbourne]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Passed]]>
+            </line>
+            <line>
+              <![CDATA[Test case passed is : verify_domestic_flights_bags]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_domestic_flights_bags -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.UserAcceptanceTest@543e710e]" name="tearDown" is-config="true" duration-ms="1047" started-at="2019-07-18T15:16:03Z" finished-at="2019-07-18T15:16:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tests.UserAcceptanceTest@543e710e]" name="setup" is-config="true" duration-ms="20564" started-at="2019-07-18T15:16:04Z" finished-at="2019-07-18T15:16:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_domestic_flights_bags(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tests.UserAcceptanceTest@543e710e]" name="verify_domestic_flights_bags" duration-ms="82638" started-at="2019-07-18T15:16:24Z" data-provider="getFlightInfo" finished-at="2019-07-18T15:17:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Melbourne]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Brisbane]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Passed]]>
+            </line>
+            <line>
+              <![CDATA[Test case passed is : verify_domestic_flights_bags]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_domestic_flights_bags -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.UserAcceptanceTest@543e710e]" name="tearDown" is-config="true" duration-ms="1485" started-at="2019-07-18T15:17:47Z" finished-at="2019-07-18T15:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tests.UserAcceptanceTest@543e710e]" name="setup" is-config="true" duration-ms="26545" started-at="2019-07-18T15:17:48Z" finished-at="2019-07-18T15:18:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_domestic_flights_bags(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tests.UserAcceptanceTest@543e710e]" name="verify_domestic_flights_bags" duration-ms="64744" started-at="2019-07-18T15:18:15Z" data-provider="getFlightInfo" finished-at="2019-07-18T15:19:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Brisbane]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Melbourne]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Passed]]>
+            </line>
+            <line>
+              <![CDATA[Test case passed is : verify_domestic_flights_bags]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_domestic_flights_bags -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.UserAcceptanceTest@543e710e]" name="tearDown" is-config="true" duration-ms="1249" started-at="2019-07-18T15:19:20Z" finished-at="2019-07-18T15:19:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tests.UserAcceptanceTest@543e710e]" name="setup" is-config="true" duration-ms="24258" started-at="2019-07-18T15:19:21Z" finished-at="2019-07-18T15:19:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_domestic_flights_bags(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tests.UserAcceptanceTest@543e710e]" name="verify_domestic_flights_bags" duration-ms="68555" started-at="2019-07-18T15:19:45Z" data-provider="getFlightInfo" finished-at="2019-07-18T15:20:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Perth]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Passed]]>
+            </line>
+            <line>
+              <![CDATA[Test case passed is : verify_domestic_flights_bags]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_domestic_flights_bags -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.UserAcceptanceTest@543e710e]" name="tearDown" is-config="true" duration-ms="1501" started-at="2019-07-18T15:20:54Z" finished-at="2019-07-18T15:20:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.UserAcceptanceTest -->
+    </test> <!-- Flight booking using Chrome browser -->
+    <test name="Flight booking using Firefox browser" duration-ms="780839" started-at="2019-07-18T15:08:24Z" finished-at="2019-07-18T15:21:25Z">
+      <class name="com.tests.UserAcceptanceTest">
+        <test-method status="PASS" signature="testSuitePrerequisites()[pri:0, instance:com.tests.UserAcceptanceTest@70a9f84e]" name="testSuitePrerequisites" is-config="true" duration-ms="31" started-at="2019-07-18T15:08:24Z" finished-at="2019-07-18T15:08:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuitePrerequisites -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tests.UserAcceptanceTest@70a9f84e]" name="setup" is-config="true" duration-ms="29856" started-at="2019-07-18T15:08:24Z" finished-at="2019-07-18T15:08:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="sydney_Brisbane_Bags_1to5()[pri:0, instance:com.tests.UserAcceptanceTest@70a9f84e]" name="sydney_Brisbane_Bags_1to5" duration-ms="167924" started-at="2019-07-18T15:08:54Z" finished-at="2019-07-18T15:11:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case passed is : sydney_Brisbane_Bags_1to5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sydney_Brisbane_Bags_1to5 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.UserAcceptanceTest@70a9f84e]" name="tearDown" is-config="true" duration-ms="6934" started-at="2019-07-18T15:11:42Z" finished-at="2019-07-18T15:11:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tests.UserAcceptanceTest@70a9f84e]" name="setup" is-config="true" duration-ms="36323" started-at="2019-07-18T15:11:55Z" finished-at="2019-07-18T15:12:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_domestic_flights_bags(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tests.UserAcceptanceTest@70a9f84e]" name="verify_domestic_flights_bags" duration-ms="51847" started-at="2019-07-18T15:12:32Z" data-provider="getFlightInfo" finished-at="2019-07-18T15:13:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Brisbane]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Passed]]>
+            </line>
+            <line>
+              <![CDATA[Test case passed is : verify_domestic_flights_bags]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_domestic_flights_bags -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.UserAcceptanceTest@70a9f84e]" name="tearDown" is-config="true" duration-ms="30634" started-at="2019-07-18T15:13:24Z" finished-at="2019-07-18T15:13:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tests.UserAcceptanceTest@70a9f84e]" name="setup" is-config="true" duration-ms="38063" started-at="2019-07-18T15:13:54Z" finished-at="2019-07-18T15:14:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_domestic_flights_bags(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tests.UserAcceptanceTest@70a9f84e]" name="verify_domestic_flights_bags" duration-ms="60888" started-at="2019-07-18T15:14:32Z" data-provider="getFlightInfo" finished-at="2019-07-18T15:15:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Perth]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Melbourne]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Passed]]>
+            </line>
+            <line>
+              <![CDATA[Test case passed is : verify_domestic_flights_bags]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_domestic_flights_bags -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.UserAcceptanceTest@70a9f84e]" name="tearDown" is-config="true" duration-ms="20739" started-at="2019-07-18T15:15:33Z" finished-at="2019-07-18T15:15:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tests.UserAcceptanceTest@70a9f84e]" name="setup" is-config="true" duration-ms="33744" started-at="2019-07-18T15:15:54Z" finished-at="2019-07-18T15:16:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_domestic_flights_bags(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tests.UserAcceptanceTest@70a9f84e]" name="verify_domestic_flights_bags" duration-ms="61474" started-at="2019-07-18T15:16:28Z" data-provider="getFlightInfo" finished-at="2019-07-18T15:17:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Melbourne]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Brisbane]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Passed]]>
+            </line>
+            <line>
+              <![CDATA[Test case passed is : verify_domestic_flights_bags]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_domestic_flights_bags -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.UserAcceptanceTest@70a9f84e]" name="tearDown" is-config="true" duration-ms="16675" started-at="2019-07-18T15:17:29Z" finished-at="2019-07-18T15:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tests.UserAcceptanceTest@70a9f84e]" name="setup" is-config="true" duration-ms="30414" started-at="2019-07-18T15:17:46Z" finished-at="2019-07-18T15:18:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_domestic_flights_bags(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tests.UserAcceptanceTest@70a9f84e]" name="verify_domestic_flights_bags" duration-ms="57376" started-at="2019-07-18T15:18:16Z" data-provider="getFlightInfo" finished-at="2019-07-18T15:19:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Brisbane]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Melbourne]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Passed]]>
+            </line>
+            <line>
+              <![CDATA[Test case passed is : verify_domestic_flights_bags]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_domestic_flights_bags -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.UserAcceptanceTest@70a9f84e]" name="tearDown" is-config="true" duration-ms="26769" started-at="2019-07-18T15:19:14Z" finished-at="2019-07-18T15:19:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tests.UserAcceptanceTest@70a9f84e]" name="setup" is-config="true" duration-ms="30143" started-at="2019-07-18T15:19:40Z" finished-at="2019-07-18T15:20:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_domestic_flights_bags(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tests.UserAcceptanceTest@70a9f84e]" name="verify_domestic_flights_bags" duration-ms="57135" started-at="2019-07-18T15:20:11Z" data-provider="getFlightInfo" finished-at="2019-07-18T15:21:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Perth]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Passed]]>
+            </line>
+            <line>
+              <![CDATA[Test case passed is : verify_domestic_flights_bags]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_domestic_flights_bags -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.UserAcceptanceTest@70a9f84e]" name="tearDown" is-config="true" duration-ms="17360" started-at="2019-07-18T15:21:08Z" finished-at="2019-07-18T15:21:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="onFinish()[pri:0, instance:com.tests.UserAcceptanceTest@70a9f84e]" name="onFinish" is-config="true" duration-ms="0" started-at="2019-07-18T15:21:25Z" finished-at="2019-07-18T15:21:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onFinish -->
+      </class> <!-- com.tests.UserAcceptanceTest -->
+    </test> <!-- Flight booking using Firefox browser -->
+  </suite> <!-- Tech Challenge -->
+</testng-results>
