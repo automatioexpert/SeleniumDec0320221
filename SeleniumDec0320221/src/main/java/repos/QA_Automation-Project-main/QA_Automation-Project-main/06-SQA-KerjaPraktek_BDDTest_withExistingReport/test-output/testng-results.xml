@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="14" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="209439" started-at="2022-08-12T15:48:55 ICT" finished-at="2022-08-12T15:52:25 ICT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerUserSpv.RunnerUserSpv@80503]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="209439" started-at="2022-08-12T15:48:55 ICT" finished-at="2022-08-12T15:52:25 ICT">
+      <class name="runnerUserSpv.RunnerUserSpv">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runnerUserSpv.RunnerUserSpv@80503]" name="setUpClass" is-config="true" duration-ms="420" started-at="2022-08-12T15:48:55 ICT" finished-at="2022-08-12T15:48:56 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerUserSpv.RunnerUserSpv@80503]" name="runScenario" duration-ms="10328" started-at="2022-08-12T15:48:56 ICT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-12T15:49:06 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Valid Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UserSpv Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerUserSpv.RunnerUserSpv@80503]" name="runScenario" duration-ms="8086" started-at="2022-08-12T15:49:06 ICT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-12T15:49:14 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["InValid Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UserSpv Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerUserSpv.RunnerUserSpv@80503]" name="runScenario" duration-ms="7822" started-at="2022-08-12T15:49:14 ICT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-12T15:49:22 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["InValid Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UserSpv Test"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Username atau password tidak ditemukan atau akun anda tidak aktif] but found [Welcome to Tele Kita]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Username atau password tidak ditemukan atau akun anda tidak aktif] but found [Welcome to Tele Kita]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at userSpvStepdefs.userSpv.user_get_alert_notification(userSpv.java:147)
+at ✽.User get alert or notification "Username atau password tidak ditemukan atau akun anda tidak aktif"(file:///C:/Users/ASUS/Desktop/Quality%20Assurance/SQA%20Project/SQA-KerjaPraktek_BDDTest_withExistingReport/src/test/resources/UserSpvFeatureFiles/UserSpv.feature:15)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerUserSpv.RunnerUserSpv@80503]" name="runScenario" duration-ms="7107" started-at="2022-08-12T15:49:22 ICT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-12T15:49:29 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["InValid Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UserSpv Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerUserSpv.RunnerUserSpv@80503]" name="runScenario" duration-ms="19192" started-at="2022-08-12T15:49:29 ICT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-12T15:49:48 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Valid Upload"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UserSpv Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerUserSpv.RunnerUserSpv@80503]" name="runScenario" duration-ms="19312" started-at="2022-08-12T15:49:48 ICT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-12T15:50:07 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["InValid Upload"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UserSpv Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerUserSpv.RunnerUserSpv@80503]" name="runScenario" duration-ms="18327" started-at="2022-08-12T15:50:07 ICT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-12T15:50:26 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Valid distribute"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UserSpv Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerUserSpv.RunnerUserSpv@80503]" name="runScenario" duration-ms="14025" started-at="2022-08-12T15:50:26 ICT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-12T15:50:40 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["InValid distribute"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UserSpv Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerUserSpv.RunnerUserSpv@80503]" name="runScenario" duration-ms="31969" started-at="2022-08-12T15:50:40 ICT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-12T15:51:12 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["InValid distribute"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UserSpv Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerUserSpv.RunnerUserSpv@80503]" name="runScenario" duration-ms="16363" started-at="2022-08-12T15:51:12 ICT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-12T15:51:28 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["InValid distribute"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UserSpv Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerUserSpv.RunnerUserSpv@80503]" name="runScenario" duration-ms="14408" started-at="2022-08-12T15:51:28 ICT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-12T15:51:43 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Valid Edit"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UserSpv Test"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [] but found [Berhasil]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [] but found [Berhasil]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at userSpvStepdefs.userSpv.user_see_data_changed_successfully(userSpv.java:732)
+at ✽.User see data changed successfully(file:///C:/Users/ASUS/Desktop/Quality%20Assurance/SQA%20Project/SQA-KerjaPraktek_BDDTest_withExistingReport/src/test/resources/UserSpvFeatureFiles/UserSpv.feature:94)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerUserSpv.RunnerUserSpv@80503]" name="runScenario" duration-ms="14968" started-at="2022-08-12T15:51:43 ICT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-12T15:51:57 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Valid Edit"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UserSpv Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerUserSpv.RunnerUserSpv@80503]" name="runScenario" duration-ms="12664" started-at="2022-08-12T15:51:57 ICT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-12T15:52:10 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["InValid Edit"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UserSpv Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerUserSpv.RunnerUserSpv@80503]" name="runScenario" duration-ms="13715" started-at="2022-08-12T15:52:10 ICT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-12T15:52:24 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["InValid Edit"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UserSpv Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runnerUserSpv.RunnerUserSpv@80503]" name="tearDownClass" is-config="true" duration-ms="662" started-at="2022-08-12T15:52:24 ICT" finished-at="2022-08-12T15:52:25 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runnerUserSpv.RunnerUserSpv -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

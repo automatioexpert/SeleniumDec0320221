@@ -1,0 +1,225 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Test login with valid Credentials",
+        "description": "",
+        "id": "test-facebook-smoke-scenario;test-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10290844799,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open firefox and start application",
+            "match": {
+              "location": "smokeTest.open_firefox_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 302783864,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid \"kunal@pedagogy.study\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kunal@pedagogy.study",
+                  "offset": 15
+                },
+                {
+                  "val": "password",
+                  "offset": 42
+                }
+              ],
+              "location": "smokeTest.i_enter_valid_and(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1996441226,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should be able to login successfully",
+            "match": {
+              "location": "smokeTest.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 674642903,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "application should be closed",
+            "match": {
+              "location": "smokeTest.application_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Test login with valid Credentials",
+        "description": "",
+        "id": "test-facebook-smoke-scenario;test-login-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6832930441,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open firefox and start application",
+            "match": {
+              "location": "smokeTest.open_firefox_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 284030383,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid \"kunal@pedagogy.study\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kunal@pedagogy.study",
+                  "offset": 15
+                },
+                {
+                  "val": "password",
+                  "offset": 42
+                }
+              ],
+              "location": "smokeTest.i_enter_valid_and(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1625343864,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should be able to login successfully",
+            "match": {
+              "location": "smokeTest.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 673751102,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "application should be closed",
+            "match": {
+              "location": "smokeTest.application_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Test login with valid Credentials",
+        "description": "",
+        "id": "test-facebook-smoke-scenario;test-login-with-valid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6088993166,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open firefox and start application",
+            "match": {
+              "location": "smokeTest.open_firefox_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 281373308,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid \"kunal@pedagogy.study\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kunal@pedagogy.study",
+                  "offset": 15
+                },
+                {
+                  "val": "password",
+                  "offset": 42
+                }
+              ],
+              "location": "smokeTest.i_enter_valid_and(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1362544064,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should be able to login successfully",
+            "match": {
+              "location": "smokeTest.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 670528084,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "application should be closed",
+            "match": {
+              "location": "smokeTest.application_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Facebook smoke scenario",
+    "description": "",
+    "id": "test-facebook-smoke-scenario",
+    "keyword": "Feature",
+    "uri": "Myapplication.feature"
+  }
+]

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27690" started-at="2022-09-02T09:00:45Z" finished-at="2022-09-02T09:01:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27690" started-at="2022-09-02T09:00:45Z" finished-at="2022-09-02T09:01:12Z">
+      <class name="test.TestClass">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.TestClass@5cee5251]" name="setup" is-config="true" duration-ms="13628" started-at="2022-09-02T09:00:45Z" finished-at="2022-09-02T09:00:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="onBoardingPage()[pri:1, instance:test.TestClass@5cee5251]" name="onBoardingPage" duration-ms="1713" started-at="2022-09-02T09:00:58Z" finished-at="2022-09-02T09:01:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onBoardingPage -->
+        <test-method status="PASS" signature="homePage()[pri:2, instance:test.TestClass@5cee5251]" name="homePage" duration-ms="5655" started-at="2022-09-02T09:01:00Z" finished-at="2022-09-02T09:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="SearchBar()[pri:3, instance:test.TestClass@5cee5251]" name="SearchBar" duration-ms="6643" started-at="2022-09-02T09:01:06Z" finished-at="2022-09-02T09:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchBar -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.TestClass@5cee5251]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-09-02T09:01:12Z" finished-at="2022-09-02T09:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.TestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

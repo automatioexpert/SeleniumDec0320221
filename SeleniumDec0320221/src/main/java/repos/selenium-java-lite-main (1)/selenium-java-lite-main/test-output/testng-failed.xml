@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="GoogleTest(failed)">
+    <classes>
+      <class name="com.google.tests.GoogleSearchTest">
+        <methods>
+          <include name="validateGoogleResult" invocation-numbers="1"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="launchURL"/>
+        </methods>
+      </class> <!-- com.google.tests.GoogleSearchTest -->
+    </classes>
+  </test> <!-- GoogleTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

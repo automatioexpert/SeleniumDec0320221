@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MyToys Test Automation Suite" parallel="false">
+
+	<listeners>
+		<listener
+			class-name="com.QA.ExtentReporterListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="Search Functionality Validation Test">
+		<!-- Parameters for the Tests" -->
+		     <parameter name="browser" value="Chrome"></parameter>
+		<!-- <parameter name="browser" value="Edge"></parameter> --> 
+		<!-- <parameter name="browser" value="Firefox"></parameter> -->
+		<parameter name="url" value="https://mytoys.de"></parameter>
+		<parameter name="ExpectedTitle" value="spiderman spielzeug | myToys"></parameter>
+		<parameter name="expectedTitle" value="myToys Online Shop | Einfach alles für Ihr Kind"></parameter>
+		<parameter name="Expected_Title" value="xxxxppppprotractor | myToys"></parameter>
+		<classes>
+			<class name="com.SearchFunctionality.SearchFunctionalityTest"></class> 
+		</classes>
+	</test>
+</suite>
+
+

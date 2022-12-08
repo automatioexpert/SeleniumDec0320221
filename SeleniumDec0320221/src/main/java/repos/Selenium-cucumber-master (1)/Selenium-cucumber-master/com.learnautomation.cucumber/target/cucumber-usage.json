@@ -1,0 +1,106 @@
+[
+  {
+    "source": "^application should be closed$",
+    "steps": [
+      {
+        "name": "application should be closed",
+        "aggregatedDurations": {
+          "average": 0.672974029,
+          "median": 0.673751102
+        },
+        "durations": [
+          {
+            "duration": 0.674642903,
+            "location": "Myapplication.feature:7"
+          },
+          {
+            "duration": 0.673751102,
+            "location": "Myapplication.feature:7"
+          },
+          {
+            "duration": 0.670528084,
+            "location": "Myapplication.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Open firefox and start application$",
+    "steps": [
+      {
+        "name": "Open firefox and start application",
+        "aggregatedDurations": {
+          "average": 7.737589468,
+          "median": 6.832930441
+        },
+        "durations": [
+          {
+            "duration": 10.290844799,
+            "location": "Myapplication.feature:4"
+          },
+          {
+            "duration": 6.832930441,
+            "location": "Myapplication.feature:4"
+          },
+          {
+            "duration": 6.088993166,
+            "location": "Myapplication.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter valid \"([^\"]*)\" and \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter valid \"kunal@pedagogy.study\" and \"password\"",
+        "aggregatedDurations": {
+          "average": 0.289395851,
+          "median": 0.284030383
+        },
+        "durations": [
+          {
+            "duration": 0.302783864,
+            "location": "Myapplication.feature:5"
+          },
+          {
+            "duration": 0.284030383,
+            "location": "Myapplication.feature:5"
+          },
+          {
+            "duration": 0.281373308,
+            "location": "Myapplication.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should be able to login successfully$",
+    "steps": [
+      {
+        "name": "user should be able to login successfully",
+        "aggregatedDurations": {
+          "average": 1.661443051,
+          "median": 1.625343864
+        },
+        "durations": [
+          {
+            "duration": 1.996441226,
+            "location": "Myapplication.feature:6"
+          },
+          {
+            "duration": 1.625343864,
+            "location": "Myapplication.feature:6"
+          },
+          {
+            "duration": 1.362544064,
+            "location": "Myapplication.feature:6"
+          }
+        ]
+      }
+    ]
+  }
+]

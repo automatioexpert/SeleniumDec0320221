@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="test" verbose="2" parallel="instances" thread-count="500" configfailurepolicy="continue">
+
+    <listeners>
+        <listener class-name="Listener.RetryListener"/>
+    </listeners>
+
+    <test name="Run Test Execution via maven">
+        <classes>
+            <class name="Runner.TestRunner"/>
+        </classes>
+    </test>
+
+
+</suite>

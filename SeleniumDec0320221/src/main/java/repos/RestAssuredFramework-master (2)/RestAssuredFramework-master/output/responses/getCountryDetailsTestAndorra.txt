@@ -1,0 +1,70 @@
+[
+    {
+        "name": "Andorra",
+        "topLevelDomain": [
+            ".ad"
+        ],
+        "alpha2Code": "AD",
+        "alpha3Code": "AND",
+        "callingCodes": [
+            "376"
+        ],
+        "capital": "Andorra la Vella",
+        "altSpellings": [
+            "AD",
+            "Principality of Andorra",
+            "Principat d'Andorra"
+        ],
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "population": 78014,
+        "latlng": [
+            42.5,
+            1.5
+        ],
+        "demonym": "Andorran",
+        "area": 468.0,
+        "gini": null,
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "borders": [
+            "FRA",
+            "ESP"
+        ],
+        "nativeName": "Andorra",
+        "numericCode": "020",
+        "currencies": [
+            {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "ca",
+                "iso639_2": "cat",
+                "name": "Catalan",
+                "nativeName": "català"
+            }
+        ],
+        "translations": {
+            "de": "Andorra",
+            "es": "Andorra",
+            "fr": "Andorre",
+            "ja": "アンドラ",
+            "it": "Andorra",
+            "br": "Andorra",
+            "pt": "Andorra",
+            "nl": "Andorra",
+            "hr": "Andora",
+            "fa": "آندورا"
+        },
+        "flag": "https://restcountries.eu/data/and.svg",
+        "regionalBlocs": [
+            
+        ],
+        "cioc": "AND"
+    }
+]

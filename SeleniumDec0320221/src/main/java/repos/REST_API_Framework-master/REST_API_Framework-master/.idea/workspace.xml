@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="802aca00-ae46-4ea7-95a8-ed09faf7da34" name="Changes" comment="TestDeleteUser test is created Successfully.">
+      <change afterPath="$PROJECT_DIR$/allure-results/0143b1f7-90e7-49a6-b64b-16aa7d593727-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0323af55-261f-40ab-9b20-b52e218b2512-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/042169df-6392-480d-b471-fb72941d1c69-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/12707054-baee-4ddc-8b66-40d8ccce0801-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/145c2c32-c50a-4216-b162-7d7f6110c805-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/156df016-f11b-47d8-9288-50fb2484d4a1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/17bff2f4-09c4-4348-8e04-d0637b8a72c6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/191d7855-e64e-49ac-95ca-23628c08fa57-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/27b1e1e6-2db0-41bb-9975-7932b3f48a24-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2bddad91-29b4-45a8-a348-23784e85d6a2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/339dfabd-56a6-4041-adb5-0615f6bfc0a4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3bfe798d-a2ad-490b-a910-8dfc26bf8d7f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4e1a5fe9-d7c8-4cdf-b357-d9f9b60d17ee-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5327c8b1-5041-45d8-b17e-669994bb7705-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5b36adb2-8afe-4916-8c83-393bb3d51f04-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5da966c9-f3b8-4fa9-8dec-88506358253f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6112ea23-eecd-4073-97ef-a6b040e90d4b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/76c81819-79cd-4ec0-82eb-41a140e2d090-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/78ceb9c4-9abe-4876-b203-29cef7f4d3fd-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/833fbf2f-dc81-4847-9852-d5fafbed1a40-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8e6e6ef4-6ddd-4a4c-81a5-6fd8d37701a2-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/96da1417-2d8c-4966-a998-084ad944a3b9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a1b3b415-9f0a-4f1c-a61a-544d4173bbcf-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a3bdf774-c1ac-4aec-afa9-c49e229d656c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/abb03ad4-bcec-45c3-b5cc-e928c99746e2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/aca87b27-b978-4c2d-b020-5e1731bd48a9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b38cb8f6-c608-43a8-b663-1f6233e56b1f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b6555a73-7f47-4769-853b-93cfce8120a7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b72be563-eec5-433a-a504-c1991e0652ab-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b8e0c1d3-1ddd-47ba-a1ec-a6ccaf23d04f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/bf2f71b5-8847-408c-9887-f6f0a4d77459-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c0b69658-69cb-4dbf-9eac-40a19f8106f9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c24b5d11-a479-4698-bde3-1ae1bd769f95-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c4d26679-3750-4cf9-ae2d-2ecb4ce36f5e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c6771112-16eb-453f-8811-2b462eeaf8fc-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/cb3e5cf4-5f39-4417-9c54-bc247e03d381-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d040022f-8755-40f4-b220-4ffad2bdd8c0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d6941d0b-ceae-45c0-a752-b9425df51d2a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e1c7c4b5-b95f-479a-b557-fbdfc989d2d0-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e4518684-5428-4d38-9925-e59c679f4732-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ec59cdd3-8596-4c58-9b20-2d2edf41d421-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f7a840e1-ebe2-4018-8ff9-87e679b5e148-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/fa74cd89-a16d-41c6-8786-16376a7ad170-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ff23e0bd-3190-43a2-8630-578501eac023-container.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2I1qnhOisDgHXqRMRGUqvTxHrvb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="RunManager" selected="TestNG.TestPatchUser">
+    <configuration name="TestDeleteUser.DeleteUserTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="REST_API_Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.AllApiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.AllApiTests" />
+      <option name="MAIN_CLASS_NAME" value="com.AllApiTests.TestDeleteUser" />
+      <option name="METHOD_NAME" value="DeleteUserTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPatchUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="REST_API_Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.AllApiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.AllApiTests" />
+      <option name="MAIN_CLASS_NAME" value="com.AllApiTests.TestPatchUser" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestPatchUser" />
+        <item itemvalue="TestNG.TestDeleteUser.DeleteUserTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="802aca00-ae46-4ea7-95a8-ed09faf7da34" name="Changes" comment="" />
+      <created>1669359608243</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669359608243</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Project Initiation.">
+      <created>1669381021633</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669381021633</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Configuration Done.">
+      <created>1669382794837</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669382794837</updated>
+    </task>
+    <task id="LOCAL-00003" summary="EndPoints Created.">
+      <created>1669383313283</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669383313283</updated>
+    </task>
+    <task id="LOCAL-00004" summary="EndPoints Created.">
+      <created>1669383392267</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669383392267</updated>
+    </task>
+    <task id="LOCAL-00005" summary="PojoClass File Added.">
+      <created>1669384999332</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669384999332</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1st Test Added.">
+      <created>1669397901959</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669397901959</updated>
+    </task>
+    <task id="LOCAL-00007" summary="First Test Done.">
+      <created>1669399676872</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669399676872</updated>
+    </task>
+    <task id="LOCAL-00008" summary="TestPostUser test is created Successfully.">
+      <created>1669439219229</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669439219229</updated>
+    </task>
+    <task id="LOCAL-00009" summary="TestDeleteUser test is created Successfully.">
+      <created>1669455218400</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669455218400</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Project Initiation." />
+    <MESSAGE value="Configuration Done." />
+    <MESSAGE value="EndPoints Created." />
+    <MESSAGE value="PojoClass File Added." />
+    <MESSAGE value="1st Test Added." />
+    <MESSAGE value="First Test Done." />
+    <MESSAGE value="TestPostUser test is created Successfully." />
+    <MESSAGE value="TestDeleteUser test is created Successfully." />
+    <option name="LAST_COMMIT_MESSAGE" value="TestDeleteUser test is created Successfully." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/RestApi/Payload/PayloadHelper.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

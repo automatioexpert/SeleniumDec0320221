@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2492" started-at="2022-07-30T10:43:47 ICT" finished-at="2022-07-30T10:43:50 ICT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2492" started-at="2022-07-30T10:43:47 ICT" finished-at="2022-07-30T10:43:50 ICT">
+      <class name="com.tokopedia.searchProduct">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.tokopedia.searchProduct@68bbe345]" name="setupDriver" is-config="true" duration-ms="5777" started-at="2022-07-30T10:43:41 ICT" finished-at="2022-07-30T10:43:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="searchProductTest()[pri:0, instance:com.tokopedia.searchProduct@68bbe345]" name="searchProductTest" duration-ms="2436" started-at="2022-07-30T10:43:47 ICT" description="Test date 30-July-22" finished-at="2022-07-30T10:43:50 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.tokopedia.searchProduct@68bbe345]" name="closeDriver" is-config="true" duration-ms="4312" started-at="2022-07-30T10:43:50 ICT" finished-at="2022-07-30T10:43:54 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.tokopedia.searchProduct -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

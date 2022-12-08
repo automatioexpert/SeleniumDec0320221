@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Bonify Test Automation Suite" parallel="false">
+
+	<listeners>
+		<listener
+			class-name="com.bonify.QA.ExtentReporterListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="LoginPage and IFrame validation Test">
+		<!-- Parameters for the Tests" -->
+		<!-- <parameter name="browser" value="Chrome"></parameter> -->
+		<!-- <parameter name="browser" value="Edge"></parameter> -->
+		<parameter name="browser" value="Firefox"></parameter>
+		<parameter name="url" value="https://my.bonify.de"></parameter>
+		<parameter name="expectedTitle" value="bonify"></parameter>
+		<parameter name="ExpectedTitle" value="Impressum bonify"></parameter>
+		<parameter name="Expected_Title" value="bonify - AGB"></parameter>
+		<parameter name="expectedurl"
+			value="https://www.bonify.de/datenschutz"></parameter>
+		<parameter name="LoginTitle" value="bonify"></parameter>
+		<parameter name="href" value="zum Anbieter"></parameter>
+		<classes>
+			<class name="com.bonify.QA.Testcases.LoginPageTest"></class>
+			<class name="com.bonify.QA.Testcases.IFrameTest"></class>
+		</classes>
+	</test>
+</suite>
+
+

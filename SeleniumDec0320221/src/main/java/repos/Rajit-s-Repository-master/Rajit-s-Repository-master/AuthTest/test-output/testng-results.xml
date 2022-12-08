@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6696" started-at="2020-06-18T16:43:23 IST" finished-at="2020-06-18T16:43:30 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6696" started-at="2020-06-18T16:43:23 IST" finished-at="2020-06-18T16:43:30 IST">
+      <class name="Auth_Tests.AuthFlow_Test">
+        <test-method status="PASS" signature="steup()[pri:0, instance:Auth_Tests.AuthFlow_Test@3a883ce7]" name="steup" is-config="true" duration-ms="12" started-at="2020-06-18T16:43:23 IST" finished-at="2020-06-18T16:43:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- steup -->
+        <test-method status="PASS" signature="ClientRegistrationValidation()[pri:1, instance:Auth_Tests.AuthFlow_Test@3a883ce7]" name="ClientRegistrationValidation" duration-ms="5084" started-at="2020-06-18T16:43:23 IST" description="Verify that the client admin registration can be performed successfully." finished-at="2020-06-18T16:43:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClientRegistrationValidation -->
+        <test-method status="PASS" signature="steup()[pri:0, instance:Auth_Tests.AuthFlow_Test@3a883ce7]" name="steup" is-config="true" duration-ms="2" started-at="2020-06-18T16:43:28 IST" finished-at="2020-06-18T16:43:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- steup -->
+        <test-method status="PASS" signature="gettokenvalidation()[pri:2, instance:Auth_Tests.AuthFlow_Test@3a883ce7]" name="gettokenvalidation" duration-ms="828" started-at="2020-06-18T16:43:28 IST" description="Verify that the user is able to generate the token" finished-at="2020-06-18T16:43:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettokenvalidation -->
+        <test-method status="PASS" signature="steup()[pri:0, instance:Auth_Tests.AuthFlow_Test@3a883ce7]" name="steup" is-config="true" duration-ms="1" started-at="2020-06-18T16:43:29 IST" finished-at="2020-06-18T16:43:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- steup -->
+        <test-method status="PASS" signature="usercreation()[pri:3, instance:Auth_Tests.AuthFlow_Test@3a883ce7]" name="usercreation" duration-ms="338" started-at="2020-06-18T16:43:29 IST" description="Verify that the client admin user is able to register new user successfully." finished-at="2020-06-18T16:43:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usercreation -->
+        <test-method status="PASS" signature="steup()[pri:0, instance:Auth_Tests.AuthFlow_Test@3a883ce7]" name="steup" is-config="true" duration-ms="1" started-at="2020-06-18T16:43:29 IST" finished-at="2020-06-18T16:43:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- steup -->
+        <test-method status="PASS" signature="UserGroupDetails()[pri:4, instance:Auth_Tests.AuthFlow_Test@3a883ce7]" name="UserGroupDetails" duration-ms="181" started-at="2020-06-18T16:43:29 IST" description="Verify that the newly created user doesnt have any group in it." finished-at="2020-06-18T16:43:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserGroupDetails -->
+        <test-method status="PASS" signature="steup()[pri:0, instance:Auth_Tests.AuthFlow_Test@3a883ce7]" name="steup" is-config="true" duration-ms="1" started-at="2020-06-18T16:43:30 IST" finished-at="2020-06-18T16:43:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- steup -->
+        <test-method status="PASS" signature="DashboardGroupResponseValidation()[pri:5, instance:Auth_Tests.AuthFlow_Test@3a883ce7]" name="DashboardGroupResponseValidation" duration-ms="157" started-at="2020-06-18T16:43:30 IST" description="Verify that if an user has dashboard groups it is displayed in response" finished-at="2020-06-18T16:43:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashboardGroupResponseValidation -->
+      </class> <!-- Auth_Tests.AuthFlow_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

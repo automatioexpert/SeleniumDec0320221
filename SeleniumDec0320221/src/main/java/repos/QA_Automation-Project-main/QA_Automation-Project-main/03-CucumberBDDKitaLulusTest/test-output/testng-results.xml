@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22299" started-at="2022-07-27T23:01:30 ICT" finished-at="2022-07-27T23:01:52 ICT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerBookmark@1563da5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerOpenApp@ea1a8d5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerSearchVacancy@528931cf]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="22299" started-at="2022-07-27T23:01:30 ICT" finished-at="2022-07-27T23:01:52 ICT">
+      <class name="runner.RunnerSearchVacancy">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.RunnerSearchVacancy@528931cf]" name="setUpClass" is-config="true" duration-ms="358" started-at="2022-07-27T23:01:30 ICT" finished-at="2022-07-27T23:01:30 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerSearchVacancy@528931cf]" name="runScenario" duration-ms="9796" started-at="2022-07-27T23:01:30 ICT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-27T23:01:40 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["search job vacancy"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search Vacancy Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RunnerSearchVacancy@528931cf]" name="tearDownClass" is-config="true" duration-ms="123" started-at="2022-07-27T23:01:40 ICT" finished-at="2022-07-27T23:01:40 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunnerSearchVacancy -->
+      <class name="runner.RunnerOpenApp">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.RunnerOpenApp@ea1a8d5]" name="setUpClass" is-config="true" duration-ms="13" started-at="2022-07-27T23:01:40 ICT" finished-at="2022-07-27T23:01:40 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerOpenApp@ea1a8d5]" name="runScenario" duration-ms="7137" started-at="2022-07-27T23:01:40 ICT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-27T23:01:48 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["openApp"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OpenApp Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RunnerOpenApp@ea1a8d5]" name="tearDownClass" is-config="true" duration-ms="25" started-at="2022-07-27T23:01:48 ICT" finished-at="2022-07-27T23:01:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunnerOpenApp -->
+      <class name="runner.RunnerBookmark">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.RunnerBookmark@1563da5]" name="setUpClass" is-config="true" duration-ms="20" started-at="2022-07-27T23:01:48 ICT" finished-at="2022-07-27T23:01:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerBookmark@1563da5]" name="runScenario" duration-ms="4712" started-at="2022-07-27T23:01:48 ICT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-27T23:01:52 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["search job vacancy"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bookmark Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RunnerBookmark@1563da5]" name="tearDownClass" is-config="true" duration-ms="44" started-at="2022-07-27T23:01:52 ICT" finished-at="2022-07-27T23:01:52 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunnerBookmark -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

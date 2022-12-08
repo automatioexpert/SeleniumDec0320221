@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[<a target='_blank' href=' C:\Users\ASUS\Desktop\Quality Assurance\SQA Project\02-KitaLulusSeleniumTest\test-output\searchVacancy.png'>'<img src='C:\Users\ASUS\Desktop\Quality Assurance\SQA Project\02-KitaLulusSeleniumTest\test-output\searchVacancy.png'width=100 height=100/></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a target='_blank' href=' C:\Users\ASUS\Desktop\Quality Assurance\SQA Project\02-KitaLulusSeleniumTest\test-output\bookmark.png'>'<img src='C:\Users\ASUS\Desktop\Quality Assurance\SQA Project\02-KitaLulusSeleniumTest\test-output\bookmark.png'width=100 height=100/></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a target='_blank' href=' C:\Users\ASUS\Desktop\Quality Assurance\SQA Project\02-KitaLulusSeleniumTest\test-output\openApp.png'>'<img src='C:\Users\ASUS\Desktop\Quality Assurance\SQA Project\02-KitaLulusSeleniumTest\test-output\openApp.png'width=100 height=100/></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2844" started-at="2022-08-13T10:28:23 ICT" finished-at="2022-08-13T10:28:26 ICT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2844" started-at="2022-08-13T10:28:23 ICT" finished-at="2022-08-13T10:28:26 ICT">
+      <class name="com.kitalulus.searchVacancy">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.kitalulus.searchVacancy@7494e528]" name="setupDriver" is-config="true" duration-ms="3612" started-at="2022-08-13T10:28:19 ICT" finished-at="2022-08-13T10:28:23 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="openAppTest()[pri:0, instance:com.kitalulus.searchVacancy@7494e528]" name="openAppTest" duration-ms="2213" started-at="2022-08-13T10:28:23 ICT" description="Test date 26-July-22" finished-at="2022-08-13T10:28:25 ICT">
+          <reporter-output>
+            <line>
+              <![CDATA[<a target='_blank' href=' C:\Users\ASUS\Desktop\Quality Assurance\SQA Project\02-KitaLulusSeleniumTest\test-output\searchVacancy.png'>'<img src='C:\Users\ASUS\Desktop\Quality Assurance\SQA Project\02-KitaLulusSeleniumTest\test-output\searchVacancy.png'width=100 height=100/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openAppTest -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.kitalulus.searchVacancy@7494e528]" name="closeDriver" is-config="true" duration-ms="484" started-at="2022-08-13T10:28:26 ICT" finished-at="2022-08-13T10:28:27 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.kitalulus.searchVacancy -->
+      <class name="com.kitalulus.bookmarkLove">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.kitalulus.bookmarkLove@4bbfb90a]" name="setupDriver" is-config="true" duration-ms="4871" started-at="2022-08-13T10:28:11 ICT" finished-at="2022-08-13T10:28:16 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="bookmarkTest()[pri:0, instance:com.kitalulus.bookmarkLove@4bbfb90a]" name="bookmarkTest" duration-ms="315" started-at="2022-08-13T10:28:25 ICT" description="Test date 26-July-22" finished-at="2022-08-13T10:28:25 ICT">
+          <reporter-output>
+            <line>
+              <![CDATA[<a target='_blank' href=' C:\Users\ASUS\Desktop\Quality Assurance\SQA Project\02-KitaLulusSeleniumTest\test-output\bookmark.png'>'<img src='C:\Users\ASUS\Desktop\Quality Assurance\SQA Project\02-KitaLulusSeleniumTest\test-output\bookmark.png'width=100 height=100/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookmarkTest -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.kitalulus.bookmarkLove@4bbfb90a]" name="closeDriver" is-config="true" duration-ms="69" started-at="2022-08-13T10:28:26 ICT" finished-at="2022-08-13T10:28:26 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.kitalulus.bookmarkLove -->
+      <class name="com.kitalulus.openApp">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.kitalulus.openApp@7c29daf3]" name="setupDriver" is-config="true" duration-ms="2913" started-at="2022-08-13T10:28:16 ICT" finished-at="2022-08-13T10:28:19 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="openAppTest()[pri:0, instance:com.kitalulus.openApp@7c29daf3]" name="openAppTest" duration-ms="247" started-at="2022-08-13T10:28:25 ICT" description="Test date 26-July-22" finished-at="2022-08-13T10:28:26 ICT">
+          <reporter-output>
+            <line>
+              <![CDATA[<a target='_blank' href=' C:\Users\ASUS\Desktop\Quality Assurance\SQA Project\02-KitaLulusSeleniumTest\test-output\openApp.png'>'<img src='C:\Users\ASUS\Desktop\Quality Assurance\SQA Project\02-KitaLulusSeleniumTest\test-output\openApp.png'width=100 height=100/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openAppTest -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.kitalulus.openApp@7c29daf3]" name="closeDriver" is-config="true" duration-ms="643" started-at="2022-08-13T10:28:26 ICT" finished-at="2022-08-13T10:28:26 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.kitalulus.openApp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

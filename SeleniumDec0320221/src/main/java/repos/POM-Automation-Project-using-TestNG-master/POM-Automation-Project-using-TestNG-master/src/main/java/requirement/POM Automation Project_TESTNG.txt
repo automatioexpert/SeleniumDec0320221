@@ -1,0 +1,20 @@
+Application URL: http://techfios.com/test/105/
+
+Project details: An automation project built on POM design pattern, using TestNG
+Project Build Tool: Maven
+Project Framework: Data Driven Framework using Excel
+Testing Framework: TestNG
+Design Pattern: Page Object Model
+Reporting System: Extent Reports
+
+Test 1: Validate when the toggle all check box is CHECKED, all check boxes for list items are also CHECKED ON.
+
+Test 2: Validate that a single list item could be removed using the remove button when a single checkbox is selected.
+
+Test 3: Validate that all list item could be removed using the remove button and when "Toggle All" functionality is on.
+
+Test 4: Validate a user is able to add a category and once the category is added it should display.
+
+Test 5: Validate a user is not able to add a duplicated category. If it does then the following message will display: "The category you want to add already exists: <duplicated category name>."
+
+Test 6: Validate the month drop down has all the months (jan, feb, mar ...) in the Due Date dropdown section.

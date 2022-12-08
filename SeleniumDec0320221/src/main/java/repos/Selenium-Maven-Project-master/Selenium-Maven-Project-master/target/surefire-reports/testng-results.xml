@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MyToys Test Automation Suite" duration-ms="203611" started-at="2019-02-17T14:21:35Z" finished-at="2019-02-17T14:24:58Z">
+    <groups>
+    </groups>
+    <test name="Search Functionality Validation Test" duration-ms="203611" started-at="2019-02-17T14:21:35Z" finished-at="2019-02-17T14:24:58Z">
+      <class name="com.SearchFunctionality.SearchFunctionalityTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.SearchFunctionality.SearchFunctionalityTest@1f554b06]" name="setUp" is-config="true" duration-ms="62242" started-at="2019-02-17T14:21:35Z" finished-at="2019-02-17T14:22:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://mytoys.de]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="noDataTest(java.lang.String)[pri:1, instance:com.SearchFunctionality.SearchFunctionalityTest@1f554b06]" name="noDataTest" duration-ms="647" started-at="2019-02-17T14:22:37Z" finished-at="2019-02-17T14:22:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[myToys Online Shop | Einfach alles für Ihr Kind]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noDataTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SearchFunctionality.SearchFunctionalityTest@1f554b06]" name="tearDown" is-config="true" duration-ms="410" started-at="2019-02-17T14:22:38Z" finished-at="2019-02-17T14:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.SearchFunctionality.SearchFunctionalityTest@1f554b06]" name="setUp" is-config="true" duration-ms="51713" started-at="2019-02-17T14:22:38Z" finished-at="2019-02-17T14:23:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://mytoys.de]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validDataTest(java.lang.String)[pri:2, instance:com.SearchFunctionality.SearchFunctionalityTest@1f554b06]" name="validDataTest" duration-ms="19204" started-at="2019-02-17T14:23:30Z" finished-at="2019-02-17T14:23:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[spiderman spielzeug | myToys]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDataTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SearchFunctionality.SearchFunctionalityTest@1f554b06]" name="tearDown" is-config="true" duration-ms="351" started-at="2019-02-17T14:23:49Z" finished-at="2019-02-17T14:23:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.SearchFunctionality.SearchFunctionalityTest@1f554b06]" name="setUp" is-config="true" duration-ms="53887" started-at="2019-02-17T14:23:49Z" finished-at="2019-02-17T14:24:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://mytoys.de]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidDataTest(java.lang.String)[pri:3, instance:com.SearchFunctionality.SearchFunctionalityTest@1f554b06]" name="invalidDataTest" duration-ms="14743" started-at="2019-02-17T14:24:43Z" finished-at="2019-02-17T14:24:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xxxxppppprotractor | myToys]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDataTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SearchFunctionality.SearchFunctionalityTest@1f554b06]" name="tearDown" is-config="true" duration-ms="376" started-at="2019-02-17T14:24:58Z" finished-at="2019-02-17T14:24:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SearchFunctionality.SearchFunctionalityTest -->
+    </test> <!-- Search Functionality Validation Test -->
+  </suite> <!-- MyToys Test Automation Suite -->
+</testng-results>

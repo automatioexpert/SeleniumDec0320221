@@ -1,0 +1,27 @@
+Feature: Test Facebook smoke scenario
+
+  Scenario Outline: Test login with valid Credentials [90m# Myapplication.feature:3[0m
+    [36mGiven [0m[36mOpen firefox and start application[0m
+    [36mWhen [0m[36mI enter valid "<username>" and "password"[0m
+    [36mThen [0m[36muser should be able to login successfully[0m
+    [36mThen [0m[36mapplication should be closed[0m
+
+    Examples: 
+
+  Scenario Outline: Test login with valid Credentials        [90m# Myapplication.feature:12[0m
+    [32mGiven [0m[32mOpen firefox and start application[0m                 [90m# smokeTest.open_firefox_and_start_application()[0m
+    [32mWhen [0m[32mI enter valid "[0m[32m[1mkunal@pedagogy.study[0m[32m" and "[0m[32m[1mpassword[0m[32m"[0m [90m# smokeTest.i_enter_valid_and(String,String)[0m
+    [32mThen [0m[32muser should be able to login successfully[0m           [90m# smokeTest.user_should_be_able_to_login_successfully()[0m
+    [32mThen [0m[32mapplication should be closed[0m                        [90m# smokeTest.application_should_be_closed()[0m
+
+  Scenario Outline: Test login with valid Credentials        [90m# Myapplication.feature:13[0m
+    [32mGiven [0m[32mOpen firefox and start application[0m                 [90m# smokeTest.open_firefox_and_start_application()[0m
+    [32mWhen [0m[32mI enter valid "[0m[32m[1mkunal@pedagogy.study[0m[32m" and "[0m[32m[1mpassword[0m[32m"[0m [90m# smokeTest.i_enter_valid_and(String,String)[0m
+    [32mThen [0m[32muser should be able to login successfully[0m           [90m# smokeTest.user_should_be_able_to_login_successfully()[0m
+    [32mThen [0m[32mapplication should be closed[0m                        [90m# smokeTest.application_should_be_closed()[0m
+
+  Scenario Outline: Test login with valid Credentials        [90m# Myapplication.feature:14[0m
+    [32mGiven [0m[32mOpen firefox and start application[0m                 [90m# smokeTest.open_firefox_and_start_application()[0m
+    [32mWhen [0m[32mI enter valid "[0m[32m[1mkunal@pedagogy.study[0m[32m" and "[0m[32m[1mpassword[0m[32m"[0m [90m# smokeTest.i_enter_valid_and(String,String)[0m
+    [32mThen [0m[32muser should be able to login successfully[0m           [90m# smokeTest.user_should_be_able_to_login_successfully()[0m
+    [32mThen [0m[32mapplication should be closed[0m                        [90m# smokeTest.application_should_be_closed()[0m

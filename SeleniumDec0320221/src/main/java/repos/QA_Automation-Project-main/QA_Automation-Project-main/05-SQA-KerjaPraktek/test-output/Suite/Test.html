@@ -1,0 +1,161 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Aug 06 11:27:55 ICT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>139 seconds (139829 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.RunnerLogin.runScenario()'><b>runScenario</b><br>Test class: runner.RunnerLogin<br>Test method: Runs Cucumber Scenarios<br>Parameters: "InValid Login", "login Test"</td>
+<td><div><pre>java.lang.AssertionError: expected [Username atau password tidak ditemukan atau akun anda tidak aktif] but found [Welcome to Tele Kita]
+	at definitionLogin.Login.user_get_alert_notification(Login.java:71)
+	at ✽.User get alert or notification &quot;Username atau password tidak ditemukan atau akun anda tidak aktif&quot;(file:///C:/Users/ASUS/Desktop/Quality%20Assurance/SQA%20Project/SQA-KerjaPraktek/src/test/resources/LoginFeatureFiles/login.feature:15)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1215029765", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1215029765'><pre>java.lang.AssertionError: expected [Username atau password tidak ditemukan atau akun anda tidak aktif] but found [Welcome to Tele Kita]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at definitionLogin.Login.user_get_alert_notification(Login.java:71)
+	at ✽.User get alert or notification &quot;Username atau password tidak ditemukan atau akun anda tidak aktif&quot;(file:///C:/Users/ASUS/Desktop/Quality%20Assurance/SQA%20Project/SQA-KerjaPraktek/src/test/resources/LoginFeatureFiles/login.feature:15)
+</pre></div></td>
+<td>6</td>
+<td>runner.RunnerLogin@11438d26</td></tr>
+<tr>
+<td title='runner.RunnerLogin.runScenario()'><b>runScenario</b><br>Test class: runner.RunnerLogin<br>Test method: Runs Cucumber Scenarios<br>Parameters: "InValid Login", "login Test"</td>
+<td><div><pre>java.lang.AssertionError: expected [Username atau password tidak ditemukan atau akun anda tidak aktif] but found [Welcome to Tele Kita]
+	at definitionLogin.Login.user_get_alert_notification(Login.java:71)
+	at ✽.User get alert or notification &quot;Username atau password tidak ditemukan atau akun anda tidak aktif&quot;(file:///C:/Users/ASUS/Desktop/Quality%20Assurance/SQA%20Project/SQA-KerjaPraktek/src/test/resources/LoginFeatureFiles/login.feature:15)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace485475507", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace485475507'><pre>java.lang.AssertionError: expected [Username atau password tidak ditemukan atau akun anda tidak aktif] but found [Welcome to Tele Kita]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at definitionLogin.Login.user_get_alert_notification(Login.java:71)
+	at ✽.User get alert or notification &quot;Username atau password tidak ditemukan atau akun anda tidak aktif&quot;(file:///C:/Users/ASUS/Desktop/Quality%20Assurance/SQA%20Project/SQA-KerjaPraktek/src/test/resources/LoginFeatureFiles/login.feature:15)
+</pre></div></td>
+<td>6</td>
+<td>runner.RunnerLogin@11438d26</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.RunnerLogin.runScenario()'><b>runScenario</b><br>Test class: runner.RunnerLogin<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Valid Login", "login Test"</td>
+<td></td>
+<td>7</td>
+<td>runner.RunnerLogin@11438d26</td></tr>
+<tr>
+<td title='runner.RunnerLogin.runScenario()'><b>runScenario</b><br>Test class: runner.RunnerLogin<br>Test method: Runs Cucumber Scenarios<br>Parameters: "InValid Login", "login Test"</td>
+<td></td>
+<td>6</td>
+<td>runner.RunnerLogin@11438d26</td></tr>
+<tr>
+<td title='runner.RunnerData.runScenario()'><b>runScenario</b><br>Test class: runner.RunnerData<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Valid distribute", "Distribute Data Test"</td>
+<td></td>
+<td>20</td>
+<td>runner.RunnerData@34cd072c</td></tr>
+<tr>
+<td title='runner.RunnerData.runScenario()'><b>runScenario</b><br>Test class: runner.RunnerData<br>Test method: Runs Cucumber Scenarios<br>Parameters: "InValid distribute", "Distribute Data Test"</td>
+<td></td>
+<td>17</td>
+<td>runner.RunnerData@34cd072c</td></tr>
+<tr>
+<td title='runner.RunnerData.runScenario()'><b>runScenario</b><br>Test class: runner.RunnerData<br>Test method: Runs Cucumber Scenarios<br>Parameters: "InValid distribute", "Distribute Data Test"</td>
+<td></td>
+<td>17</td>
+<td>runner.RunnerData@34cd072c</td></tr>
+<tr>
+<td title='runner.RunnerData.runScenario()'><b>runScenario</b><br>Test class: runner.RunnerData<br>Test method: Runs Cucumber Scenarios<br>Parameters: "InValid distribute", "Distribute Data Test"</td>
+<td></td>
+<td>12</td>
+<td>runner.RunnerData@34cd072c</td></tr>
+<tr>
+<td title='runner.RunnerData.runScenario()'><b>runScenario</b><br>Test class: runner.RunnerData<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Valid Upload", "Upload Data Test"</td>
+<td></td>
+<td>26</td>
+<td>runner.RunnerData@34cd072c</td></tr>
+<tr>
+<td title='runner.RunnerData.runScenario()'><b>runScenario</b><br>Test class: runner.RunnerData<br>Test method: Runs Cucumber Scenarios<br>Parameters: "InValid Upload", "Upload Data Test"</td>
+<td></td>
+<td>17</td>
+<td>runner.RunnerData@34cd072c</td></tr>
+</table><p>
+</body>
+</html>

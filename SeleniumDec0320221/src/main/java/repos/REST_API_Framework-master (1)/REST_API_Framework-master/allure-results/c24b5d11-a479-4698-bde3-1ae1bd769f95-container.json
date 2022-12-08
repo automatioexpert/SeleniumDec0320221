@@ -1,0 +1,1 @@
+{"uuid":"c24b5d11-a479-4698-bde3-1ae1bd769f95","name":"com.AllApiTests.TestDeleteUser","children":["e1c7c4b5-b95f-479a-b557-fbdfc989d2d0"],"befores":[{"name":"init","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1669455035289,"stop":1669455036165}],"afters":[],"start":1669455035236,"stop":1669455040585}

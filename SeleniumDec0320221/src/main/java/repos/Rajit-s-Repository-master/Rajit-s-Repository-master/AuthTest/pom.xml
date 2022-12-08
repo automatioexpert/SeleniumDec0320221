@@ -1,0 +1,107 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>AuthServerTesting</groupId>
+  <artifactId>AuthTest</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>AuthTest</name>
+  <url>http://maven.apache.org</url>
+
+<build>
+	<plugins>
+  
+  <plugin>
+        	<artifactId>maven-jar-plugin</artifactId>
+        	<executions>
+          		<execution>
+            		<id>default-jar</id>
+            		<phase>none</phase>
+            		<configuration>
+              		<finalName>unwanted</finalName>
+              		<classifier>unwanted</classifier>
+            		</configuration>
+          		</execution>
+        	</executions>
+		</plugin>
+		
+		
+		<plugin>
+      		<artifactId>maven-assembly-plugin</artifactId>
+      		<version>3.1.1</version>
+      		<configuration>
+        	<archive>
+          		<manifest>
+            	<mainClass>Runner.RegressionRunner</mainClass>
+          		</manifest>
+        	</archive>
+        	<descriptorRefs>
+          		<descriptorRef>${relese}</descriptorRef>
+        	</descriptorRefs>
+        	 <finalName>${version}</finalName>
+        	<appendAssemblyId>false</appendAssemblyId>
+        	
+       
+      		</configuration>
+      			<executions>
+      				<execution>
+      				<id>make-assembly</id>
+      					<phase>package</phase>
+      					<goals>
+      						<goal>single</goal>
+      					</goals>
+      			   	</execution>
+      			</executions>
+		</plugin>
+  
+  </plugins>
+  
+</build>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+  
+  
+
+  <dependencies>
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>4.0.0</version>
+			<scope></scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.1.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>4.1.2</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.codehaus.groovy</groupId>
+			<artifactId>groovy-all</artifactId>
+			<version>2.4.5</version>
+		</dependency>
+
+
+
+
+	</dependencies>
+</project>

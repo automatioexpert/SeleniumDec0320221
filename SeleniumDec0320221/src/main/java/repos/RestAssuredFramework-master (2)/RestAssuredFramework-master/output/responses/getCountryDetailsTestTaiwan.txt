@@ -1,0 +1,71 @@
+[
+    {
+        "name": "Taiwan",
+        "topLevelDomain": [
+            ".tw"
+        ],
+        "alpha2Code": "TW",
+        "alpha3Code": "TWN",
+        "callingCodes": [
+            "886"
+        ],
+        "capital": "Taipei",
+        "altSpellings": [
+            "TW",
+            "Táiwān",
+            "Republic of China",
+            "中華民國",
+            "Zhōnghuá Mínguó"
+        ],
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "population": 23503349,
+        "latlng": [
+            23.5,
+            121.0
+        ],
+        "demonym": "Taiwanese",
+        "area": 36193.0,
+        "gini": null,
+        "timezones": [
+            "UTC+08:00"
+        ],
+        "borders": [
+            
+        ],
+        "nativeName": "臺灣",
+        "numericCode": "158",
+        "currencies": [
+            {
+                "code": "TWD",
+                "name": "New Taiwan dollar",
+                "symbol": "$"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "zh",
+                "iso639_2": "zho",
+                "name": "Chinese",
+                "nativeName": "中文 (Zhōngwén)"
+            }
+        ],
+        "translations": {
+            "de": "Taiwan",
+            "es": "Taiwán",
+            "fr": "Taïwan",
+            "ja": "台湾（中華民国）",
+            "it": "Taiwan",
+            "br": "Taiwan",
+            "pt": "Taiwan",
+            "nl": "Taiwan",
+            "hr": "Tajvan",
+            "fa": "تایوان"
+        },
+        "flag": "https://restcountries.eu/data/twn.svg",
+        "regionalBlocs": [
+            
+        ],
+        "cioc": "TPE"
+    }
+]

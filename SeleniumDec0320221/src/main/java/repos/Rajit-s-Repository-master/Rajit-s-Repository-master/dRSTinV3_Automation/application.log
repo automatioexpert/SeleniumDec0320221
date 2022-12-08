@@ -1,0 +1,11 @@
+2020-02-03 17:53:07,041  INFO [main] loginpage_test:33 - Launching Browser
+2020-02-03 17:53:17,444  INFO [main] loginpage_test:45 - Successfull Login
+2020-02-03 17:53:22,127  INFO [main] loginpage_test:56 - Closing Browser
+2020-02-04 18:18:13,547  INFO [main] loginpage_test:35 - Launching Browser
+2020-02-04 18:19:17,449  INFO [main] loginpage_test:64 - Closing Browser
+2020-02-04 18:19:54,235  INFO [main] loginpage_test:35 - Launching Browser
+2020-02-04 18:20:07,172  INFO [main] loginpage_test:47 - Successful Login
+2020-02-04 18:20:12,180  INFO [main] loginpage_test:64 - Closing Browser
+2020-02-11 18:02:16,473  INFO [main] loginpage_test:35 - Launching Browser
+2020-02-11 18:02:21,467  INFO [main] loginpage_test:47 - Successful Login
+2020-02-11 18:02:26,522  INFO [main] loginpage_test:64 - Closing Browser

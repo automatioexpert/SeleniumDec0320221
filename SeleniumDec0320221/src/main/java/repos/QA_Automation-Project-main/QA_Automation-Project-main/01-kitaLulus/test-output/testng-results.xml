@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2365" started-at="2022-08-13T10:32:23 ICT" finished-at="2022-08-13T10:32:25 ICT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2365" started-at="2022-08-13T10:32:23 ICT" finished-at="2022-08-13T10:32:25 ICT">
+      <class name="com.kitalulus.searchVacancy">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.kitalulus.searchVacancy@7494e528]" name="setupDriver" is-config="true" duration-ms="3169" started-at="2022-08-13T10:32:20 ICT" finished-at="2022-08-13T10:32:23 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="openAppTest()[pri:0, instance:com.kitalulus.searchVacancy@7494e528]" name="openAppTest" duration-ms="2128" started-at="2022-08-13T10:32:23 ICT" description="Test date 26-July-22" finished-at="2022-08-13T10:32:25 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppTest -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.kitalulus.searchVacancy@7494e528]" name="closeDriver" is-config="true" duration-ms="4078" started-at="2022-08-13T10:32:30 ICT" finished-at="2022-08-13T10:32:34 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.kitalulus.searchVacancy -->
+      <class name="com.kitalulus.bookmarkLove">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.kitalulus.bookmarkLove@4bbfb90a]" name="setupDriver" is-config="true" duration-ms="4008" started-at="2022-08-13T10:32:13 ICT" finished-at="2022-08-13T10:32:17 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="bookmarkTest()[pri:0, instance:com.kitalulus.bookmarkLove@4bbfb90a]" name="bookmarkTest" duration-ms="152" started-at="2022-08-13T10:32:25 ICT" description="Test date 26-July-22" finished-at="2022-08-13T10:32:25 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookmarkTest -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.kitalulus.bookmarkLove@4bbfb90a]" name="closeDriver" is-config="true" duration-ms="372" started-at="2022-08-13T10:32:25 ICT" finished-at="2022-08-13T10:32:26 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.kitalulus.bookmarkLove -->
+      <class name="com.kitalulus.openApp">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.kitalulus.openApp@7c29daf3]" name="setupDriver" is-config="true" duration-ms="2848" started-at="2022-08-13T10:32:17 ICT" finished-at="2022-08-13T10:32:20 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="openAppTest()[pri:0, instance:com.kitalulus.openApp@7c29daf3]" name="openAppTest" duration-ms="27" started-at="2022-08-13T10:32:25 ICT" description="Test date 26-July-22" finished-at="2022-08-13T10:32:25 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppTest -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.kitalulus.openApp@7c29daf3]" name="closeDriver" is-config="true" duration-ms="4230" started-at="2022-08-13T10:32:26 ICT" finished-at="2022-08-13T10:32:30 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.kitalulus.openApp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

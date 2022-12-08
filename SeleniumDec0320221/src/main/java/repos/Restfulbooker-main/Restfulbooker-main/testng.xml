@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="RestfulBookerFull">
+        <classes>
+            <class name="com.tta.crud.GETNonBDDStyle">
+                <methods>
+                    <include name="getAllBookingIds"/>
+                </methods>
+            </class>
+            <class name="com.tta.crud.PUTNonBDDRequest">
+                <methods>
+                    <include name="NonBDDStylePOSTRequest"/>
+                </methods>
+            </class>
+            <class name="com.tta.crud.PostAuthNonBDDRequest">
+                <methods>
+                    <include name="NonBDDStylePOSTRequest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

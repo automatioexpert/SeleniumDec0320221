@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-04T18:08:52 IST" name="Default suite" finished-at="2022-11-04T18:09:29 IST" duration-ms="37438">
+    <groups>
+    </groups>
+    <test started-at="2022-11-04T18:08:52 IST" name="Default test" finished-at="2022-11-04T18:09:29 IST" duration-ms="37438">
+      <class name="TestCases.LocationSearchTest_TC001">
+        <test-method is-config="true" signature="StartTest()[pri:0, instance:TestCases.LocationSearchTest_TC001@3646a422]" started-at="2022-11-04T18:08:52 IST" name="StartTest" finished-at="2022-11-04T18:08:52 IST" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartTest -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:TestCases.LocationSearchTest_TC001@3646a422]" started-at="2022-11-04T18:08:52 IST" name="Setup" finished-at="2022-11-04T18:09:24 IST" duration-ms="31971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="LocationSearch()[pri:0, instance:TestCases.LocationSearchTest_TC001@3646a422]" started-at="2022-11-04T18:09:24 IST" name="LocationSearch" finished-at="2022-11-04T18:09:28 IST" duration-ms="3687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LocationSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LocationSearchTest_TC001@3646a422]" started-at="2022-11-04T18:09:28 IST" name="tearDown" finished-at="2022-11-04T18:09:29 IST" duration-ms="1161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.LocationSearchTest_TC001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

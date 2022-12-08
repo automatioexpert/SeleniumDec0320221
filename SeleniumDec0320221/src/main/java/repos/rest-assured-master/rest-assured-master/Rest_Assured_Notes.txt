@@ -1,0 +1,71 @@
+Rest Assured Notes:
+===================
+Java 9 users, follow this command:
+java -jar --add-modules java.xml.bind studentApp.jar
+
+Above command will run the command in port 8080. If you want change the port use following command:
+java -jar --add-modules java.xml.bind studentApp.jar --server.port=8085
+
+JSON Formatter:
+===============
+http://jsonviewer.stack.hu/ 
+
+XML Formatter:
+==============
+https://codebeautify.org/
+
+QUERIES
+=======
+Environment variable name:LocalHost
+key = url
+value = http://localhost:8080
+
+GET Request:
+============
+List all:
+{{url}}/student/list
+
+List all computer science students, use query parameter after ?
+{{url}}/student/list?programme=Computer Science
+
+List 2 computer scince students, use query paramters
+{{url}}/student/list?programme=Computer Science&limit=2
+
+POST Request
+============
+Create/add a new object
+
+PUT or PATCH Request
+============
+update existing object
+
+Request Status
+==============
+200 - GET or PUT request successful, retrieved data successfully
+201 - POST request successful, new object has been created
+204 - DELETE request
+
+Rest-Assured API
+================
+To use POST request, jackson databind dependency is required. 
+
+Walmart API Key
+===============
+nprqvdpf647zfcqmevjbuu9h
+
+JSON Path GPATH Notes
+=====================
+In Maven Dependecies, if you open json-path-<version>.jar you will find ConfigurableJsonSlurper.class, you will lot of groovy imports, which
+means, rest assured is implemented using groovy library. So in the above jsonpath code snippet findAll is a groovy method and 
+{it.name=='Apple iPod touch 32GB'} is a closure. In rest-assured json path java doc
+- http://static.javadoc.io/io.rest-assured/json-path/3.0.2/io/restassured/path/json/JsonPath.html
+you will see it follows Groovy GPath syntax, similar to XPath. GPath can be used for XML and JSON.
+Link to Groovy Collection Methods - http://docs.groovy-lang.org/2.4.3/html/groovy-jdk/java/util/Collection.html
+
+
+To Assert JSON and XML use
+JSONAssert and XMLAssert libraries
+
+For file upload testing use
+===========================
+zamzar.com developer APIs

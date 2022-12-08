@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MyToys Test Automation Suite]">
+  <listeners>
+    <listener class-name="com.QA.ExtentReporterListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Search Functionality validation Test(failed)">
+    <parameter name="Expected_Title" value="xxxxppppprotractor | myToys"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="ExpectedTitle" value="spiderman spielzeug | myToys"/>
+    <parameter name="expectedTitle" value="myToys Online Shop | Einfach alles für Ihr Kind"/>
+    <parameter name="url" value="https://mytoys.de"/>
+    <classes>
+      <class name="com.SearchFunctionality.SearchFunctionalityTest">
+        <methods>
+          <include name="noDataTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.SearchFunctionality.SearchFunctionalityTest -->
+    </classes>
+  </test> <!-- Search Functionality validation Test(failed) -->
+</suite> <!-- Failed suite [MyToys Test Automation Suite] -->

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10891" started-at="2021-12-25T19:36:45 EST" finished-at="2021-12-25T19:36:56 EST">
+    <groups>
+    </groups>
+    <test name="GoogleTest" duration-ms="10891" started-at="2021-12-25T19:36:45 EST" finished-at="2021-12-25T19:36:56 EST">
+      <class name="com.google.tests.GoogleSearchTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.google.tests.GoogleSearchTest@4f67eb2a]" name="setup" is-config="true" duration-ms="7238" started-at="2021-12-25T19:36:45 EST" finished-at="2021-12-25T19:36:53 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:com.google.tests.GoogleSearchTest@4f67eb2a]" name="launchURL" is-config="true" duration-ms="1122" started-at="2021-12-25T19:36:53 EST" finished-at="2021-12-25T19:36:54 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="validateGoogleResult(java.lang.String, java.lang.String)[pri:0, instance:com.google.tests.GoogleSearchTest@4f67eb2a]" name="validateGoogleResult" duration-ms="2304" started-at="2021-12-25T19:36:54 EST" data-provider="getData" finished-at="2021-12-25T19:36:56 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGoogleResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.tests.GoogleSearchTest@4f67eb2a]" name="tearDown" is-config="true" duration-ms="170" started-at="2021-12-25T19:36:56 EST" finished-at="2021-12-25T19:36:56 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.google.tests.GoogleSearchTest -->
+    </test> <!-- GoogleTest -->
+  </suite> <!-- Suite -->
+</testng-results>

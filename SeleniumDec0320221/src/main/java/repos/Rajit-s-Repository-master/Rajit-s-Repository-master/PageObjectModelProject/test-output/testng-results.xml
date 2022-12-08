@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44275" started-at="2020-04-24T13:18:28Z" finished-at="2020-04-24T13:19:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44275" started-at="2020-04-24T13:18:28Z" finished-at="2020-04-24T13:19:13Z">
+      <class name="Testcases.contactpage_test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Testcases.contactpage_test@26653222]" name="setup" is-config="true" duration-ms="38708" started-at="2020-04-24T18:48:29Z" finished-at="2020-04-24T18:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifycontactpagenavigation()[pri:0, instance:Testcases.contactpage_test@26653222]" name="verifycontactpagenavigation" duration-ms="5086" started-at="2020-04-24T18:49:07Z" finished-at="2020-04-24T18:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycontactpagenavigation -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.contactpage_test@26653222]" name="teardown" is-config="true" duration-ms="450" started-at="2020-04-24T18:49:12Z" finished-at="2020-04-24T18:49:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifycontactpagenavigation status=SUCCESS method=contactpage_test.verifycontactpagenavigation()[pri:0, instance:Testcases.contactpage_test@26653222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.contactpage_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
