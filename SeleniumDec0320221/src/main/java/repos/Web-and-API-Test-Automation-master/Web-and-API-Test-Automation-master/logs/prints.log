@@ -1,0 +1,7 @@
+16:22:12.712 [main] INFO  resources.base - Driver baslatılır..
+16:22:12.737 [main] INFO  resources.base - Ana sayfanın başlatıldığı kontrol edilir.
+16:22:20.392 [main] INFO  resources.base - Ürün detay sayfasıa gidildiği kontrol edilir.
+16:22:31.765 [main] INFO  resources.base - Fiyatlar karşılaştırılır.
+16:22:38.365 [main] INFO  resources.base - Sepet sayfasına gidildiği doğrulanır.
+16:22:38.367 [main] INFO  resources.base - Ürün adet sayısı kontrol edilir.
+16:22:40.471 [main] INFO  resources.base - Ürünlerin silindiği kontrol edilir.

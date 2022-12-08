@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20801" started-at="2022-05-07T16:32:46 BDT" finished-at="2022-05-07T16:33:06 BDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20801" started-at="2022-05-07T16:32:46 BDT" finished-at="2022-05-07T16:33:06 BDT">
+      <class name="testCase.TC001_LocatorLearning">
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:testCase.TC001_LocatorLearning@4c762604]" name="setDriver" is-config="true" duration-ms="4441" started-at="2022-05-07T16:32:41 BDT" finished-at="2022-05-07T16:32:46 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="locatorLearning()[pri:0, instance:testCase.TC001_LocatorLearning@4c762604]" name="locatorLearning" duration-ms="20734" started-at="2022-05-07T16:32:46 BDT" finished-at="2022-05-07T16:33:06 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locatorLearning -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testCase.TC001_LocatorLearning@4c762604]" name="close" is-config="true" duration-ms="254" started-at="2022-05-07T16:33:06 BDT" finished-at="2022-05-07T16:33:07 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCase.TC001_LocatorLearning -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

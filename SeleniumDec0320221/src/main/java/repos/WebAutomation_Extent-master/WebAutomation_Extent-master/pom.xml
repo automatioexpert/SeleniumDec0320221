@@ -1,0 +1,406 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.gladson</groupId>
+    <artifactId>WebAutomation_Extent</artifactId>
+    <version>2.0-SNAPSHOT</version>
+    <name>WebAutomation_Extent</name>
+    <description>WebAutomation_Extent</description>
+
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <compiler.version>1.8</compiler.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <selenium.version>4.5.0</selenium.version>
+        <aspectj.version>1.9.9.1</aspectj.version>
+        <apachepoi.version>5.2.3</apachepoi.version>
+        <testng.version>7.6.1</testng.version>
+        <slf4j.version>2.0.3</slf4j.version>
+        <extentreports.version>5.0.9</extentreports.version>
+        <ashot.version>1.5.4</ashot.version>
+        <htmlelements.version>1.20.0</htmlelements.version>
+        <automationremarksvideo.version>2.0</automationremarksvideo.version>
+    </properties>
+
+    <dependencies>
+        <!-- Selenium WebDriver Dependency -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
+
+        <!-- Selenium WebDriver-Firefox Dependency -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-firefox-driver</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
+
+        <!-- Selenium WebDriver-Chrome Dependency -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-chrome-driver</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
+
+        <!-- Selenium WebDriver-Edge Dependency -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-edge-driver</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
+
+
+        <!-- Selenium WebDriver-Internet Explorer Dependency -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-ie-driver</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
+
+        <!-- Selenium Support Dependency -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-support</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
+
+        <!-- Monte-Video Recorder Dependency -->
+        <dependency>
+            <groupId>com.pojosontheweb</groupId>
+            <artifactId>monte-repack</artifactId>
+            <version>1.1</version>
+        </dependency>
+
+        <!-- QATools Java Properties Dependency -->
+        <dependency>
+            <groupId>ru.qatools.commons</groupId>
+            <artifactId>properties</artifactId>
+            <version>2.0.RC6</version>
+        </dependency>
+
+        <!-- ASHOT Dependency -->
+        <dependency>
+            <groupId>ru.yandex.qatools.ashot</groupId>
+            <artifactId>ashot</artifactId>
+            <version>${ashot.version}</version>
+        </dependency>
+
+        <!-- Hamcrest Dependency -->
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest</artifactId>
+            <version>2.2</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- TestNG Dependency -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
+        </dependency>
+
+        <!-- Extent Report-Generation Dependency -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>${extentreports.version}</version>
+        </dependency>
+
+        <!-- Extent Reports TestNG Adapter -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports-testng-adapter</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+
+        <!-- JAVA Template Maker for HTML -->
+        <dependency>
+            <groupId>org.freemarker</groupId>
+            <artifactId>freemarker</artifactId>
+            <version>2.3.31</version>
+        </dependency>
+
+        <!-- JSOUP Library to Parse HTML -->
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.15.3</version>
+        </dependency>
+
+        <!-- SQL-Lite JDBC Dependency to LOG and Group -->
+        <dependency>
+            <groupId>org.xerial</groupId>
+            <artifactId>sqlite-jdbc</artifactId>
+            <version>3.36.0.3</version>
+        </dependency>
+
+        <!-- Apache POI Dependency -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>${apachepoi.version}</version>
+        </dependency>
+
+        <!-- Apache POI-OOXML Dependency -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>${apachepoi.version}</version>
+        </dependency>
+
+        <!-- Apache POI-OOXML SCHEMAS Dependency -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml-full</artifactId>
+            <version>${apachepoi.version}</version>
+        </dependency>
+
+        <!-- Apache OOXML SCHEMAS Dependency -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>ooxml-schemas</artifactId>
+            <version>1.4</version>
+        </dependency>
+
+        <!-- Apache XML Beans Dependency -->
+        <dependency>
+            <groupId>org.apache.xmlbeans</groupId>
+            <artifactId>xmlbeans</artifactId>
+            <version>5.0.2</version>
+        </dependency>
+
+        <!-- HTML Elements from QA Tools to setup Page Object Model -->
+        <dependency>
+            <groupId>ru.yandex.qatools.htmlelements</groupId>
+            <artifactId>htmlelements-java</artifactId>
+            <version>${htmlelements.version}</version>
+        </dependency>
+
+        <!-- Joda Date-Time Dependency -->
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>2.10.13</version>
+        </dependency>
+
+        <!-- AspectJ Tools Dependency -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjtools</artifactId>
+            <version>${aspectj.version}</version>
+        </dependency>
+
+        <!-- AspectJ Runtime Dependency -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjrt</artifactId>
+            <version>${aspectj.version}</version>
+        </dependency>
+
+        <!-- AspectJ Viewer Dependency -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectj.version}</version>
+        </dependency>
+
+        <!-- Automation Remarks Video Recorder Core Dependency -->
+        <dependency>
+            <groupId>com.automation-remarks</groupId>
+            <artifactId>video-recorder-core</artifactId>
+            <version>${automationremarksvideo.version}</version>
+        </dependency>
+
+        <!-- Automation Remarks Video Recorder TestNG Dependency -->
+        <dependency>
+            <groupId>com.automation-remarks</groupId>
+            <artifactId>video-recorder-testng</artifactId>
+            <version>${automationremarksvideo.version}</version>
+        </dependency>
+        <!-- Selenium ShutterBag Dependency to capture Images -->
+        <dependency>
+            <groupId>com.assertthat</groupId>
+            <artifactId>selenium-shutterbug</artifactId>
+            <version>1.5</version>
+        </dependency>
+
+        <!-- SL4J API Dependency -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- SL4J LOG4J Dependency -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${slf4j.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- JUL to SLF4J Bridge Dependency -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jul-to-slf4j</artifactId>
+            <version>${slf4j.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- JCL 1.2 Implemented Over SLF4J Dependency -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+            <version>${slf4j.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Maven Project Info Reports Dependency -->
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-project-info-reports-plugin</artifactId>
+            <version>3.1.2</version>
+        </dependency>
+
+        <!-- Java Faker Dependency-->
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+
+        <!-- Lombok Maven Plugin -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok-maven-plugin</artifactId>
+            <version>1.18.20.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Lombok Maven Dependency -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.11.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.19.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.19.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j-impl</artifactId>
+            <version>2.19.0</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M7</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <testFailureIgnore>true</testFailureIgnore>
+                    <argLine>
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                    </argLine>
+                    <argLine>-Dtestng.dtd.http=true</argLine>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjweaver</artifactId>
+                        <version>${aspectj.version}</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>1.6</version>
+            </plugin>
+
+            <!-- This Plugin handles the copying of project resources to the output directory -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.2.0</version>
+            </plugin>
+
+            <!-- This Plugin creates a jar archive of the source files of the current project -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>3.2.1</version>
+            </plugin>
+
+            <!-- The Javadoc Plugin uses the Javadoc tool to generate javadocs for the specified project -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.4.1</version>
+            </plugin>
+
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>4.0.0-M3</version>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>3.1.2</version>
+            </plugin>
+        </plugins>
+    </build>
+</project>

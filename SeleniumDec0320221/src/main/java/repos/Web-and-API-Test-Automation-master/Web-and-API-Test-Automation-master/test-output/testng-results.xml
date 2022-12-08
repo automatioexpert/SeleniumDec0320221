@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-09T16:22:09 EET" name="Default suite" finished-at="2022-10-09T16:22:40 EET" duration-ms="30835">
+    <groups>
+    </groups>
+    <test started-at="2022-10-09T16:22:09 EET" name="Default test" finished-at="2022-10-09T16:22:40 EET" duration-ms="30835">
+      <class name="CaseStudy.Web_Test">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:CaseStudy.Web_Test@58359ebd]" started-at="2022-10-09T16:22:09 EET" name="initialize" finished-at="2022-10-09T16:22:12 EET" duration-ms="2966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Homepage()[pri:1, instance:CaseStudy.Web_Test@58359ebd]" started-at="2022-10-09T16:22:12 EET" name="Homepage" finished-at="2022-10-09T16:22:18 EET" duration-ms="6193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homepage -->
+        <test-method signature="ProductPage()[pri:2, instance:CaseStudy.Web_Test@58359ebd]" started-at="2022-10-09T16:22:18 EET" name="ProductPage" finished-at="2022-10-09T16:22:37 EET" duration-ms="18387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductPage -->
+        <test-method signature="basketPage()[pri:3, instance:CaseStudy.Web_Test@58359ebd]" started-at="2022-10-09T16:22:37 EET" name="basketPage" finished-at="2022-10-09T16:22:40 EET" duration-ms="3154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basketPage -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:CaseStudy.Web_Test@58359ebd]" started-at="2022-10-09T16:22:40 EET" name="closeDriver" finished-at="2022-10-09T16:22:40 EET" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- CaseStudy.Web_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
