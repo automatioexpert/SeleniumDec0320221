@@ -1,0 +1,5 @@
+<ConfigElements>
+<ConfigElement LocaterName="ShipmentMode">
+<TestData>RAIL</TestData>
+</ConfigElement>
+</ConfigElements>

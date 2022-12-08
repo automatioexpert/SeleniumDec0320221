@@ -1,0 +1,10 @@
+Consider this as a starting point for a larger project. It has the essential components (of course, not all) for an UI automation project. Extend it as needed. Examples:
+
+Run in firefox/edge instead of chrome? - update the config.properties.
+Add more pages/tests? - just create the classes.
+Add more tests? - create more @Test methods in your test classes.
+Run multi tests/run tests in parallel? - configure in testng.xml
+Want more control over test runs? - configure testng.xml and/or pom.xml.
+Run via maven? - use maven commands from CLI
+Run via jenkins? - create a jenkins job, trigger via maven commands/auto-trigger based on GIT commits, its all possible.
+Want logs in a separate file for each run? - configure in log4j2.xml.

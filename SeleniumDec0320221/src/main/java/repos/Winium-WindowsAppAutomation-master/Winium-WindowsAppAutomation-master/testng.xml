@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<parameter name="AddtionExpression" value="10+50+100" />
+		<parameter name="DivisionExpression" value="10/5" />
+		<parameter name="ModExpression" value="10|6" />
+		<parameter name="ValueforSqaureRoot" value="4" />
+		<classes>
+			<class name="Calculator_Winium.Calculator_Winium.AppTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

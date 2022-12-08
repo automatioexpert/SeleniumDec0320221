@@ -1,0 +1,15 @@
+
+<ConfigElements>
+<ConfigElement LocaterName="URL">
+<TestData>http://192.168.1.224/</TestData>
+</ConfigElement >
+<ConfigElement LocaterName="USER">
+<TestData>wfxadmin</TestData>
+</ConfigElement >
+<ConfigElement LocaterName="PASSWORD">
+<TestData>password</TestData>
+</ConfigElement >
+<ConfigElement LocaterName="Company">
+<TestData>wfxerp</TestData>
+</ConfigElement >
+</ConfigElements>

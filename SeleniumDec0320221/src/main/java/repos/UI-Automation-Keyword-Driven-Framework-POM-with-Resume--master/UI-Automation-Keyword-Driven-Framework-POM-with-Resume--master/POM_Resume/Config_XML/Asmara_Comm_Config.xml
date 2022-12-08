@@ -1,0 +1,11 @@
+<ConfigElements>
+<ConfigElement LocaterName='FromSite'>
+<TestData>ACCBILCSSTORE</TestData>
+</ConfigElement >
+<ConfigElement LocaterName='currency'>
+<TestData>US Dollar</TestData>
+</ConfigElement >
+<ConfigElement LocaterName='Division'>
+<TestData>0100_0006_0001</TestData>
+</ConfigElement >
+</ConfigElements>

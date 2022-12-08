@@ -1,0 +1,14 @@
+<ConfigElements>
+<ConfigElement LocaterName="url">
+<TestData>http://wfxindochine.worldfashionexchange.com/</TestData>
+</ConfigElement >
+<ConfigElement LocaterName="USER">
+<TestData>admin</TestData>
+</ConfigElement >
+<ConfigElement LocaterName="PASSWORD">
+<TestData>chen@1234</TestData>
+</ConfigElement >
+<ConfigElement LocaterName="Company">
+<TestData>Indochine</TestData>
+</ConfigElement >
+</ConfigElements>

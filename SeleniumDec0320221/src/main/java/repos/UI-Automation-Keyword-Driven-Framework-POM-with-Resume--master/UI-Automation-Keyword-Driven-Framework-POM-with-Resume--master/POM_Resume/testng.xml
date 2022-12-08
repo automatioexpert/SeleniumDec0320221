@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+  <test name="Test">
+    <classes>
+    <!--  
+   	  <class name="Test.Production"/>
+      <class name="Test.Sampling"/>
+      <class name="Test.ExecuteTest"/>
+      <class name="Test.TestWorkorder"/>
+      <class name="Test.PWN"/>
+      -->
+      <class name="Test.TestSuiteForBatchExecution"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

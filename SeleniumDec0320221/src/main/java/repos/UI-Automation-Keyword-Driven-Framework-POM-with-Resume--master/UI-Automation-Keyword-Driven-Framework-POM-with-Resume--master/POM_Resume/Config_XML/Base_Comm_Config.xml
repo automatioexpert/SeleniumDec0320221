@@ -1,0 +1,20 @@
+<ConfigElements>
+<ConfigElement LocaterName='FromSite'>
+<TestData>ACCBILCSSTORE</TestData>
+</ConfigElement >
+<ConfigElement LocaterName='currency'>
+<TestData>Indian Rupee</TestData>
+</ConfigElement >
+<ConfigElement LocaterName='currency1'>
+<TestData>INR</TestData>
+</ConfigElement >
+<ConfigElement LocaterName='Division'>
+<TestData>0100_0007_0001</TestData>
+</ConfigElement >
+<ConfigElement LocaterName='Division1'>
+<TestData>0100_0009_0004</TestData>
+</ConfigElement >
+<ConfigElement LocaterName='Factory'>
+<TestData>AutoFactory, (BIL)</TestData>
+</ConfigElement >
+</ConfigElements>

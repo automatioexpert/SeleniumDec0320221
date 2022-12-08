@@ -1,0 +1,23 @@
+<ConfigElements>
+<ConfigElement LocaterType="url" LocaterValue="null">
+<TestData>http://asmserver.cloudapp.net/</TestData>
+</ConfigElement >
+<ConfigElement LocaterType="name" LocaterValue="txtPassword">
+<TestData>my@sm4r4</TestData>
+</ConfigElement >
+<ConfigElement LocaterType="name" LocaterValue="txtUserID">
+<TestData>adminail</TestData>
+</ConfigElement >
+<ConfigElement LocaterType="id" LocaterValue="ddlBuyer">
+<TestData>ABW</TestData>
+</ConfigElement >
+<ConfigElement LocaterType="id" LocaterValue="ddlBuyerDepartment">
+<TestData>Testing</TestData>
+</ConfigElement>
+<ConfigElement LocaterType="id" LocaterValue="ddlSupplier">
+<TestData>4ABW</TestData>
+</ConfigElement>
+<ConfigElement LocaterType="id" LocaterValue="ddlProductSubCategory">
+<TestData>Jackets - Jacket</TestData>
+</ConfigElement>
+</ConfigElements>

@@ -1,0 +1,28 @@
+<ConfigElements>
+<ConfigElement LocaterName="URL">
+<TestData>http://192.168.1.224//</TestData>
+</ConfigElement >
+<ConfigElement LocaterName="oldbuyer">
+<TestData>Buyer World Fashion Exchange(B)</TestData>
+</ConfigElement >
+<ConfigElement LocaterName="BuyerDept">
+<TestData>Kids</TestData>
+</ConfigElement >
+<ConfigElement LocaterName="oldsupplier">
+<TestData>World Fashion Exchange(S)</TestData>
+</ConfigElement >
+<ConfigElement LocaterName="SampleType1">
+<TestData>Proto Sample222</TestData>
+</ConfigElement >
+<ConfigElement LocaterName="SampleType1">
+<TestData>Proto Sample222</TestData>
+</ConfigElement >
+<ConfigElement LocaterName="SampleType2">
+<TestData>Style Sample</TestData>
+</ConfigElement >
+<ConfigElement LocaterName="SampleType3">
+<TestData>Salesman Sample</TestData>
+</ConfigElement >
+
+
+</ConfigElements>

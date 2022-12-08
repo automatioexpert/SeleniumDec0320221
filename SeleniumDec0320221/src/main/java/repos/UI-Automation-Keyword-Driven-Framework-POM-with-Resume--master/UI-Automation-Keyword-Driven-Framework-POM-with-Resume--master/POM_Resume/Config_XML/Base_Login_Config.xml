@@ -1,0 +1,15 @@
+
+<ConfigElements>
+<ConfigElement LocaterName="URL">
+<TestData>http://192.168.1.48/</TestData>
+</ConfigElement >
+<ConfigElement LocaterName="USER">
+<TestData>adminbil</TestData>
+</ConfigElement >
+<ConfigElement LocaterName="PASSWORD">
+<TestData>welcome123</TestData>
+</ConfigElement >
+<ConfigElement LocaterName="Company">
+<TestData>bil</TestData>
+</ConfigElement >
+</ConfigElements>

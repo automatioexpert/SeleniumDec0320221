@@ -1,0 +1,14 @@
+<ConfigElements>
+<ConfigElement LocaterType="url" LocaterValue="null">
+<TestData>http://testerp.indochine.com.cn/</TestData>
+</ConfigElement >
+<ConfigElement LocaterType="name" LocaterValue="txtUserID">
+<TestData>wfxlive</TestData>
+</ConfigElement >
+<ConfigElement LocaterType="name" LocaterValue="txtPassword">
+<TestData>qrst@1234</TestData>
+</ConfigElement >
+<ConfigElement LocaterType="name" LocaterValue="txtCompany">
+<TestData>indochine</TestData>
+</ConfigElement >
+</ConfigElements>

@@ -1,0 +1,65 @@
+package seleniumtest;
+import java.time.Duration;
+
+import org.openqa.selenium.By; //importing the selenium class to java for using the method 'by' 
+import org.openqa.selenium.WebDriver; //importing the 'webdriver' methods of selenium class
+import org.openqa.selenium.edge.EdgeDriver; //importing the 'edgedriver' method from selenium class to invoke Edge browser to carry out the automated test cases
+import org.testng.Assert;//TestNG class to use the assert method for testing the actual and the ex[ected outputs
+public class Locators2 {
+	public static void main(String[] args) throws InterruptedException {
+		//setproperty to invoke edgedriver which is located in the below directory in my system
+		String name = "Sreenivasan";
+		System.setProperty("webdriver.edge.driver","E:\\Programming language\\Java-Selenium\\webdrivers\\msedgedriver.exe"); 
+		//initializing the webdriver class and its methods to an object named driver
+		WebDriver driver = new EdgeDriver();		
+		//there are many methods to use time and timeouts in Java
+		//this is the method for using implicit timeouts in selenium
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		//taking the edge browser to the following link using the 'get' method to test a simple login page with variety of possible tests.
+		//we directly use the created method to access the passwor here
+		String password = getPassword(driver);
+		driver.get("https://rahulshettyacademy.com/locatorspractice/");
+		//using the 'id; element from HTML as locator to find and input the username, 'sendkeys' is a edgedriver method used to input any string
+		driver.findElement(By.id("inputUsername")).sendKeys(name);
+		//using the 'name' HTML element as locator to input the password
+		driver.findElement(By.name("inputPassword")).sendKeys(password);
+		//using the 'class' HTML element to click the sign in button, 'click' is a method in edgedriver class  
+		driver.findElement(By.className("signInBtn")).click(); 
+		//waiting for 2 seconds for the browser to load the new page layout
+		Thread.sleep(2000);
+		//using the print statement to get the 'you are successfully logged in' string to be printed in the console 
+		System.out.println(driver.findElement(By.tagName("p")).getText());
+		//using the assertion method from the TestNG class to check whether the actual and the expected outputs are same
+		Assert.assertEquals(driver.findElement(By.tagName("p")).getText(),"You are successfully logged in.");
+		//for welcome screen name check and the successful log in check.
+		Assert.assertEquals(driver.findElement(By.cssSelector("div[class='login-container'] h2")).getText(),"Hello "+name+",");
+		//clicking the logout button to log out
+		driver.findElement(By.xpath("//*[text()='Log Out']")).click();
+		//closing the edge broser.
+		driver.close();
+	}
+//creating the getpassword method to get the password text from the string,
+//"Please use temporary password 'rahulshettyacademy' to login"
+public static String getPassword(WebDriver driver) throws InterruptedException {
+	//creating a static method to use it directly without the creation of any object
+	//first we go into the page 
+	driver.get("https://rahulshettyacademy.com/locatorspractice/");
+	//then click on forgot password
+	driver.findElement(By.linkText("Forgot your password?")).click();
+	//wait for 1 second to load the new page layout
+	Thread.sleep(1000);
+	//click on the reset password button
+	driver.findElement(By.className("reset-pwd-btn")).click();
+	//get the text "Please use temporary password 'rahulshettyacademy' to login"
+	//store it in a variable
+	String passwrd = driver.findElement(By.cssSelector("form p")).getText();
+	//use the split method of the string class to split the string with respect to the singel quotes
+	String[] pswrdarray = passwrd.split("'");
+	//get the 1st index where the "rahulshettyacademy' to login" string is stored and split it again with single quotes 
+	//to get rahulshettyacademy as the 0th index and store this in the actuall password variable
+	String actpass = pswrdarray[1].split("'")[0];
+	//this method returns this password string
+	return actpass;	
+	
+}
+}

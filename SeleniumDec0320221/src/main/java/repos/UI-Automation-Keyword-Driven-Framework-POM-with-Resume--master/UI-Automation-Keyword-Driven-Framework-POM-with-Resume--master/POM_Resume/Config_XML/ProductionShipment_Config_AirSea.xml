@@ -1,0 +1,5 @@
+<ConfigElements>
+<ConfigElement LocaterName="ShipmentMode">
+<TestData>AIR/SEA</TestData>
+</ConfigElement>
+</ConfigElements>

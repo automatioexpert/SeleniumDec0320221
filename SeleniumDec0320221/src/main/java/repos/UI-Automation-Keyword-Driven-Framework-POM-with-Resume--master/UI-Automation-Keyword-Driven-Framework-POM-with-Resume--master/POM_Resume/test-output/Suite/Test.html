@@ -1,0 +1,141 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 20 10:24:25 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>5138 seconds (5138483 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Test.TestSuiteForBatchExecution.TestSuite2()'><b>TestSuite2</b><br>Test class: Test.TestSuiteForBatchExecution</td>
+<td><div><pre>java.lang.NullPointerException
+	at Test.FilesUtils.ReadExcelSuite(FilesUtils.java:67)
+	at Test.TestSuiteForBatchExecution.TestSuite2(TestSuiteForBatchExecution.java:13)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace296063216", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace296063216'><pre>java.lang.NullPointerException
+	at Test.FilesUtils.ReadExcelSuite(FilesUtils.java:67)
+	at Test.TestSuiteForBatchExecution.TestSuite2(TestSuiteForBatchExecution.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>Test.TestSuiteForBatchExecution@2eee9593</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Test.TestSuiteForBatchExecution.testSuite1()'><b>testSuite1</b><br>Test class: Test.TestSuiteForBatchExecution<br/>
+<a href="#Output-1071425461" onClick='toggleBox("Output-1071425461", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1071425461" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1071425461">
+Buyer Name IS  [Buyer - QABuyer1482209667882]<br/>
+Supplier Name IS  [Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882]<br/>
+Buyer Name IS  [Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882, Buyer - QABuyer1482209667882]<br/>
+Supplier Name IS  [Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882, Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882]<br/>
+Buyer Name IS  [Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882, Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882, Buyer - QABuyer1482209667882]<br/>
+PWN No IS  [Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882, Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882, Buyer - QABuyer1482209667882, 9P/AAIHK]<br/>
+PI No IS  [Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882, Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882, Buyer - QABuyer1482209667882, 9P/AAIHK, 5PI2016AAI]<br/>
+null [Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882, Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882, Buyer - QABuyer1482209667882, 9P/AAIHK, 5PI2016AAI, 4BA2016AAI]<br/>
+Shipment No is  [Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882, Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882, Buyer - QABuyer1482209667882, 9P/AAIHK, 5PI2016AAI, 4BA2016AAI, 17PRD2016AAIHK]<br/>
+Shipment No is  [Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882, Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882, Buyer - QABuyer1482209667882, 9P/AAIHK, 5PI2016AAI, 4BA2016AAI, 17PRD2016AAIHK, 18PRD2016AAIHK]<br/>
+Shipment No is  [Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882, Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882, Buyer - QABuyer1482209667882, 9P/AAIHK, 5PI2016AAI, 4BA2016AAI, 17PRD2016AAIHK, 18PRD2016AAIHK, 19PRD2016AAIHK]<br/>
+Shipment No is  [Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882, Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882, Buyer - QABuyer1482209667882, 9P/AAIHK, 5PI2016AAI, 4BA2016AAI, 17PRD2016AAIHK, 18PRD2016AAIHK, 19PRD2016AAIHK, 20PRD2016AAIHK]<br/>
+Shipment No is  [Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882, Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882, Buyer - QABuyer1482209667882, 9P/AAIHK, 5PI2016AAI, 4BA2016AAI, 17PRD2016AAIHK, 18PRD2016AAIHK, 19PRD2016AAIHK, 20PRD2016AAIHK, 21PRD2016AAIHK]<br/>
+null [Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882, Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882, Buyer - QABuyer1482209667882, 9P/AAIHK, 5PI2016AAI, 4BA2016AAI, 17PRD2016AAIHK, 18PRD2016AAIHK, 19PRD2016AAIHK, 20PRD2016AAIHK, 21PRD2016AAIHK, 2BDC2016AAI]<br/>
+null [Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882, Buyer - QABuyer1482209667882, Supplier - QASupp1482209667882, Buyer - QABuyer1482209667882, 9P/AAIHK, 5PI2016AAI, 4BA2016AAI, 17PRD2016AAIHK, 18PRD2016AAIHK, 19PRD2016AAIHK, 20PRD2016AAIHK, 21PRD2016AAIHK, 2BDC2016AAI, 5SA2016AAIHK]<br/>
+</div>
+</td>
+<td></td>
+<td>5138</td>
+<td>Test.TestSuiteForBatchExecution@2eee9593</td></tr>
+</table><p>
+</body>
+</html>

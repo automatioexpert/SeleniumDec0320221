@@ -1,0 +1,60 @@
+//please find the detailed explanation about the code in the readme.txt file in the selenium repository in my github profile
+package seleniumtest; //parent folder name seleniumtest in my system
+import java.time.Duration; //importing time class for using the implicit 'timeout' method
+import org.openqa.selenium.By; //importing the selenium class to java for using the method 'by' 
+import org.openqa.selenium.WebDriver; //importing the 'webdriver' methods of selenium class
+import org.openqa.selenium.edge.EdgeDriver; //importing the 'edgedriver' method from selenium class to invoke Edge browser to carry out the automated test cases
+
+public class Locators { //child file name in my system locators
+//This automation script is all about different ways of using Selenium-locators: ID,Name,Class,Link Text, CSS, Xpath.
+	public static void main(String[] args) { //the public static void main string to write the main part of the code
+		//this example uses different locators and steps to find each HTML element needed for this automation test
+ 		//setproperty to invoke edgedriver which is located in the below directory in my system
+		System.setProperty("webdriver.edge.driver","E:\\Programming language\\Java-Selenium\\webdrivers\\msedgedriver.exe"); 
+		//initializing the webdriver class and its methods to an object named driver
+		WebDriver driver = new EdgeDriver();		
+		//there are many methods to use time and timeouts in Java
+		//this is the method for using implicit timeouts in selenium
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		//taking the edge browser to the following link using the 'get' method to test a simple login page with variety of possible tests.
+		driver.get("https://rahulshettyacademy.com/locatorspractice/");
+		//using the 'id; element from HTML as locator to find and input the username, 'sendkeys' is a edgedriver method used to input any string
+		driver.findElement(By.id("inputUsername")).sendKeys("sreenivasan");
+		//using the 'name' HTML element as locator to input the password
+		driver.findElement(By.name("inputPassword")).sendKeys("password");
+		//using the 'class' HTML element to clicl the sign in button, 'click' is a method in edgedriver class  
+		driver.findElement(By.className("signInBtn")).click(); 
+		//there will be an error as the password/username is incorrect
+		//so we are getting the error and printing in the console using the 'CSS selector' method from selenium class
+		//this is a uniqely customized CSS text
+		System.out.println(driver.findElement(By.cssSelector("p.error")).getText());
+		//clicking the forgot password link using the 'linktext' method 'a' anchor tag in HTML.
+		driver.findElement(By.linkText("Forgot your password?")).click();
+		//finding the username text box using Xpath locator method to enter an username
+		driver.findElement(By.xpath("//input[@placeholder='Name']")).sendKeys("John Doe");
+		//the CSS format is as follows - "tagname[attribute='value'] for the email textbox
+		driver.findElement(By.cssSelector("input[placeholder='Email']")).sendKeys("johndoe@gmail.com");
+		//the password text is located using the xpath, using the parent-child traversing and using the index values as there will be n number of child
+		driver.findElement(By.xpath("//form/input[3]")).sendKeys("9865322412");
+		//to click the reset button we use the 'class' attribute of HTML as the locator
+		driver.findElement(By.className("reset-pwd-btn")).click();
+		//printing the new password that was shown in the page after clicking the reset button
+		//for CSS the parent-child traversing is - parent(space)child - "form p"
+		System.out.println(driver.findElement(By.cssSelector("form p")).getText());
+		//clicking the go back to login page to fill in the login details again
+		//this time we use xpath parent-child with class and indexing 
+		driver.findElement(By.xpath("//div[@class='forgot-pwd-btn-conainer']/button[1]")).click();
+		driver.findElement(By.cssSelector("#inputUsername")).sendKeys("sreenivasan");
+		//Since this is the first automated script of mine I am directly hardcoding the password with the help of locators
+		//inserting the username and password 
+		//username with CSS regular expression - "tagname[attribute*='staticvalue'] this usage is in case of dynamic and static texts in HTML
+		driver.findElement(By.cssSelector("input[type*='pass']")).sendKeys("rahulshettyacademy");
+		//clicking the chekcbox using the 'id' locator and 'click' method
+		driver.findElement(By.id("chkboxOne")).click();
+		//finally clickign the signin button to get inside the page
+		//using xpath regular expression this time
+		driver.findElement(By.xpath("//button[contains(@class,'submit')]")).click();
+		//we have covered in this program all the basic locators and all the possible combinations of how to use the locators and CSS/Xpath combinations.
+	}
+
+}

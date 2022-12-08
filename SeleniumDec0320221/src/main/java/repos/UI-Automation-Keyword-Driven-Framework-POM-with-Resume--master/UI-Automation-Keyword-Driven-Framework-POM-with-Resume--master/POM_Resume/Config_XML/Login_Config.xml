@@ -1,0 +1,15 @@
+<ConfigElements>
+
+<ConfigElement LocaterName="URL">
+<TestData>http://wfxasmara.worldfashionexchange.com/</TestData>
+</ConfigElement >
+
+<ConfigElement LocaterName="PASSWORD">
+<TestData>my@sm4r4</TestData>
+</ConfigElement >
+
+<ConfigElement LocaterName="USER">
+<TestData>adminail</TestData>
+</ConfigElement >
+
+</ConfigElements>

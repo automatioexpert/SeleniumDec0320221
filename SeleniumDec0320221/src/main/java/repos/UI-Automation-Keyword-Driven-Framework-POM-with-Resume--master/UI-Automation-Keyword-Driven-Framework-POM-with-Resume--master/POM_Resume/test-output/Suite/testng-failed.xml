@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="classes">
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="Test.TestSuiteForBatchExecution">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Printstars"/>
+          <include name="TestSuite2"/>
+        </methods>
+      </class> <!-- Test.TestSuiteForBatchExecution -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

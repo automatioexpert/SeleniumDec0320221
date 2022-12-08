@@ -1,0 +1,106 @@
+doctype html
+html(lang="en")
+    include head.pug
+    body
+        include navbar.pug
+
+        section
+            div(class="container")
+                h3=title
+                p Fill in and submit the form. For successfull login use any non-empty user name and `pwd` as password.
+                div(class="row")
+                    br
+                    div(class="col-sm-4")
+                        label(
+                            id="loginstatus"
+                            class="text-info"
+                            ) User logged out.                
+                div(class="row")
+                    div(class="col-sm-4")
+                        input(
+                            type="text"
+                            class="form-control"
+                            placeholder="User Name"
+                            name="UserName"
+                            id="username"
+                        )
+                div(class="row")
+                    div(class="col-sm-4")
+                        input(
+                            type="password"
+                            class="form-control"
+                            placeholder="********"
+                            name="Password"
+                            id="password"
+                        )  
+                div(class="row")
+                    div(class="col-sm-4")
+                        br
+                        button(
+                            type="button" 
+                            class="btn btn-primary"
+                            id="login"
+                            onclick="Login()"
+                        ) Log In
+
+        script.
+
+            function guid() {
+            function s4() {
+                return Math.floor((1 + Math.random()) * 0x10000)
+                .toString(16)
+                .substring(1);
+            }
+            return s4() + s4() + '-' + s4() + '-' + s4() + '-' +
+                s4() + '-' + s4() + s4() + s4();
+            }        
+
+            var userNameId = guid();
+            var un = document.getElementById("username");
+            un.id = userNameId;
+            un.value = "";
+
+            var passwordId = guid();
+            var pwd = document.getElementById("password");
+            pwd.id = passwordId;
+            pwd.value = "";
+
+            var loggedIn = false;
+
+            function Login()
+            { 
+                var ls = document.getElementById("loginstatus");
+                var un = document.getElementById(userNameId);
+                var pwd =  document.getElementById(passwordId);
+                var login = document.getElementById("login");
+
+                if (loggedIn)
+                {
+                    ls.innerHTML = "User logged out.";
+                    ls.className = "text-info";
+                    un.value = "";
+                    pwd.value = "";                
+                    login.innerText = "Log In";
+                    loggedIn = false;
+                }
+                else
+                {
+                    if (pwd.value == "pwd" && un.value)
+                    {
+                        ls.innerHTML = "Welcome, " + un.value + "!";
+                        ls.className = "text-success";
+                        login.innerText = "Log Out";
+                        loggedIn = true;
+                    }
+                    else
+                    {
+                        ls.innerHTML = "Invalid username/password";
+                        ls.className = "text-danger";
+                        un.value = "";
+                        pwd.value = "";
+                    }
+                }
+            }
+
+        include footer.html
+    

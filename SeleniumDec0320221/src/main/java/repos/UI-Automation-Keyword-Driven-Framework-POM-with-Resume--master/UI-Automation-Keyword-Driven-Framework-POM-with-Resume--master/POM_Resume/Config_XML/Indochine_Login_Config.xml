@@ -1,0 +1,15 @@
+
+<ConfigElements>
+<ConfigElement LocaterName="url">
+<TestData>http://testerp.indochine.com.cn/</TestData>
+</ConfigElement >
+<ConfigElement LocaterName="USER">
+<TestData>wfxlive</TestData>
+</ConfigElement >
+<ConfigElement LocaterName="PASSWORD">
+<TestData>qrst@1234</TestData>
+</ConfigElement >
+<ConfigElement LocaterName="Company">
+<TestData>indochine</TestData>
+</ConfigElement >
+</ConfigElements>

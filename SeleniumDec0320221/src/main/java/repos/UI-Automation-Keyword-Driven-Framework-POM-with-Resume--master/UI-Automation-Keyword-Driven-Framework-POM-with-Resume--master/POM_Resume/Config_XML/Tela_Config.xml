@@ -1,0 +1,14 @@
+<ConfigElements>
+<ConfigElement LocaterName="URL">
+<TestData>http://telatest.worldfashionexchange.com/</TestData>
+</ConfigElement >
+<ConfigElement LocaterName="User">
+<TestData>admintela</TestData>
+</ConfigElement >
+<ConfigElement LocaterName="PASSWORD">
+<TestData>Password</TestData>
+</ConfigElement >
+<ConfigElement LocaterName="COMPANY">
+<TestData>Tela</TestData>
+</ConfigElement >
+</ConfigElements>

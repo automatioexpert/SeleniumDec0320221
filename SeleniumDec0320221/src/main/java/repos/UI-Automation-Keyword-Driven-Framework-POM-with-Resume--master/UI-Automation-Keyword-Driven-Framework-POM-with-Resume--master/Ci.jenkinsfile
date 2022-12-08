@@ -1,0 +1,43 @@
+pipeline {    
+     agent { node { label 'master' } }
+     
+   
+     parameters {
+        string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
+    }
+   
+   stages {
+        stage('Example') {    
+       
+           steps {   
+     
+            
+               echo 'Hello World'
+                build('masterjob')
+                build job: 'masterJob2', parameters: [string(name: 'testParams', value: "${params.PERSON}")]
+
+                // sh 'mvn --version'
+              
+            }    
+        }   
+        stage('Example2') {  
+          steps {    
+              echo 'Hello World2'
+              script{
+                  def browsers = ['chrome', 'firefox']
+                    for (int i = 0; i < browsers.size(); ++i) {
+                        echo "Testing the ${browsers[i]} browser"
+                    }
+                    echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL} on ${env.NODE_NAME}"
+                    def node ="${env.NODE_NAME}"
+                    echo node
+              }
+            }  
+      }    
+   }
+   post { 
+        always { 
+            echo 'I will always say Hello again!'
+        }
+    }
+}

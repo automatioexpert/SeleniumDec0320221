@@ -1,0 +1,135 @@
+section {
+    margin-top: 50px;    
+}
+
+h1#title {
+    font-size: 3.5em;
+}
+
+blockquote#citation {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+li.active {
+    font-weight: 700;
+}
+
+#content {
+    margin-top: 30px;    
+}
+
+#spinner {
+    font-size:24px;
+    margin-left:10px;
+}
+
+.btn-test {
+    margin-left:20px;
+}
+
+#footer {
+    font-size: 11px;
+    margin: 60px 10px 30px;
+    padding-left: 5%;
+    max-width: 1090px;
+}
+
+#footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 0;
+}
+
+#footer-content div {
+    float: left;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background-position: 0 1px;
+    padding-bottom: 4px;
+}
+
+#github {
+    margin-right: 5px !important;
+}
+
+#license {
+    text-align: center;
+    margin-top: -5px;
+}
+
+#fork {
+    background-image: url(/static/fork.png);
+    background-size: 11px 16px;
+    padding-left: 15px;
+}
+
+#spa {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.spa-view {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Dynamic table */
+.annotate{
+	font-style: italic;
+	color: #366ED4;
+}
+
+[role="table"] {
+  display: table;
+}
+
+[role="table"] > div[id] {
+  display: table-caption;
+  font-style: italic;
+}
+
+[role="table"] [role="row"] {
+  display: table-row;
+}
+
+[role="table"] [role="cell"],
+[role="table"] [role="columnheader"] {
+  display: table-cell;
+  padding: 0.125em 0.25em;
+  width: 8em;
+}
+
+[role="table"] [role="columnheader"] {
+  font-weight: bold;
+  border-bottom: thin solid #888;
+}
+
+[role="table"] [role="rowgroup"]:last-child [role="row"]:nth-child(odd) {
+  background-color: #ddd;
+}
+
+.zerowidth {
+    width: 0px;
+    min-width: 0px;
+    padding-left: 0;
+    padding-right: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.offscreen {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+ }

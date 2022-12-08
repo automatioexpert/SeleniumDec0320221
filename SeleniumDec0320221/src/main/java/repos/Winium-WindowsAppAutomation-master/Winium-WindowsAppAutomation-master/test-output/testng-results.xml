@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45414" started-at="2019-07-21T14:55:55Z" finished-at="2019-07-21T14:56:40Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="45414" started-at="2019-07-21T14:55:55Z" finished-at="2019-07-21T14:56:40Z">
+      <class name="Calculator_Winium.Calculator_Winium.AppTest">
+        <test-method status="PASS" signature="chooseSceintificCalculator()[pri:0, instance:Calculator_Winium.Calculator_Winium.AppTest@28feb3fa]" name="chooseSceintificCalculator" is-config="true" duration-ms="21169" started-at="2019-07-21T07:55:55Z" finished-at="2019-07-21T07:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseSceintificCalculator -->
+        <test-method status="PASS" signature="clearResult()[pri:0, instance:Calculator_Winium.Calculator_Winium.AppTest@28feb3fa]" name="clearResult" is-config="true" duration-ms="868" started-at="2019-07-21T07:56:16Z" finished-at="2019-07-21T07:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearResult -->
+        <test-method status="PASS" signature="addition(java.lang.String)[pri:0, instance:Calculator_Winium.Calculator_Winium.AppTest@28feb3fa]" name="addition" duration-ms="8090" started-at="2019-07-21T07:56:17Z" finished-at="2019-07-21T07:56:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10+50+100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addition -->
+        <test-method status="PASS" signature="clearResult()[pri:0, instance:Calculator_Winium.Calculator_Winium.AppTest@28feb3fa]" name="clearResult" is-config="true" duration-ms="806" started-at="2019-07-21T07:56:25Z" finished-at="2019-07-21T07:56:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearResult -->
+        <test-method status="PASS" signature="division(java.lang.String)[pri:0, instance:Calculator_Winium.Calculator_Winium.AppTest@28feb3fa]" name="division" duration-ms="4001" started-at="2019-07-21T07:56:26Z" finished-at="2019-07-21T07:56:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10/5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- division -->
+        <test-method status="PASS" signature="clearResult()[pri:0, instance:Calculator_Winium.Calculator_Winium.AppTest@28feb3fa]" name="clearResult" is-config="true" duration-ms="749" started-at="2019-07-21T07:56:30Z" finished-at="2019-07-21T07:56:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearResult -->
+        <test-method status="PASS" signature="mod(java.lang.String)[pri:0, instance:Calculator_Winium.Calculator_Winium.AppTest@28feb3fa]" name="mod" duration-ms="4050" started-at="2019-07-21T07:56:30Z" finished-at="2019-07-21T07:56:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10|6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mod -->
+        <test-method status="PASS" signature="clearResult()[pri:0, instance:Calculator_Winium.Calculator_Winium.AppTest@28feb3fa]" name="clearResult" is-config="true" duration-ms="893" started-at="2019-07-21T07:56:34Z" finished-at="2019-07-21T07:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearResult -->
+        <test-method status="PASS" signature="sqrt(java.lang.String)[pri:0, instance:Calculator_Winium.Calculator_Winium.AppTest@28feb3fa]" name="sqrt" duration-ms="3979" started-at="2019-07-21T07:56:35Z" finished-at="2019-07-21T07:56:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sqrt -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Calculator_Winium.Calculator_Winium.AppTest@28feb3fa]" name="tearDown" is-config="true" duration-ms="741" started-at="2019-07-21T07:56:39Z" finished-at="2019-07-21T07:56:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Calculator_Winium.Calculator_Winium.AppTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

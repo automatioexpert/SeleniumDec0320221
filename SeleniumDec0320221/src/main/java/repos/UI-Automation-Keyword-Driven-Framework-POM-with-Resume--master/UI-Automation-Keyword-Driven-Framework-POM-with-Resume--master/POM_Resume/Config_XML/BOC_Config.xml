@@ -1,0 +1,5 @@
+<ConfigElements>
+<ConfigElement LocaterType="id" LocaterValue="cboFulfillmentType">
+<TestData>Manufacture</TestData>
+</ConfigElement >
+</ConfigElements>
