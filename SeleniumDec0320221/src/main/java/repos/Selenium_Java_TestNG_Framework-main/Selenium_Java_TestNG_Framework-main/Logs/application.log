@@ -1,0 +1,3 @@
+<class name="testSauceDemo.login_ProblemUser"/>
+      <class name="testSauceDemo.TestValidCompleteFlow"/>
+      <class name="testSauceDemo.performance_glitch_user"/>

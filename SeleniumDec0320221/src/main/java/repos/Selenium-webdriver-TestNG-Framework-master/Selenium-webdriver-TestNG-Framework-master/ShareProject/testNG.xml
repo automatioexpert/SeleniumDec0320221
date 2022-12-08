@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="none">
+	<test name="Test" preserve-order="true">
+		<classes>
+				
+			<!-- <class name="com.abc.testscript.TC001ValidateFormTestCase">
+				<methods>
+					<include name="FormValidationTest" />      
+					
+				</methods>
+			</class> -->
+			<class name="com.abc.testscript.TC002MapSearchPage">
+				<methods>
+					<include name="SearchPageTest" />      
+					
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<listeners>
+		<listener class-name="com.abc.listener.TestListener" />
+	</listeners>
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

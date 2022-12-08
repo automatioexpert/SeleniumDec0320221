@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <listeners>
+        <listener class-name="testBase.ListenerTest"/>
+    </listeners>
+  <test thread-count="2" name="TestSauceLabs" parallel="classes">
+    <classes>
+      <class name="testSauceDemo.locked_out_user"/>
+      <class name="testSauceDemo.login_ProblemUser"/>
+      <class name="testSauceDemo.TestValidCompleteFlow"/>
+      <class name="testSauceDemo.performance_glitch_user"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
