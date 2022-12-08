@@ -1,0 +1,328 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 7,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 9
+  },
+  "time" : {
+    "minDuration" : 0,
+    "maxDuration" : 41453,
+    "sumDuration" : 43879,
+    "start" : 1525782860123,
+    "stop" : 1525786079511,
+    "duration" : 3219388
+  },
+  "children" : [ {
+    "uid" : "df85b59bb82ebcbe",
+    "name" : " Test Add/Edit Carousel and Delete an item from them",
+    "time" : {
+      "minDuration" : 0,
+      "maxDuration" : 0,
+      "sumDuration" : 0,
+      "start" : 1525782935403,
+      "stop" : 1525782935423,
+      "duration" : 20
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 3,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "2373acb4a6db4088",
+      "name" : "Default story",
+      "time" : {
+        "minDuration" : 0,
+        "maxDuration" : 0,
+        "sumDuration" : 0,
+        "start" : 1525782935403,
+        "stop" : 1525782935423,
+        "duration" : 20
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "109c1ec5cb216298",
+        "name" : "VerifyIsAbleToDeleteItemsFromAddedEditedCarousel",
+        "time" : {
+          "start" : 1525782935423,
+          "stop" : 1525782935423,
+          "duration" : 0
+        },
+        "status" : "skipped",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "cd3d0225ed8bef2e",
+        "name" : "VerifyAbleToAddNewCarouselInTheSystem",
+        "time" : {
+          "start" : 1525782935403,
+          "stop" : 1525782935403,
+          "duration" : 0
+        },
+        "status" : "skipped",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "57ed76f1c22fabb1",
+        "name" : "VerifyIsAbleToEditNewlyAddedCarousel",
+        "time" : {
+          "start" : 1525782935419,
+          "stop" : 1525782935419,
+          "duration" : 0
+        },
+        "status" : "skipped",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  }, {
+    "uid" : "4289c0b38917cd8b",
+    "name" : "Test Manage carousel page elements",
+    "time" : {
+      "minDuration" : 0,
+      "maxDuration" : 2423,
+      "sumDuration" : 2423,
+      "start" : 1525782909112,
+      "stop" : 1525786079511,
+      "duration" : 3170399
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "f329175ee5b274f",
+      "name" : "Default story",
+      "time" : {
+        "minDuration" : 0,
+        "maxDuration" : 2423,
+        "sumDuration" : 2423,
+        "start" : 1525782909112,
+        "stop" : 1525786079511,
+        "duration" : 3170399
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "31a37288947e1e24",
+        "name" : "VerifyAddCarouselLinkButtonExist",
+        "time" : {
+          "start" : 1525786077088,
+          "stop" : 1525786079511,
+          "duration" : 2423
+        },
+        "status" : "passed",
+        "flaky" : true,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "964a39c1e22e21a8",
+        "name" : "VerifyAllCarouselRecordsHavingCorrespondingEditDeleteBtn",
+        "time" : {
+          "start" : 1525782909112,
+          "stop" : 1525782909112,
+          "duration" : 0
+        },
+        "status" : "skipped",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  }, {
+    "uid" : "b8858de194560ba0",
+    "name" : "Test Homepage Default carousel images",
+    "time" : {
+      "minDuration" : 41453,
+      "maxDuration" : 41453,
+      "sumDuration" : 41453,
+      "start" : 1525782860123,
+      "stop" : 1525782901576,
+      "duration" : 41453
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "c0975dff8c279e90",
+      "name" : "Default story",
+      "time" : {
+        "minDuration" : 41453,
+        "maxDuration" : 41453,
+        "sumDuration" : 41453,
+        "start" : 1525782860123,
+        "stop" : 1525782901576,
+        "duration" : 41453
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "dbf8542a4dcce780",
+        "name" : "VerifyAllCarouselImagesAreVisibleForDefaultCarousel",
+        "time" : {
+          "start" : 1525782860123,
+          "stop" : 1525782901576,
+          "duration" : 41453
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  }, {
+    "uid" : "fab0ad5d79867121",
+    "name" : "Test existence of Elements under Add/Edit carousel form",
+    "time" : {
+      "minDuration" : 1,
+      "maxDuration" : 1,
+      "sumDuration" : 2,
+      "start" : 1525782925568,
+      "stop" : 1525782935411,
+      "duration" : 9843
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "40f7d9b262c1d546",
+      "name" : "Default story",
+      "time" : {
+        "minDuration" : 1,
+        "maxDuration" : 1,
+        "sumDuration" : 2,
+        "start" : 1525782925568,
+        "stop" : 1525782935411,
+        "duration" : 9843
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "b8248eb54269c365",
+        "name" : "VerifyElementsWhileEditingExistingCarousel",
+        "time" : {
+          "start" : 1525782935410,
+          "stop" : 1525782935411,
+          "duration" : 1
+        },
+        "status" : "skipped",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "64b5faca7c0b1399",
+        "name" : "VerifyElementsWhileAddingNewCarousel",
+        "time" : {
+          "start" : 1525782925568,
+          "stop" : 1525782925569,
+          "duration" : 1
+        },
+        "status" : "skipped",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  }, {
+    "uid" : "93754840e5bfba0c",
+    "name" : "Test Routing of Add new carousel button",
+    "time" : {
+      "minDuration" : 1,
+      "maxDuration" : 1,
+      "sumDuration" : 1,
+      "start" : 1525782917945,
+      "stop" : 1525782917946,
+      "duration" : 1
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "74b8c4cd34d0a392",
+      "name" : "Default story",
+      "time" : {
+        "minDuration" : 1,
+        "maxDuration" : 1,
+        "sumDuration" : 1,
+        "start" : 1525782917945,
+        "stop" : 1525782917946,
+        "duration" : 1
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "77f39b0edcb3b4fd",
+        "name" : "VerifyAbleToRouteToAddNewCarouselHavingSomeFields",
+        "time" : {
+          "start" : 1525782917945,
+          "stop" : 1525782917946,
+          "duration" : 1
+        },
+        "status" : "skipped",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}

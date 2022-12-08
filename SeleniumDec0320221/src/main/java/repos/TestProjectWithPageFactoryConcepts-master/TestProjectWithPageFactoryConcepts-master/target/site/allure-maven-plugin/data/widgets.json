@@ -1,0 +1,90 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 7,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "time" : {
+      "minDuration" : 0,
+      "maxDuration" : 41453,
+      "sumDuration" : 43879,
+      "start" : 1525782860123,
+      "stop" : 1525786079511,
+      "duration" : 3219388
+    }
+  },
+  "environment" : [ ],
+  "history-trend" : [ {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 7,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 9
+  } ],
+  "behaviors" : {
+    "total" : 5,
+    "items" : [ {
+      "name" : "Test Manage carousel page elements",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      }
+    }, {
+      "name" : "Test Homepage Default carousel images",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      }
+    }, {
+      "name" : "Test existence of Elements under Add/Edit carousel form",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      }
+    }, {
+      "name" : "Test Routing of Add new carousel button",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      }
+    }, {
+      "name" : " Test Add/Edit Carousel and Delete an item from them",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      }
+    } ]
+  },
+  "executors" : [ {
+    "name" : "Maven",
+    "type" : "maven",
+    "buildName" : "EukleialmsLeoLearning"
+  } ],
+  "launches" : [ ]
+}

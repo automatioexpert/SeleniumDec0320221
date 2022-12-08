@@ -1,0 +1,1 @@
+java -Dwebdriver.chrome.driver="C:\Grid\chromedriver.exe" -jar selenium-server-standalone-3.14.0.jar -role node -nodeConfig node.json

@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="test" verbose="2" parallel="instances" thread-count="20" configfailurepolicy="continue">
+
+    <listeners>
+        <listener class-name="Listener.ExtentReport"></listener>
+<!--
+        <listener class-name="Listener.RetryListener"></listener>
+-->
+    </listeners>
+
+    <test name="Run Test Suite to Assert Twitter Page" parallel="instances">
+        <parameter name="browser" value="webchrome"></parameter>
+        <classes>
+            <class name="TestCases.TwitterTest"></class>
+        </classes>
+    </test>
+
+</suite>

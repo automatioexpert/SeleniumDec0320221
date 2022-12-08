@@ -1,0 +1,181 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 7,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 9
+  },
+  "time" : {
+    "minDuration" : 0,
+    "maxDuration" : 41453,
+    "sumDuration" : 43879,
+    "start" : 1525782860123,
+    "stop" : 1525786079511,
+    "duration" : 3219388
+  },
+  "children" : [ {
+    "uid" : "929acc16156a3e0e",
+    "name" : "SDD-18",
+    "time" : {
+      "minDuration" : 0,
+      "maxDuration" : 41453,
+      "sumDuration" : 43879,
+      "start" : 1525782860123,
+      "stop" : 1525786079511,
+      "duration" : 3219388
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 7,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "da39e7c620d21a73",
+      "name" : "7412@SDD-18.main(1)",
+      "time" : {
+        "minDuration" : 0,
+        "maxDuration" : 41453,
+        "sumDuration" : 41456,
+        "start" : 1525782860123,
+        "stop" : 1525782935423,
+        "duration" : 75300
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 7,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "109c1ec5cb216298",
+        "name" : "VerifyIsAbleToDeleteItemsFromAddedEditedCarousel",
+        "time" : {
+          "start" : 1525782935423,
+          "stop" : 1525782935423,
+          "duration" : 0
+        },
+        "status" : "skipped",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "dbf8542a4dcce780",
+        "name" : "VerifyAllCarouselImagesAreVisibleForDefaultCarousel",
+        "time" : {
+          "start" : 1525782860123,
+          "stop" : 1525782901576,
+          "duration" : 41453
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "b8248eb54269c365",
+        "name" : "VerifyElementsWhileEditingExistingCarousel",
+        "time" : {
+          "start" : 1525782935410,
+          "stop" : 1525782935411,
+          "duration" : 1
+        },
+        "status" : "skipped",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "64b5faca7c0b1399",
+        "name" : "VerifyElementsWhileAddingNewCarousel",
+        "time" : {
+          "start" : 1525782925568,
+          "stop" : 1525782925569,
+          "duration" : 1
+        },
+        "status" : "skipped",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "77f39b0edcb3b4fd",
+        "name" : "VerifyAbleToRouteToAddNewCarouselHavingSomeFields",
+        "time" : {
+          "start" : 1525782917945,
+          "stop" : 1525782917946,
+          "duration" : 1
+        },
+        "status" : "skipped",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "cd3d0225ed8bef2e",
+        "name" : "VerifyAbleToAddNewCarouselInTheSystem",
+        "time" : {
+          "start" : 1525782935403,
+          "stop" : 1525782935403,
+          "duration" : 0
+        },
+        "status" : "skipped",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "57ed76f1c22fabb1",
+        "name" : "VerifyIsAbleToEditNewlyAddedCarousel",
+        "time" : {
+          "start" : 1525782935419,
+          "stop" : 1525782935419,
+          "duration" : 0
+        },
+        "status" : "skipped",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "964a39c1e22e21a8",
+        "name" : "VerifyAllCarouselRecordsHavingCorrespondingEditDeleteBtn",
+        "time" : {
+          "start" : 1525782909112,
+          "stop" : 1525782909112,
+          "duration" : 0
+        },
+        "status" : "skipped",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "e1c9f071681c4f23",
+      "name" : "7712@SDD-18.main(1)",
+      "time" : {
+        "minDuration" : 2423,
+        "maxDuration" : 2423,
+        "sumDuration" : 2423,
+        "start" : 1525786077088,
+        "stop" : 1525786079511,
+        "duration" : 2423
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "31a37288947e1e24",
+        "name" : "VerifyAddCarouselLinkButtonExist",
+        "time" : {
+          "start" : 1525786077088,
+          "stop" : 1525786079511,
+          "duration" : 2423
+        },
+        "status" : "passed",
+        "flaky" : true,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}

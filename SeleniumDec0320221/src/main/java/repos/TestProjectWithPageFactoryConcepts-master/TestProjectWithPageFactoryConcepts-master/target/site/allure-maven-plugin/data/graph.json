@@ -1,0 +1,91 @@
+[ {
+  "uid" : "109c1ec5cb216298",
+  "name" : "VerifyIsAbleToDeleteItemsFromAddedEditedCarousel",
+  "time" : {
+    "start" : 1525782935423,
+    "stop" : 1525782935423,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "31a37288947e1e24",
+  "name" : "VerifyAddCarouselLinkButtonExist",
+  "time" : {
+    "start" : 1525786077088,
+    "stop" : 1525786079511,
+    "duration" : 2423
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbf8542a4dcce780",
+  "name" : "VerifyAllCarouselImagesAreVisibleForDefaultCarousel",
+  "time" : {
+    "start" : 1525782860123,
+    "stop" : 1525782901576,
+    "duration" : 41453
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8248eb54269c365",
+  "name" : "VerifyElementsWhileEditingExistingCarousel",
+  "time" : {
+    "start" : 1525782935410,
+    "stop" : 1525782935411,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "64b5faca7c0b1399",
+  "name" : "VerifyElementsWhileAddingNewCarousel",
+  "time" : {
+    "start" : 1525782925568,
+    "stop" : 1525782925569,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "77f39b0edcb3b4fd",
+  "name" : "VerifyAbleToRouteToAddNewCarouselHavingSomeFields",
+  "time" : {
+    "start" : 1525782917945,
+    "stop" : 1525782917946,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "cd3d0225ed8bef2e",
+  "name" : "VerifyAbleToAddNewCarouselInTheSystem",
+  "time" : {
+    "start" : 1525782935403,
+    "stop" : 1525782935403,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "57ed76f1c22fabb1",
+  "name" : "VerifyIsAbleToEditNewlyAddedCarousel",
+  "time" : {
+    "start" : 1525782935419,
+    "stop" : 1525782935419,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "964a39c1e22e21a8",
+  "name" : "VerifyAllCarouselRecordsHavingCorrespondingEditDeleteBtn",
+  "time" : {
+    "start" : 1525782909112,
+    "stop" : 1525782909112,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]

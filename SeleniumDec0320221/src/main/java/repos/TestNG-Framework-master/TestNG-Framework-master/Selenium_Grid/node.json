@@ -1,0 +1,17 @@
+{
+  "capabilities":
+  [
+    {
+      "browserName": "chrome",
+      "maxInstances": 5,
+      "seleniumProtocol": "WebDriver"
+    }
+  ],
+  "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+  "maxSession": 5,
+  "port": 5566,
+  "register": true,
+  "hub": "http://192.29.3.55:4445",
+  "role": "node"
+
+}

@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 4, Errors: 0, Skipped: 20, Time elapsed: 105.381 s <<< FAILURE! - in TestSuite
+beforeMethod(tests.TC002_VerifyManageCarouselHavingCorrespondingElements)  Time elapsed: 48.982 s  <<< FAILURE!
+java.lang.NullPointerException
+	at tests.TC002_VerifyManageCarouselHavingCorrespondingElements.beforeMethod(TC002_VerifyManageCarouselHavingCorrespondingElements.java:46)
+
+beforeMethod(tests.TC003_VerifyAddNewCarouselAndHavingRequiredElements)  Time elapsed: 57.826 s  <<< FAILURE!
+java.lang.NullPointerException
+	at tests.TC003_VerifyAddNewCarouselAndHavingRequiredElements.beforeMethod(TC003_VerifyAddNewCarouselAndHavingRequiredElements.java:48)
+
+beforeMethod(tests.TC004_VerifyAddEditCarouselElements)  Time elapsed: 65.436 s  <<< FAILURE!
+java.lang.NullPointerException
+	at tests.TC004_VerifyAddEditCarouselElements.beforeMethod(TC004_VerifyAddEditCarouselElements.java:48)
+
+beforeMethod(tests.TC005_VerifyAddEditDeleteCarouselFeature)  Time elapsed: 75.282 s  <<< FAILURE!
+java.lang.NullPointerException
+	at tests.TC005_VerifyAddEditDeleteCarouselFeature.beforeMethod(TC005_VerifyAddEditDeleteCarouselFeature.java:50)
+

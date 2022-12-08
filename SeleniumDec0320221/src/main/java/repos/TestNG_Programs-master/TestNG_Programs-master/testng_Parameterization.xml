@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parameterization TestNG XML File">
+  <test name="Parameterization TestNG XML File">
+		
+	<parameter name="Browser" value="Chrome"/>
+	<parameter name="url" value = "https://www.linkedin.com/login?fromSignIn=true;trk=guest_homepage-basic_nav-header-signin"/>
+	<parameter name="email" value="Rajkawale00@gmail.com"></parameter>
+	<parameter name="password" value="Mietgondia712@"></parameter>
+
+	<classes>
+      <class name="com.parameterization.testngXML.Parameterization_testNgXml"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,1 @@
+{"uuid":"2b917e14-1b63-4d48-837e-fb6686bcaaa5","name":"tests.TC002_VerifyManageCarouselHavingCorrespondingElements.afterMethod","description":"","start":1525786079546,"stop":1525786079547,"children":["9562d3b5-6d55-4082-bb7b-17b52d36c67f"],"afters":[{"name":"afterMethod","status":"passed","stage":"finished","description":"","start":1525786079547,"stop":1525786079547}]}

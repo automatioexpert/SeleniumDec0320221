@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite" parallel="classes" thread-count="2">
+    <test name="Test Basics 1">
+        <parameter name="test" value="tester456@gmail.com"/>
+<!--        <parameter name="password" value="test@123"/>-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="Smoke"></include>-->
+<!--            </run>-->
+<!--        </groups>-->
+        <classes>
+            <class name="test.testNGAnnotationsSample"/>
+            <class name="test.testNGAnnotationsSample2"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,180 @@
+{
+  "5a3422d75e78a2ae43e6aec29cd861e6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cd3d0225ed8bef2e",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1525782935403,
+        "stop" : 1525782935403,
+        "duration" : 0
+      }
+    } ]
+  },
+  "b293dcad1680e7f8b674df7e2769e73e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b8248eb54269c365",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1525782935410,
+        "stop" : 1525782935411,
+        "duration" : 1
+      }
+    } ]
+  },
+  "6bb89c406dd1aaaef0a842301d746707" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "77f39b0edcb3b4fd",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1525782917945,
+        "stop" : 1525782917946,
+        "duration" : 1
+      }
+    } ]
+  },
+  "eb96cfdb19cef68657b4b7c0034811c8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dbf8542a4dcce780",
+      "status" : "passed",
+      "time" : {
+        "start" : 1525782860123,
+        "stop" : 1525782901576,
+        "duration" : 41453
+      }
+    } ]
+  },
+  "27e7549a7446fda11a93126579847e9a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "57ed76f1c22fabb1",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1525782935419,
+        "stop" : 1525782935419,
+        "duration" : 0
+      }
+    } ]
+  },
+  "8e8b2f2b55212bdeb396e57d3ec8b4de" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "64b5faca7c0b1399",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1525782925568,
+        "stop" : 1525782925569,
+        "duration" : 1
+      }
+    } ]
+  },
+  "1a72043ad4bd4219b32554fb8ff95d09" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "964a39c1e22e21a8",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1525782909112,
+        "stop" : 1525782909112,
+        "duration" : 0
+      }
+    } ]
+  },
+  "6e9d9ce67451310031c2456c659b8156" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "31a37288947e1e24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1525786077088,
+        "stop" : 1525786079511,
+        "duration" : 2423
+      }
+    } ]
+  },
+  "fee126b740622a119700c034794c909c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "109c1ec5cb216298",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1525782935423,
+        "stop" : 1525782935423,
+        "duration" : 0
+      }
+    } ]
+  }
+}

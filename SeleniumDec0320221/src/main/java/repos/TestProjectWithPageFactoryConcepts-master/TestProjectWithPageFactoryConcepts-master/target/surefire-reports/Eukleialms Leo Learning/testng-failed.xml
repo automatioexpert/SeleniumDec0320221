@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Eukleialms Leo Learning]">
+  <test verbose="0" name="Manage Carousel Page(failed)">
+    <classes>
+      <class name="tests.TC002_VerifyManageCarouselHavingCorrespondingElements">
+        <methods>
+          <include name="VerifyAllCarouselRecordsHavingCorrespondingEditDeleteBtn"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="VerifyAddCarouselLinkButtonExist"/>
+        </methods>
+      </class> <!-- tests.TC002_VerifyManageCarouselHavingCorrespondingElements -->
+    </classes>
+  </test> <!-- Manage Carousel Page(failed) -->
+  <test verbose="0" name="Add/Edit Carousel Page(failed)">
+    <classes>
+      <class name="tests.TC004_VerifyAddEditCarouselElements">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="VerifyElementsWhileAddingNewCarousel"/>
+          <include name="VerifyElementsWhileEditingExistingCarousel"/>
+        </methods>
+      </class> <!-- tests.TC004_VerifyAddEditCarouselElements -->
+      <class name="tests.TC003_VerifyAddNewCarouselAndHavingRequiredElements">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="VerifyAbleToRouteToAddNewCarouselHavingSomeFields"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- tests.TC003_VerifyAddNewCarouselAndHavingRequiredElements -->
+      <class name="tests.TC005_VerifyAddEditDeleteCarouselFeature">
+        <methods>
+          <include name="VerifyIsAbleToDeleteItemsFromAddedEditedCarousel"/>
+          <include name="beforeMethod"/>
+          <include name="VerifyAbleToAddNewCarouselInTheSystem"/>
+          <include name="afterMethod"/>
+          <include name="VerifyIsAbleToEditNewlyAddedCarousel"/>
+        </methods>
+      </class> <!-- tests.TC005_VerifyAddEditDeleteCarouselFeature -->
+    </classes>
+  </test> <!-- Add/Edit Carousel Page(failed) -->
+</suite> <!-- Failed suite [Eukleialms Leo Learning] -->

@@ -1,0 +1,1 @@
+VerifyAllCarouselImagesAreVisibleForDefaultCarousel passed and screenshot taken!

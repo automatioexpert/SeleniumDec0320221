@@ -1,0 +1,114 @@
+{
+  "uid" : "dbf8542a4dcce780",
+  "name" : "VerifyAllCarouselImagesAreVisibleForDefaultCarousel",
+  "fullName" : "tests.TC001_VerifyImagesForDefaultCarouselBlock.VerifyAllCarouselImagesAreVisibleForDefaultCarousel",
+  "historyId" : "eb96cfdb19cef68657b4b7c0034811c8",
+  "time" : {
+    "start" : 1525782860123,
+    "stop" : 1525782901576,
+    "duration" : 41453
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "description" : "Checking Default carousel slider contains all images",
+  "descriptionHtml" : "<p>Checking Default carousel slider contains all images</p>",
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1525782833712,
+      "stop" : 1525782859739,
+      "duration" : 26027
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Loggin in with leotestadmin and jLLX6fvPfnQnpDXJK!hqzEUpW",
+      "time" : {
+        "start" : 1525782845901,
+        "stop" : 1525782854727,
+        "duration" : 8826
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "leotestadmin"
+      }, {
+        "name" : "password",
+        "value" : "jLLX6fvPfnQnpDXJK!hqzEUpW"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusDetails" : {
+      "flaky" : false
+    },
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2f07134dc67a1601",
+      "name" : "Page screenshot",
+      "source" : "2f07134dc67a1601.png",
+      "type" : "image/png",
+      "size" : 548700
+    }, {
+      "uid" : "8adfb25da513e032",
+      "name" : "VerifyAllCarouselImagesAreVisibleForDefaultCarousel passed and screenshot taken!",
+      "source" : "8adfb25da513e032.txt",
+      "type" : "text/plain",
+      "size" : 80
+    } ],
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.TC001_VerifyImagesForDefaultCarouselBlock"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.TC001_VerifyImagesForDefaultCarouselBlock"
+  }, {
+    "name" : "testMethod",
+    "value" : "VerifyAllCarouselImagesAreVisibleForDefaultCarousel"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Eukleialms Leo Learning"
+  }, {
+    "name" : "suite",
+    "value" : "Homepage"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.TC001_VerifyImagesForDefaultCarouselBlock"
+  }, {
+    "name" : "host",
+    "value" : "SDD-18"
+  }, {
+    "name" : "thread",
+    "value" : "7412@SDD-18.main(1)"
+  }, {
+    "name" : "epic",
+    "value" : "Regression"
+  }, {
+    "name" : "feature",
+    "value" : "Test Homepage Default carousel images"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

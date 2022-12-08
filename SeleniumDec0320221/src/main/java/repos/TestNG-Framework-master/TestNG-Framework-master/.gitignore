@@ -1,0 +1,9 @@
+test-output
+reports
+screenshots
+log
+target/**
+/target/
+.vscode
+# Default ignored files
+.idea

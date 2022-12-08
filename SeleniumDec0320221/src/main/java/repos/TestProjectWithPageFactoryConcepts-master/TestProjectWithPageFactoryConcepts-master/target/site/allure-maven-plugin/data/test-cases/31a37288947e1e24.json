@@ -1,0 +1,137 @@
+{
+  "uid" : "31a37288947e1e24",
+  "name" : "VerifyAddCarouselLinkButtonExist",
+  "fullName" : "tests.TC002_VerifyManageCarouselHavingCorrespondingElements.VerifyAddCarouselLinkButtonExist",
+  "historyId" : "6e9d9ce67451310031c2456c659b8156",
+  "time" : {
+    "start" : 1525786077088,
+    "stop" : 1525786079511,
+    "duration" : 2423
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : true
+  },
+  "description" : "Checking Add carousel link button exist",
+  "descriptionHtml" : "<p>Checking Add carousel link button exist</p>",
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1525784839036,
+      "stop" : 1525786076351,
+      "duration" : 1237315
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Loggin in with leotestadmin and jLLX6fvPfnQnpDXJK!hqzEUpW",
+      "time" : {
+        "start" : 1525786045110,
+        "stop" : 1525786055602,
+        "duration" : 10492
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "leotestadmin"
+      }, {
+        "name" : "password",
+        "value" : "jLLX6fvPfnQnpDXJK!hqzEUpW"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusDetails" : {
+      "flaky" : false
+    },
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c4c454fc99129a17",
+      "name" : "Page screenshot",
+      "source" : "c4c454fc99129a17.png",
+      "type" : "image/png",
+      "size" : 36293
+    }, {
+      "uid" : "7388ed8651c741b2",
+      "name" : "VerifyAddCarouselLinkButtonExist passed and screenshot taken!",
+      "source" : "7388ed8651c741b2.txt",
+      "type" : "text/plain",
+      "size" : 61
+    } ],
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1525786079547,
+      "stop" : 1525786079547,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.TC002_VerifyManageCarouselHavingCorrespondingElements"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.TC002_VerifyManageCarouselHavingCorrespondingElements"
+  }, {
+    "name" : "testMethod",
+    "value" : "VerifyAddCarouselLinkButtonExist"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.TC002_VerifyManageCarouselHavingCorrespondingElements"
+  }, {
+    "name" : "host",
+    "value" : "SDD-18"
+  }, {
+    "name" : "thread",
+    "value" : "7712@SDD-18.main(1)"
+  }, {
+    "name" : "epic",
+    "value" : "Regression"
+  }, {
+    "name" : "feature",
+    "value" : "Test Manage carousel page elements"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2a1f75a0c97f16da",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1525782909101,
+        "stop" : 1525782909103,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ]
+  }
+}
