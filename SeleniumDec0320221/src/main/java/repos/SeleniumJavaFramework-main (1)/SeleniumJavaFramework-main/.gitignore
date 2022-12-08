@@ -1,0 +1,9 @@
+.idea/
+/target
+/.settings
+.classpath
+.factorypath
+.project
+/test-output/
+/reports/
+/screenshot/
